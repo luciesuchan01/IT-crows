@@ -9,6 +9,12 @@
     font-display:inherit;
     background: #EFEFEF;
 }
+.header-top_navbar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+/*
 .header-top_logo{
     position:absolute;
     width: 181px;
@@ -25,5 +31,5 @@
     text-align: center;
     color: #FF4747;
     text-decoration: none;
-    justify-items:end;
 }
+*/

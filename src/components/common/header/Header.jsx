@@ -10,12 +10,12 @@ function Header(){
                 <section className='header-top_navbar_first'>
                     <Navbar />
                 </section> {/*navbar */}
-
+                 {/*
                 <section className='header-top_logo'>
-                    <a href='/' className='header-logo'>LOGO</a>
-                </section> {/*logo */}
+                    <a href='/' className='header-logo'>ITCROWS</a>
+                </section> {/*logo 
 
-                {/*
+               
                 <section className='header-top_navbar_second'>
                     <Navbar />
                 </section> 

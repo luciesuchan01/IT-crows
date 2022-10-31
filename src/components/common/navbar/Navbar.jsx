@@ -6,11 +6,24 @@ function Navbar(){
         <section>
             <nav>
                 <ul>
-                    <li>en</li>
-                    <li>our work</li>
-                    <li>services</li>
-                    <li>company</li>
-                    <li>start project</li>
+                    <li>
+                    <a href='/'>en</a>
+                    </li>
+                    <li>
+                    <a href='/'>our work</a>
+                    </li>
+                    <li>
+                    <a href='/'>services</a>
+                    </li>
+                    <li>
+                    <a href='/' className='header-logo'>ITCROWS</a>
+                    </li>
+                    <li>
+                    <a href='/'>company</a>
+                    </li>
+                    <li>
+                    <a href='/'>start project</a>
+                    </li>
 
             </ul>
             </nav>
