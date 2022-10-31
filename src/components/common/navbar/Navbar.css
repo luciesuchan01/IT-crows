@@ -1,0 +1,12 @@
+nav, ul{
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+li{
+    justify-content: center;
+}
+
+/*    text-align: center;
+    align-items: center;
+*/
