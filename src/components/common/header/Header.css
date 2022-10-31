@@ -4,15 +4,17 @@
     width: 100%;
     left: 0px;
     top: 0px;
-    display:flex;
+    display:flexbox;
     align-items: center;
     font-display:inherit;
     background: #EFEFEF;
+    
 }
 .header-top_navbar{
     display: flex;
     flex: 1;
     flex-direction: column;
+    
 }
 /*
 .header-top_logo{

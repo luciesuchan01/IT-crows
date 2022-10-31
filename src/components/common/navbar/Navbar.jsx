@@ -8,6 +8,7 @@ function Navbar(){
                 <ul>
                     <li>
                     <a href='/'>en</a>
+                    
                     </li>
                     <li>
                     <a href='/'>our work</a>
@@ -16,13 +17,15 @@ function Navbar(){
                     <a href='/'>services</a>
                     </li>
                     <li>
-                    <a href='/' className='header-logo'>ITCROWS</a>
+                    <a href='/' className='header-logo'>
+                        <img src="Vector.png"></img>
+                        ITCROWS</a>
                     </li>
                     <li>
                     <a href='/'>company</a>
                     </li>
                     <li>
-                    <a href='/'>start project</a>
+                    <button className='button'>Start project</button>
                     </li>
 
             </ul>

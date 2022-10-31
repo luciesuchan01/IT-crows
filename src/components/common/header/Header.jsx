@@ -8,7 +8,9 @@ function Header(){
         <section className='header'>
             <section className='heade-top'>
                 <section className='header-top_navbar_first'>
+                    
                     <Navbar />
+
                 </section> {/*navbar */}
                  {/*
                 <section className='header-top_logo'>
