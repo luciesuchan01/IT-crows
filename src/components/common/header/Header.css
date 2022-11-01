@@ -1,0 +1,37 @@
+.header{
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    display:flexbox;
+    align-items: center;
+    font-display:inherit;
+    background: #EFEFEF;
+    
+}
+.header-top_navbar{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    
+}
+/*
+.header-top_logo{
+    position:absolute;
+    width: 181px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FF4747;
+    text-decoration: none;
+}
+*/
