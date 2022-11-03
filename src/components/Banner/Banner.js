@@ -5,22 +5,33 @@ import Logo from './images/image 6.svg';
 export default function Banner() {
     return (
         <div className="Banner">
-           <div className="got-project main-title-container">
-
-            <h2 className="project title">
-               <span>got</span>
-               <img src={Logo} className="logo" /> 
-               <span>project? </span>
-            </h2>
+           <div className="Main-title">
+                <h2> 
+                     <span className="red-text">Websites</span> and <br />
+                     <span className="red-text"> apps </span> 
+                     for 
+                     <span className="changing-text">  </span>
+                </h2>
            </div>
 
-            <h2 className="got-solution title">
-                 We are got solution!                 
-            </h2>
+           <div className="title">
+                <p>
+                Based on business analysis, user experience and <br />
+                current technologies. Based on business analysis, <br />
+                user experience and current technologies.
+                </p>
+           </div>
 
-            <h3 className="design-development title">
-                Design & development house
-            </h3>
+           <div className="Get-in-touch button">
+                <span className="Get-in-touch text">
+                    Get in touch
+
+                    !!! šipka !!!
+                </span>
+           </div>
+           
+
+
         </div>
     )
 }

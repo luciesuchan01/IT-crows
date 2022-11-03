@@ -4,70 +4,88 @@
     padding: 0;
 }
 
-.Banner {
-    width: 100%;
-    height: 679px;
+body {
     background: #EFEFEF;
 }
 
-.title {
+.Banner {
+    width: 1440px;
+    height: 794px;
+    border: 1px solid black;
     text-transform: uppercase;
+    margin: 0 auto;
+
+    padding-top: 80px;
 }
 
-.project.title{
+.Main-title {
+    width: 1185px;
+
     display: flex;
+    text-align: left;
 }
 
-.got-project.main-title-container {
-    height: 332px;
-}
-
-/* PROJECT TITLES */
-.project.title :first-child{
-    position: absolute;
-    width: 247px;
-    height: 117px;
-    left: 102px;
-    top: 173px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
+.Main-title h2{
     font-size: 96px;
-    line-height: 117px;
+    font-family: montserrat ;
+}
 
-    display: flex;
-    align-items: center;
+.red-text {
     color: #FF4747;
 }
 
-.project.title :nth-child(2) {
-    position: absolute;
-    width: 404.38px;
-    height: 332.42px;
-    left: 349px;
-    top: 22px;
+
+.changing-text::before {
+    content: " bussines";
+    /* animation: animate 3s infinite ease-in-out;  */
+    animation-name: animate;
+    animation-duration: 2000ms;
+    animation-timing-function: linear;
+    animation-delay: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 }
 
-.project.title :nth-child(3) {
-    position: absolute;
-    width: 551px;
-    height: 117px;
-    left: 787px;
-    top: 173px;
+@keyframes animate {
+    0% {
+        content: " bussines";
+    }
 
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 117px;
-    /* identical to box height */
+    25% {
+        content: " people" ;
+    }
 
-    display: flex;
-    align-items: center;
+    50% {
+        content: " práce ";
+    }
 
-    color: #FF4747;
+    75% {
+        content: " growing" ;
+    }
 }
+
+.changing-text {
+    font-size: 110px;
+
+    color: #EFEFEF;
+    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+             1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+             
+     
+}
+
+.title {
+    width: 730px;
+    text-align: left;   
+    margin-left: 608px;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+
 
 .got-solution.title {
     position: absolute;
@@ -89,13 +107,4 @@
     color: #EFEFEF;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
-}
-
-.design-development {
-    padding-top: 180px;
-    
-    Font-family: Montserrat;
-    Font-style: Bold;
-    Font-size: 40px;
-    Line-height: 49px;
 }
