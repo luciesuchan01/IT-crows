@@ -6,22 +6,12 @@ import './Header.css'
 function Header(){
     return(
         <section className='header'>
-            <section className='heade-top'>
-                <section className='header-top_navbar_first'>
-                    
-                    <Navbar />
+            <section className='header-logo'>
 
-                </section> {/*navbar */}
-                 {/*
-                <section className='header-top_logo'>
-                    <a href='/' className='header-logo'>ITCROWS</a>
-                </section> {/*logo 
-
-               
-                <section className='header-top_navbar_second'>
-                    <Navbar />
-                </section> 
-                */}
+                <a href='/' className='header-logo'>itcrows</a>
+            </section>
+            <section className= 'header-top_navbar'>
+                <Navbar />
             </section>
         </section>
     )

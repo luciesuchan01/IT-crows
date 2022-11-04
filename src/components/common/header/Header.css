@@ -7,31 +7,22 @@
     display:flexbox;
     align-items: center;
     font-display:inherit;
-    background: #EFEFEF;
+    background: #F5F5F5;
     
 }
-.header-top_navbar{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    
-}
-/*
-.header-top_logo{
-    position:absolute;
-    width: 181px;
-    height: 44px;
-    left: 0px;
-    top: 0px;
-    font-family: 'Montserrat';
+
+.header-logo{
+    padding: auto;
+    display:flex;
+    text-decoration: none; 
+    text-transform: uppercase;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 35px;
     line-height: 44px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #FF4747;
-    text-decoration: none;
+    margin-left: 126px;
+    margin-top: 23px;
+    font-family: 'Montserrat', sans-serif;
+    
 }
-*/

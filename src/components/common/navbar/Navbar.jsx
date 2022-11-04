@@ -3,32 +3,33 @@ import './Navbar.css'
 function Navbar(){
 
     return(
+    
         <section>
             <nav>
                 <ul>
+
                     <li>
-                    <a href='/'>en</a>
-                    
-                    </li>
-                    <li>
-                    <a href='/'>our work</a>
-                    </li>
-                    <li>
-                    <a href='/'>services</a>
-                    </li>
-                    <li>
-                    <a href='/' className='header-logo'>
-                        <img src="Vector.png"></img>
-                        ITCROWS</a>
-                    </li>
-                    <li>
-                    <a href='/'>company</a>
-                    </li>
-                    <li>
-                    <button className='button'>Start project</button>
+                        <a href='/about_us'>about us</a>
                     </li>
 
-            </ul>
+                    <li>                
+                        <a href='/our_work'>our work</a>
+                    </li>
+
+                    <li>
+                        <a href='/services'>services</a>
+                    </li>
+                    
+                    <li>
+                        <a href='/career'>career</a>
+            
+                    </li>
+                    <li>
+                        <a href='/contact'>contact</a>
+            
+                    </li>
+
+                </ul>
             </nav>
         </section>
     )
