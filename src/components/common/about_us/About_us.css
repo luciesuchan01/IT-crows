@@ -1,0 +1,71 @@
+.about_us{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 721px;    
+    left: 0px;
+    top: 4762px;
+    display:flexbox;
+    align-items: center;
+    font-display:inherit;
+    background: #F5F5F5;
+}
+.about_us_title{
+    width: 647px;
+    height: 117px;
+    display: flex;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black; 
+    font-family: 'Montserrat', sans-serif;
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+}
+.our_team_image{
+    display: flex;
+    position: relative;
+}
+
+.grid-container-about-us {
+    display: grid;
+    padding: 0pt;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background-color: #F5F5F5;
+    margin-top: 0pt;
+    margin-left: 70pt;
+  }
+.grid-item-about-us{
+    display: inline-grid;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.text-about-us{
+    position:relative;
+    width: 450px;
+    height: 344px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+    text-align: left;
+    line-height: 180%;
+    color: #181818;
+    margin-left: 10pt;
+}
+.read-more{
+    width: 133px;
+    height: 43px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #A3A1A1; 
+    flex: none;
+    margin-left: 250pt;
+}

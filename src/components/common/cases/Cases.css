@@ -28,7 +28,7 @@
     font-weight: 700;
     font-size: 96px;
 }
-.grid-container {
+.grid-container{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
@@ -41,6 +41,7 @@
     margin-top: 30pt;
   }
   
+
   .grid-item {
     display: inline-grid;
     background-color: #F5F5F5;
