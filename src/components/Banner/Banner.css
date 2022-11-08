@@ -11,8 +11,7 @@ body {
 .Banner {
     width: 1440px;
     height: 794px;
-    border: 1px solid black;
-    text-transform: uppercase;
+    
     margin: 0 auto;
 
     padding-top: 80px;
@@ -20,10 +19,12 @@ body {
 
 .Main-title {
     width: 1185px;
-
+    text-transform: uppercase;
     display: flex;
     text-align: left;
 }
+
+
 
 .Main-title h2{
     font-size: 96px;
@@ -84,6 +85,33 @@ body {
     font-weight: 400;
     line-height: 43px;
 }
+
+.Get-in-touch.button {
+    margin-top: 64px;
+    text-align: right;
+    margin-right: 245px;
+}
+
+.Get-in-touch .text{
+    color: #181818;
+    font-family: Montserrat;
+    font-size: 32px;
+    line-height: 57px;
+    border-bottom: 1px solid;
+    margin-right: 42px;
+}
+
+.Get-in-touch a {
+    text-decoration: none;
+}
+
+.Arrows-down {
+    text-align: left;
+    margin-left: 102px;
+    padding-top: 142px;
+}
+
+
 
 
 

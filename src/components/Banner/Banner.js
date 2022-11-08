@@ -1,6 +1,8 @@
 import React from 'react';
 import './Banner.css';
 import Logo from './images/image 6.svg';
+import Arrow from './images/arrow.png';
+import ArrowsDown from './images/arrowsdown.png';
 
 export default function Banner() {
     return (
@@ -23,13 +25,19 @@ export default function Banner() {
            </div>
 
            <div className="Get-in-touch button">
-                <span className="Get-in-touch text">
-                    Get in touch
-
-                    !!! šipka !!!
-                </span>
+                <a href="#">
+                    <span className="Get-in-touch text">
+                        Get in touch
+                    </span>
+                    <img src={Arrow} />
+                </a>
            </div>
            
+           <div className="Arrows-down">
+                <img src={ArrowsDown} />
+                <img src={ArrowsDown} />
+                <img src={ArrowsDown} />
+           </div>
 
 
         </div>
