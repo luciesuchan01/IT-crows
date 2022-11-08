@@ -13,7 +13,7 @@ body {
     height: 794px;
     
     margin: 0 auto;
-
+    padding-left: 102px;
     padding-top: 80px;
 }
 
@@ -89,7 +89,7 @@ body {
 .Get-in-touch.button {
     margin-top: 64px;
     text-align: right;
-    margin-right: 245px;
+    margin-right: 102px;
 }
 
 .Get-in-touch .text{
@@ -107,8 +107,7 @@ body {
 
 .Arrows-down {
     text-align: left;
-    margin-left: 102px;
-    padding-top: 142px;
+    padding-top: 118px;
 }
 
 

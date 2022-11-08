@@ -1,0 +1,81 @@
+.Services {
+    margin: 0 auto;
+    width: 1440px;
+    height: 1009px;
+}
+
+.Main-title.Services {
+    height: 96px;
+    padding-top: 128px;
+    margin-left: 102px;
+}
+
+.Main-title.Services h2 {
+    width: 569px;
+    height: 96px;
+    font-family: sans-serif;
+    color: #EFEFEF;
+    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+             1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+}
+
+.Main-title.Services p {
+    width: 603px;
+    height: 96px;
+    margin-left: 32px;
+    font-size: 24px;
+    font-family: Montserrat;
+    text-transform: none;
+    line-height: 43px;
+}
+
+.Services-red-text {
+    font-weight: 700;
+    color: red;
+}
+
+.Services-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+}
+
+.Services-boxes h3 {
+    font-size: 48px; 
+    text-align: left;  
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin: 40px 0 68px 80px;
+}
+
+.Services-boxes ul {
+    list-style: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.Services-boxes ul li {
+    padding: 0 0 20px 110px;
+}
+
+.Development-box {
+    height: 685px;
+}
+
+.Design-box {
+    height: 551px;
+}
+
+.box {
+    width: 608px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+    border: 1px solid black;
+}
+
+.box img {
+    margin-top: 69px;
+}
