@@ -17,11 +17,11 @@ function About_us(){
                     Sed ullamcorper finibus rhoncus. 
                     Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                     </div>
-                    <a href = '/' className='read-more'>Read more</a>
+                    <a href = '/read-more' className='read-more'>Read more</a>
                 </div>
                 <div className='grid-item-about-us'>
                     <div className='our_team_image'>
-                        <img src={our_team_picture} alt="" width="518" height="450"/>
+                        <img src={our_team_picture} alt="" width="500" height="450"/>
                     </div>
                 </div>
 

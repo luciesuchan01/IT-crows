@@ -2,9 +2,9 @@
     position: absolute;
     justify-content: center;
     width: 100%;
-    height: 721px;    
+    height: 1214px;    
     left: 0px;
-    top: 4762px;
+    top: 4469px;
     display:flexbox;
     align-items: center;
     font-display:inherit;
@@ -25,6 +25,7 @@
 .our_team_image{
     display: flex;
     position: relative;
+    margin-left: -70pt;
 }
 
 .grid-container-about-us {
@@ -68,4 +69,5 @@
     color: #A3A1A1; 
     flex: none;
     margin-left: 250pt;
+    text-decoration: none;
 }
