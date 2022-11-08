@@ -1,7 +1,7 @@
 .cases{
     position: absolute;
     width: 100%;
-    height: 2743px;
+    height: 2450px;
     left: 0px;
     top: 2019px;
     display:flexbox;
@@ -18,7 +18,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 126px;
+    margin-left: 126pt;
     margin-top: 20pt;
     -webkit-text-stroke: 2px black; 
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +38,6 @@
     flex-wrap: wrap;
     align-content: start;
     width: 100%;
-    margin-top: 30pt;
   }
   
 
@@ -48,23 +47,29 @@
     border: 1px solid #F5F5F5;
     font-size: 30px;
     text-align: center;
-    height: 550px;
-    margin-left: 70pt;
-    margin-right: 0pt;
+    height: 450px;
     margin-top: 10pt;
     margin-bottom: 120pt;
 
   }
+  .grid-item-left{
+    margin-left: 126pt;
+
+  }
+  .grid-item-right{
+    margin-right: 126pt;
+
+  }
 .pujc-pic{
-    margin-top: 20pt;
+    margin-top: 8pt;
 }
 .pujc-border{
     border: 2px solid #EBEBEB;
     border-radius: 20px;
     margin: auto;
     background-color: #EBEBEB;
-    Width: 400px;
-    Height: 600px;
+    Width: 290px;
+    Height: 500px;
     padding: 0;
     
     }
@@ -115,17 +120,23 @@ h2{
     margin-left: 150pt;
 }
 .fifth-pic{
-    margin-left: 150pt;
+    margin-left: 90pt;
+    margin-top: -15pt;
 }
-a{
+.more-view-a{
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: #181818;
     font-weight: 400;
     margin:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50pt;
 }
 .more-view{
     font-size: 24pt;
+    margin-right: 40pt;
+    margin-top: -5pt;
 }
 
 
