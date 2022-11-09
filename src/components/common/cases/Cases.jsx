@@ -10,10 +10,13 @@ import './Cases.css'
 
 function Cases(){
     return(
+        <block>
         <section className='cases'>
             <section className='cases-title'>
-                our work
+                our works
+                
             </section>
+            
             <div class="grid-container">
                 <div class="grid-item">
                     <div className='grid-item-left'>
@@ -57,24 +60,29 @@ function Cases(){
 
                 <div class="grid-item">
                     <div class="grid-item-left">
-                    <img src={lorem_picture} alt="" width="350" height="350"/>
+                    <div className='load-pic'>
+                        <img src={lorem_picture} alt="" width="350" height="350"/>
+                    
                     <h1>lorem
                         <h2>
                             <div className='fourth-pic'>design, UI/UX</div>
                         </h2>
                     </h1>
                     </div>
+                    </div>
                 </div>
             </div>
             <div className='grid-container-second'>
-                <div class="grid-item-left">
-                    <img src={ecommerce_picture} alt="" width="950" height="500"/>
-                
-                    <h1>lorem
-                        <h2>
-                            <div className='fifth-pic'>design, UI/UX, develop, e-commerce</div>
-                        </h2>
-                    </h1>
+                <div className='grid-item'>
+                    <div class="grid-item-left">
+                        <img src={ecommerce_picture} alt="" width="950" height="500"/>
+                    
+                        <h1>lorem
+                            <h2>
+                                <div className='fifth-pic'>design, UI/UX, develop, e-commerce</div>
+                            </h2>
+                        </h1>
+                    </div>
                 </div>
             </div>
             <a href='/view-more' className='more-view-a'>
@@ -86,6 +94,7 @@ function Cases(){
                 
             
         </section>
+        </block>
     )
 }
 
