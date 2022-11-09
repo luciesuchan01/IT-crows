@@ -1,0 +1,108 @@
+.Switcher {
+    width: 1212px;
+    height: 435px;
+    margin: 100px auto;
+}
+
+.Switcher-title {
+    font-family: Montserrat;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #181818;
+    width: 1212px;
+}
+
+.Switcher-red-text {
+    color: #FF4747;
+}
+
+
+.Switcher-project-btn {
+    width: 895px;
+    height: 119px;
+    background-color: #FF4747;
+    font-size: 48px;
+    border-radius: 60px;
+    color: white;
+    text-transform: uppercase;
+    margin: 56px auto;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.Switcher-project-btn a {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.Arrow {
+    margin-left: 30px;
+}
+
+
+
+
+/* TOGGLE BUTTON */
+
+.Switch-label {
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 174px;
+    height: 89px;    
+  }
+
+.Span-label {
+    margin: 0 5px;
+}
+  
+  .Switch-label .Switch-input { 
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid black;
+    -webkit-transition: .4s;
+    transition: 0.4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 74px;
+    width: 74px;
+    left: 6px;
+    bottom: 6px;
+    background-color: red;
+    -webkit-transition: .4s;
+    transition: 0.4s;
+  }
+  
+
+  input.Switch-input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(84px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 74px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
