@@ -12,11 +12,12 @@ function Cases(){
     return(
         <block>
         <section className='cases'>
-            <section className='cases-title'>
+            <div className='plus-border'>
+                <div className='plus-text'>20+</div>
+            </div>
+            <div className='cases-title'>
                 our works
-                
-            </section>
-            
+            </div>
             <div class="grid-container">
                 <div class="grid-item">
                     <div className='grid-item-left'>

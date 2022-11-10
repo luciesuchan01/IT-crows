@@ -29,7 +29,10 @@
     font-weight: 700;
     font-size: 96px;
     margin-bottom: 40pt;
-    margin-top: 20pt;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
 }
 .grid-container{
     display: grid;
@@ -121,8 +124,7 @@ h2{
     margin-left: 150pt;
 }
 .fifth-pic{
-    margin-left: 20pt;
-    margin-top: pt;
+    margin-left: 140pt;
 }
 .more-view-a{
     font-family: 'Montserrat', sans-serif;
@@ -150,28 +152,35 @@ h2{
     font-weight: 700;
     font-size: 48px;
     line-height: 180%;
-    /* or 86px */
     display: flex;
     align-items: center;
     color: #181818;
 
 }
 .plus-border{
-    border: 2px solid #FF4747;
-    border-radius: 60px;
-    margin: auto;
+    border-radius: 1000px;
     background-color:#FF4747;
-    size: 30pt;
-    padding: 0;
-    Width: 100px;
-    Height: 100px;
-    padding: 0;
+    font-size: 48px;
+    color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;  
+    font-style: normal;  
+    Width: 90pt;
+    Height: 90pt;
+    text-align:justify;
     margin-left: 550pt;
-    margin-top: -100pt;
+    font-weight: 700;
+    position: absolute;
+    display:flex;
+    justify-items:auto;
+    margin-top: -25pt;
+    opacity: 0.9;
+}
+.plus-text{
+    margin-left: 16pt;
+    margin-top: 25pt;
 }
 .load-pic{
     margin-left: -50pt;
-
 }
 
 
