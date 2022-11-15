@@ -16,14 +16,9 @@ export default function Switcher() {
                 </label>
         </span>
 
-                
-                
-                
                  your <span className="Switcher-red-text"> business </span>  <br />
                 to the <span className="Switcher-red-text"> next level </span> 
             </h2>
-
-           
 
             <div className="Switcher-project-btn">
                 <a href="#">

@@ -1,7 +1,7 @@
 .Footer {
     width: 1236px;
     height: 1351px;
-    background-color: black;
+    background-color: #181818;
     margin: 0 auto;    
     border-radius: 40px 40px 0px 0px;
     display: flex;
@@ -14,7 +14,6 @@
     height: 1159px;
     
     margin: 50px auto;
-    border: 1px solid red;
    
 }
 
@@ -25,16 +24,18 @@
     width: 100%;
 }
 
-.Upper-Footer h2 {
+.Footer h2 {
     text-align: left;
     margin-bottom: 58px;
     font-family: Montserrat;
     font-size: 64px;
     text-transform: uppercase;
+    color: #181818;
+    text-shadow: 1px 0 #F5F5F5, -1px 0 #F5F5F5, 0 1px #F5F5F5, 0 -1px #F5F5F5,
+             1px 1px #F5F5F5, -1px -1px #F5F5F5, 1px -1px #F5F5F5, -1px 1px #F5F5F5;
 }
 
 .Upper-Footer-left {
-    
     width: 100%;
     height: 100%;
 }
@@ -63,8 +64,8 @@ input, select {
     border-bottom-width: 1px;
     border-bottom: 1px solid white;
     border-bottom-color: white ;
-   
-    padding-bottom: 36px;
+    color: white;
+
 }
 
 
@@ -85,14 +86,12 @@ input[type='checkbox'] {
 .Upper-Footer-left .button {
     color: white;
     font-size: 36px;
-    width: 458px;
+    width: 462px;
     height: 78px;
     border: 1px solid white;
-    padding: 10px 103px;
+    margin-right: 80px;
     border-radius: 20px;
-
-    margin-left: -70px;
-    margin-top: 30px;
+    background-color: transparent;
 }
 
 .Footer-Line {
@@ -108,14 +107,73 @@ input[type='checkbox'] {
 .Lower-Footer {
     display: flex;
     height: 400px;
+    margin-top: 61px;
 }
 
 .Lower-Footer-left {
     width: 100%;
-    border: 1px solid white;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.Lower-Footer-left h2 {
+    color: #181818;
+    text-shadow: 1px 0 #F5F5F5, -1px 0 #F5F5F5, 0 1px #F5F5F5, 0 -1px #F5F5F5,
+             1px 1px #F5F5F5, -1px -1px #F5F5F5, 1px -1px #F5F5F5, -1px 1px #F5F5F5;
+}
+
+.Lower-Footer-left p {
+    padding-bottom: 40px;
 }
 
 .Lower-Footer-right {
     width: 100%;
-    border: 1px solid white;
+    
 }
+
+.Lower-Footer-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 44px;
+}
+
+.First-Line-Navigation {
+    text-align: right;
+}
+
+.Second-Line-Navigation {
+    margin-top: 40px;
+    text-align: right;
+}
+
+.Footer-Red-Text {
+    color: #FF4747 !important;
+}
+
+
+
+/************** POST FOOTER ****************/
+.Post-Footer-up {
+    margin-bottom: 30px;
+}
+
+.Post-Footer-down {
+    margin-top: 44px;
+}
+
+.Post-Footer-up a {
+    margin: 0 37px 0;
+}
+.Post-Footer-down {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.Post-Footer-down p {
+    margin: 0 40px;
+    font-size: 14px;
+}
+
