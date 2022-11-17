@@ -9,9 +9,9 @@ body {
 }
 
 .Banner {
-    width: 1440px;
+    width: 100%;
     height: 794px;
-    
+
     margin: 0 auto;
     padding-left: 102px;
     padding-top: 80px;

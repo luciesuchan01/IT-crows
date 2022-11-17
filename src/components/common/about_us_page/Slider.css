@@ -5,6 +5,6 @@
     top: 1990px;
     display:flexbox;
     align-items: center;
-    font-display:inherit;
     background: #F5F5F5;
+    border: #F5F5F5;
 }

@@ -14,8 +14,9 @@
     display: flex;
     margin-left: 240px;
     margin-top: 20px;
-    -webkit-text-stroke: 1px black; 
-    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+    1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+font-family: 'Montserrat', sans-serif;
     color: #F5F5F5;
     line-height: 117px;
     font-style: normal;
@@ -64,10 +65,11 @@
     height: 117px;
     align-items: center;
     flex: none;
-    -webkit-text-stroke: 1px #FF4747;
+    text-shadow: 1px 0 #FF4747, -1px 0 #FF4747, 0 1px #FF4747, 0 -1px #FF4747,
+             1px 1px #FF4747, -1px -1px #FF4747, 1px -1px #FF4747, -1px 1px #FF4747;
+
     font-family: 'Montserrat', sans-serif;
     color: #F5F5F5;
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     display: flex;

@@ -1,7 +1,6 @@
 import './App.css';
 import './components/Banner/Banner.css'
 // Components
-
 import Banner from './components/Banner/Banner';
 import Services from './components/Services/Services';
 import Switcher from './components/Switcher/Switcher';
@@ -18,15 +17,13 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <Banner />
-      <Services />
-      <Switcher />
-      <Footer />
+
       <Switch>
         <Route exact path="/" >
           <Header />,
           <Cases />,
           <About_us />
+
           
         </Route>
       
