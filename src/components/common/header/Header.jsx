@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar } from '../../common';
-
+import {Link} from 'react-router-dom'
 import './Header.css'
 
 function Header(){
@@ -8,7 +8,7 @@ function Header(){
         <section className='header'>
             <section className='header-logo'>
 
-                <a href='/' className='header-logo'>itcrows</a>
+                <Link to='/' className='header-logo'>itcrows</Link>
             </section>
             <section className= 'header-top_navbar'>
                 <Navbar />
