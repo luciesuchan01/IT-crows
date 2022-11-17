@@ -1,0 +1,82 @@
+.about_us{
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 1214px;    
+    left: 0px;
+    top: 4469px;
+    display:flexbox;
+    align-items: center;
+    font-display:inherit;
+    background: #F5F5F5;
+}
+.about_us_title{
+    width: 520px;
+    height: 117px;
+    display: flex;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px black; 
+    font-family: 'Montserrat', sans-serif;
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    margin-left: 50pt;
+}
+.our_team_image{
+    display: flex;
+    position: relative;
+    margin-left: 10pt;
+    margin-top: 10pt;
+}
+
+.grid-container-about-us {
+    display: grid;
+    padding: 0pt;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    text-align: center;
+    margin-top: 0pt;
+    margin-left: 70pt;
+  }
+.grid-item-about-us{
+    display: inline-grid;
+    background-color: #F5F5F5;
+    text-align: center;
+    width: 290pt;
+}
+.text-about-us{
+    position:relative;
+    width: 450px;
+    height: 344px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: block;
+    text-align: left;
+    line-height: 180%;
+    color: #181818;
+    margin-left: 55pt;
+}
+.read-more{
+    width: 133px;
+    height: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #A3A1A1; 
+    flex: none;
+    margin-top: 0pt;
+    margin-left: 340pt;
+    text-decoration: none;
+}
+.red-text{
+    font-weight: 800;
+}

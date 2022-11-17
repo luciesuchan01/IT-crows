@@ -1,0 +1,32 @@
+section{
+    padding:0%;
+}
+nav{
+    display: flex;
+    margin-left: 720px;
+    margin-top: -40px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+}
+nav ul {
+    padding: 0;
+}
+ 
+ nav li {
+    display: inline;
+
+ }
+ 
+ nav li a {
+    padding: 10px;
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: #A3A1A1; 
+}
+nav li a:active{
+    color: black;
+    text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+.slider{
+    position: absolute;
+    width: 100%;
+    height: 939px;
+    top: 1990px;
+    display:flexbox;
+    align-items: center;
+    font-display:inherit;
+    background: #F5F5F5;
+}
