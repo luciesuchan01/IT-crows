@@ -21,9 +21,10 @@ function App() {
       <Switch>
         <Route exact path="/" >
           <Header />,
+          <Banner />,
+          <Services />,
           <Cases />,
-          <About_us />
-
+          <About_us />,
           
         </Route>
       

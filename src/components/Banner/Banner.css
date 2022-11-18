@@ -2,26 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    background: #EFEFEF;
+    background: /*#EFEFEF;*/#F5F5F5;
+    margin-top: 80px;
 }
 
 .Banner {
     width: 100%;
     height: 794px;
-
     margin: 0 auto;
-    padding-left: 102px;
-    padding-top: 80px;
+    margin-left: 102px;
+    margin-top: 80px;
 }
 
 .Main-title {
-    width: 1185px;
     text-transform: uppercase;
     display: flex;
     text-align: left;
+    margin-left: 138px;
 }
 
 
@@ -69,11 +70,11 @@ body {
 .changing-text {
     font-size: 110px;
 
-    color: #EFEFEF;
+    color: #F5F5F5;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
              
-     
+     text-transform: uppercase;
 }
 
 .title {
@@ -84,12 +85,13 @@ body {
     font-family: Montserrat;
     font-weight: 400;
     line-height: 43px;
+    margin-top: 357px;
 }
 
 .Get-in-touch.button {
     margin-top: 64px;
     text-align: right;
-    margin-right: 102px;
+    margin-right: 302px;
 }
 
 .Get-in-touch .text{
@@ -99,6 +101,7 @@ body {
     line-height: 57px;
     border-bottom: 1px solid;
     margin-right: 42px;
+
 }
 
 .Get-in-touch a {
@@ -108,6 +111,7 @@ body {
 .Arrows-down {
     text-align: left;
     padding-top: 118px;
+    margin-left: 102px;
 }
 
 

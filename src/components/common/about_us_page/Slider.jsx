@@ -4,7 +4,7 @@ import './Slider.css'
 
 function Slider(){
     return(
-        <section className='slider'> 
+        <section className='slider-about-us'> 
         </section>
     )
 }

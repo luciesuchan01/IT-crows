@@ -8,8 +8,10 @@ export default function Services (){
             <div className="Main-title Services">
                 <h2>We create</h2>
                 <p>
-                    Based on  <span className="Services-red-text">bussines analysis, user experience</span> and <br />
+                    <div className='Sevices-normal-text'>
+                    Based on  <span className="Services-red-text">bussines analysis, user experience</span> and 
                    current  <span className="Services-red-text">technologies</span>
+                   </div>
                 </p>
             </div>
             
