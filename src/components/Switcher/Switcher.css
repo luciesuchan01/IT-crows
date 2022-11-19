@@ -1,7 +1,11 @@
 .Switcher {
+
+    /*margin: 100px auto;*/
+    position: absolute;
     width: 1212px;
     height: 435px;
-    /*margin: 100px auto;*/
+    left: 113px;
+    top: 5683px;
 }
 
 .Switcher-title {
@@ -30,6 +34,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 316px;
     
 }
 

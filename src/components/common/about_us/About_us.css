@@ -4,7 +4,7 @@
     width: 100%;
     height: 1214px;    
     left: 0px;
-    top: 4469px;
+    top: 4762px;
     display:flexbox;
     align-items: center;
     font-display:inherit;
@@ -22,13 +22,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
-    margin-left: 50pt;
+    margin-top: 128px;
 }
 .our_team_image{
     display: flex;
     position: relative;
-    margin-left: 30pt;
-    margin-top: 20pt;
+    margin-top: 149px;
+    margin-right: 102px;
 }
 
 .grid-container-about-us {
@@ -51,7 +51,7 @@
 }
 .text-about-us{
     position:relative;
-    width: 450px;
+    width: 618px;
     height: 344px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -61,7 +61,6 @@
     text-align: left;
     line-height: 180%;
     color: #181818;
-    margin-left: 55pt;
 }
 .read-more{
     width: 133px;

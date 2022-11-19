@@ -1,19 +1,15 @@
 .Services {
     margin: 0 auto;
-    width: 100%;
+    width: 930pt;
     height: 1009px;
 }
 
 .Main-title.Services {
     height: 96px;
     padding-top: 60px;
-    margin-left: 138px;
+    margin-left: auto;
 }
-.Sevices-normal-text{
-    margin-left: 600px;
-    width: 602px;
-    margin-top: 30px;
-}
+
 
 .Main-title.Services h2 {
     width: 596px;
@@ -28,13 +24,15 @@
     }
 
 .Main-title.Services p {
-    width: 603px;
+    width: 602px;
     height: 96px;
-    margin-left: 32px;
     font-size: 24px;
     font-family: Montserrat;
     text-transform: none;
     line-height: 43px;
+    margin-top: 30px;
+    margin-left: 600px;
+
 }
 
 .Services-red-text {

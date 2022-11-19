@@ -21,7 +21,7 @@ function Cases(){
             <div class="grid-container">
                 <div class="grid-item">
                     <div className='grid-item-left'>
-                        <img src={graciano_picture} alt="" width="550" height="500"/>
+                        <img src={graciano_picture} alt="" width="730" height="550"/>
                     
                         <h1>graciano
                         <h2>
@@ -34,9 +34,10 @@ function Cases(){
                     <div class="grid-item-left">
                         <div class = "pujc-border">
                             <div className='pujc-pic'>
-                                <img src={pujc_picture} alt="" width="200" height="480"/>
+                                <img src={pujc_picture} alt="" width="248" height="505"/>
                             </div>
                         </div>
+                        
                         <h1>pujc
                         <h2>
                             <div className='second-pic'>UI/UX, develop</div>
@@ -48,7 +49,7 @@ function Cases(){
 
                 <div class="grid-item">
                     <div className='grid-item-left'>
-                        <img src={todolist_picture} alt="" width="450" height="450"/>
+                        <img src={todolist_picture} alt="" width="609" height="550"/>
                     
                         <h1>todo list
                             <h2>
@@ -60,9 +61,9 @@ function Cases(){
                 </div>
 
                 <div class="grid-item">
-                    <div class="grid-item-left">
+                    <div class="grid-item-right">
                     <div className='load-pic'>
-                        <img src={lorem_picture} alt="" width="350" height="350"/>
+                        <img src={lorem_picture} alt="" width="450" height="550"/>
                     
                     <h1>lorem
                         <h2>
@@ -74,9 +75,9 @@ function Cases(){
                 </div>
             </div>
             <div className='grid-container-second'>
-                <div className='grid-item'>
+                <div className='grid-item-second'>
                     <div class="grid-item-left">
-                        <img src={ecommerce_picture} alt="" width="950" height="500"/>
+                        <img src={ecommerce_picture} alt="" width="1114" height="550"/>
                     
                         <h1>lorem
                             <h2>

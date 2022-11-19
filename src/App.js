@@ -22,9 +22,10 @@ function App() {
         <Route exact path="/" >
           <Header />,
           <Banner />,
-          <Services />,
           <Cases />,
+          <Services />,
           <About_us />,
+          <Switcher />,
           
         </Route>
       
