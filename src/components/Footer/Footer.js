@@ -18,11 +18,13 @@ export default function Footer(){
                     <div className="Upper-Footer">
                         {/* LEVÝ HORNÍ  */}
                         <div className="Upper-Footer-left">
+                            
                             <h2>Get in touch</h2>
-                            <input type="text" placeholder="Your name" />
-                            <input type="text" placeholder="youremail@mail.com" />
-                            <input type="text" placeholder="Explain, how we can help you?" />
-
+                            <div className='Upper-Footer-left-text'>
+                                <input type="text" placeholder="Your name" />
+                                <input type="text" placeholder="youremail@mail.com" />
+                                <input type="text" placeholder="Explain, how we can help you?" />
+                            </div>
                             <div className="Footer-checkbox">
                                 <input type="checkbox" name="checkbox" id="" />
                                 <label for="checkbox">I have read and understand ITCROWS Privacy Notice.</label>
@@ -49,23 +51,27 @@ export default function Footer(){
                     <div className="Lower-Footer">
                         <div className="Lower-Footer-left">
                             <h2>Brno <span><img src={Pointer} alt="" /></span></h2>
-                            <p>Ponávka 185/2, Brno 602 00</p>
-                            <p>+420 730 958 935</p>
-                            <p>HELLO@ITCROWS.COM</p>
+                            <div className='Lower-Footer-left-text'>
+                                <p>Ponávka 185/2, Brno 602 00</p>
+                                <p>+420 730 958 935</p>
+                                <p>HELLO@ITCROWS.COM</p>
+                            </div>
                         </div>
 
                         <div className="Lower-Footer-right">
                             <h2>IT crows <span> <img src={Crows} alt="" /></span></h2>
-                                <div className="First-Line-Navigation">
-                                    <a href="">Contact</a>
-                                    <a href="">Blog</a>
-                                    <a href="" className="Footer-Red-Text">About us</a>
-                                </div>
+                                <div className='Lower-Footer-right-text'>
+                                    <div className="First-Line-Navigation">
+                                        <a href="">Contact</a>
+                                        <a href="">Blog</a>
+                                        <a href="/about_us" className="Footer-Red-Text">About us</a>
+                                    </div>
 
-                                <div className="Second-Line-Navigation">
-                                    <a href="">Our work</a>
-                                    <a href="">Careers</a>
-                                    <a href="">Services</a>
+                                    <div className="Second-Line-Navigation">
+                                        <a href="">Our work</a>
+                                        <a href="">Careers</a>
+                                        <a href="">Services</a>
+                                    </div>
                                 </div>
                         </div>
                     </div>

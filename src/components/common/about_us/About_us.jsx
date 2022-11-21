@@ -18,7 +18,7 @@ function About_us(){
                     <font color= '#FF4747' className = 'red-text'> Sed ullamcorper finibus rhoncus. </font>
                     Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                     </div>
-                    <a href = '/read-more' className='read-more'>Read more</a>
+                    <a href = '/about_us' className='read-more'>Read more</a>
                 </div>
                 <div className='grid-item-about-us'>
                     <div className='our_team_image'>

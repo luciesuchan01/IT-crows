@@ -87,7 +87,7 @@ function Cases(){
                     </div>
                 </div>
             </div>
-            <a href='/view-more' className='more-view-a'>
+            <a href='/our_work' className='more-view-a'>
 
                 <div className='more-view'>View more</div>
                     <img src={sipka_picture} alt="" width="133" height="24"/>

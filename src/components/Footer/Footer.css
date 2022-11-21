@@ -51,7 +51,10 @@
     border: 1px solid white;
     width: 100%;
     height: 100%;
-
+}
+/*pridan margin*/
+.Upper-Footer-left-text{
+    margin-top: 136px;
 }
 
 .Upper-Footer input, textarea {
@@ -123,6 +126,10 @@ input[type='checkbox'] {
     text-align: left;
     font-weight: 300;
 }
+/*přidán margin*/
+.Lower-Footer-left-text{
+    margin-top: 148px;
+}
 
 .Lower-Footer-left h2 {
     color: #181818;
@@ -136,6 +143,7 @@ input[type='checkbox'] {
 
 .Lower-Footer-right {
     width: 100%;
+    margin-top: 8px;
     
 }
 
@@ -144,6 +152,9 @@ input[type='checkbox'] {
     text-decoration: none;
     font-size: 24px;
     margin-right: 44px;
+}
+.Lower-Footer-right-text{
+    margin-top: 134px;
 }
 
 .First-Line-Navigation {
@@ -183,4 +194,3 @@ input[type='checkbox'] {
     margin: 0 40px;
     font-size: 14px;
 }
-

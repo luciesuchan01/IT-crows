@@ -26,7 +26,7 @@ function App() {
           <Services />,
           <About_us />,
           <Switcher />,
-          
+          <Footer />
         </Route>
       
         <Route exact path="/about_us">

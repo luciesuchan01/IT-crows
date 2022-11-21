@@ -24,6 +24,7 @@ body {
     display: flex;
     text-align: left;
     margin-left: 138px;
+    font-weight: 700;
 }
 
 
@@ -47,6 +48,10 @@ body {
     animation-delay: 800ms;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.03em;
+
 
 }
 
