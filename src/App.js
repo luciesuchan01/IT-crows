@@ -12,7 +12,7 @@ import { About_us } from './components/common'
 import { Meet_us } from './components/common'
 import { Slider } from './components/common'
 import { Good_work } from './components/common'
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import { BrowserRouter as Route, Switch} from "react-router-dom"
 
 function App() {
   return (
@@ -26,14 +26,22 @@ function App() {
           <Services />,
           <About_us />,
           <Switcher />,
+          <div className='footer-main'>
           <Footer />
+          </div>
         </Route>
       
         <Route exact path="/about_us">
           <Header />,
           <Meet_us />,
           <Slider />,
-          <Good_work/>
+          <Good_work/>,
+          <div className='footer-about-us'>
+            <Footer />
+          </div>
+          
+          
+
         </Route>
 
         <Route exact path="/our_work">

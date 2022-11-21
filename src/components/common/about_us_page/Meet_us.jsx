@@ -14,7 +14,7 @@ function Meet_us(){
             That gives a new experience. What astonishes. Only special people are able to create unique things. Those who are not afraid.
             </div>
             <div className='meet-us-pic'>
-                <img src={meet_us_pic} alt="" width="900" height="429"/>
+                <img src={meet_us_pic} alt="" width="1037" height="429"/>
             </div>
 
 
@@ -35,13 +35,13 @@ function Meet_us(){
 
             <div className='grid-container-meet-us-second'>
                 <div className='grid-item-meet-us-second'>
-                    Websites created                
+                   <div className='websites-text'>Websites created</div>                 
                 </div>
                 <div className='grid-item-meet-us-second'>
-                    Clients
+                    <div className='clients-text'>Clients</div>
                 </div>
                 <div className='grid-item-meet-us-second'>
-                    Years on marke
+                    <div className='years-text'>Years on marke</div>
 
                 </div>
             </div>

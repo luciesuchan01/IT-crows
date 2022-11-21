@@ -8,3 +8,18 @@
     background: #F5F5F5;
     border: #F5F5F5;
 }
+.image-second{
+    position: absolute;
+    left: 428px;
+    top: -100px;
+}
+.image-first{
+    position: absolute;
+    top: -100px;
+    right: 1153px;
+}
+.image-third{
+    position: absolute;
+    top: -100px;
+    left: 1200px;
+}

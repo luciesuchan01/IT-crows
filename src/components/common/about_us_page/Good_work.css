@@ -36,6 +36,7 @@ font-family: 'Montserrat', sans-serif;
     text-align: left;
     line-height: 180%;
     color: #181818;
+    width: 953px;
 }
 .grid-container-good-work {
     /*grid: auto-flow dense / repeat(3, 180px);*/
