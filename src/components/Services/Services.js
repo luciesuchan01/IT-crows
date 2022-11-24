@@ -35,10 +35,9 @@ export default function Services (){
                         <li>webflow</li>
                         <li>branding</li>
                     </ul>
-
-                    <a href="#">
-                        <img src={ReadMoreBtn} />
-                    </a>
+                        <a href="#">
+                            <img src={ReadMoreBtn} />
+                        </a>
                 </div>
 
             </div>

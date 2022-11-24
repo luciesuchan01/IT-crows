@@ -1,0 +1,133 @@
+.cases_our_work{
+    padding: 0;
+    position: absolute;
+    width: 1440px;
+    height: 2543px;
+    left: 102px;
+    top: 216px;
+
+}
+.mezera{
+    margin-top: 340px;
+}
+.cases-main-title{
+    width: 647px;
+    height: 117px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 126px;
+    margin-top: 79px;
+    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+    1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+    font-family: 'Montserrat', sans-serif;
+    color: #F5F5F5;
+    line-height: 117px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+}
+
+
+
+.plus-border-our-work{
+    border-radius: 1000px;
+    background-color:#FF4747;
+    font-size: 48px;
+    color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;  
+    font-style: normal;  
+    Width: 139px;
+    Height: 139px;
+    text-align:justify;
+    margin-left: 717.02px;
+    font-weight: 700;
+    position: absolute;
+    display:flex;
+    justify-items:auto;
+    margin-top: 0px;
+    opacity: 0.9;
+}
+.plus-text-our-work{
+    margin-left: 28px;
+    margin-top: 40px;
+}
+
+
+.grid-container-our-work{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: #F5F5F5;
+    justify-content: start;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 100%;
+  }
+  
+
+  .grid-item-our-work {
+    display: inline-grid;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    font-size: 30px;
+    text-align: center;
+    height: 550px;
+    margin-top: 20pt;
+    margin-bottom: 200px;
+
+  }
+  .grid-item-left-our-work{
+    margin-left: 102px;
+    margin-right: auto;
+    
+  }
+  .grid-item-right-our-work{
+    margin-right: 102px;
+    margin-left: 200px;
+  }
+
+  .grid-container-second-our-work{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    background-color: #F5F5F5;
+    justify-content: start;
+    justify-items: flex-start;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 100%;
+    margin-top: -40pt;
+}
+.grid-item-second-our-work {
+    display: inline-grid;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    font-size: 30px;
+    text-align: center;
+    height: 450px;
+    margin-top: 86px;
+    margin-bottom: 100px;
+  }
+  /*
+.first-pic{
+    margin-left: 200pt;
+
+}
+.second-pic{
+    margin-left: 150px;
+}
+.third-pic{
+    margin-left: 200pt;
+}
+.fourth-pic{
+    margin-left: 150pt;
+}
+.fifth-pic{
+    margin-left: 140pt;
+}
+*/

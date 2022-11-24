@@ -1,8 +1,8 @@
 .cases{
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 2743px;
-    left: 0px;
+    left: 102px;
     top: 2019px;
     display:flexbox;
     align-items: center;

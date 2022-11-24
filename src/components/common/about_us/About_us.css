@@ -1,9 +1,9 @@
 .about_us{
     position: absolute;
     justify-content: center;
-    width: 100%;
+    width: 1440px;
     height: 1214px;    
-    left: 0px;
+    left: 102px;
     top: 4762px;
     display:flexbox;
     align-items: center;

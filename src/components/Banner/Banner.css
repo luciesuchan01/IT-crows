@@ -8,7 +8,7 @@
 body {
     background: /*#EFEFEF;*/#F5F5F5;
     margin-top: 80px;
-    width: 100%;
+    width: 1440px;
 }
 
 .Banner {
@@ -24,15 +24,23 @@ body {
     display: flex;
     text-align: left;
     margin-left: 138px;
+    width: 1185px;
+    font-size: 96px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    line-height: 130px;
+    letter-spacing: 3%;
     font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 
 
 .Main-title h2{
     font-size: 96px;
-    font-family: montserrat ;
+    text-transform: uppercase;
 }
+
 
 .red-text {
     color: #FF4747;
@@ -75,6 +83,7 @@ body {
 
 .changing-text {
     font-size: 110px;
+    font-family: 'halvar', sans-serif;
 
     color: #F5F5F5;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
@@ -86,7 +95,7 @@ body {
 .title {
     width: 730px;
     text-align: left;   
-    margin-left: 608px;
+    margin-left: 730px;
     font-size: 24px;
     font-family: Montserrat;
     font-weight: 400;
@@ -96,8 +105,7 @@ body {
 
 .Get-in-touch.button {
     margin-top: 64px;
-    text-align: right;
-    margin-right: 102px;
+    margin-left: 840px;
 }
 
 .Get-in-touch .text{

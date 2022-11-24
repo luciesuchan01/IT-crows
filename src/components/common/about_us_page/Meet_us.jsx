@@ -14,7 +14,7 @@ function Meet_us(){
             That gives a new experience. What astonishes. Only special people are able to create unique things. Those who are not afraid.
             </div>
             <div className='meet-us-pic'>
-                <img src={meet_us_pic} alt="" width="1037" height="429"/>
+                <img src={meet_us_pic} alt="" width="1236" height="500"/>
             </div>
 
 
@@ -53,7 +53,7 @@ function Meet_us(){
                 two friends — a designer and a businessman founded the IT CROWS web agency to help brands be unique. 
                 The agency has grown from 2 to more than 40 people and won 28 awards.
             </div>
-            <div className='mezera'></div>
+            <div className='mezera-meet-us'></div>
             <div className='text-meet-us'>
                 The clients of the League Agency are 120 companies from 25 countries; all of them are ambitious entrepreneurs who create new, useful products and valuable services.
             </div>

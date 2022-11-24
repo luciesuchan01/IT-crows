@@ -6,13 +6,13 @@ import Services from './components/Services/Services';
 import Switcher from './components/Switcher/Switcher';
 import Footer from './components/Footer/Footer';
 import React from 'react'
-import { Header } from './components/common'
+import { Header, Our_work_cases } from './components/common'
 import { Cases } from './components/common'
 import { About_us } from './components/common'
 import { Meet_us } from './components/common'
 import { Slider } from './components/common'
 import { Good_work } from './components/common'
-import { BrowserRouter as Route, Switch} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
   return (
@@ -45,7 +45,11 @@ function App() {
         </Route>
 
         <Route exact path="/our_work">
-          <Header />
+          <Header />,
+          <Our_work_cases/>,
+          <div className='footer-our-work'>
+            <Footer/>
+          </div>
         </Route>
 
         <Route exact path="/services">

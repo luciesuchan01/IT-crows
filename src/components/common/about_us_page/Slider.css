@@ -1,6 +1,6 @@
 .slider-about-us{
     position: absolute;
-    width: 100%;
+    width: 1440px;
     height: 939px;
     top: 1990px;
     display:flexbox;
@@ -10,16 +10,15 @@
 }
 .image-second{
     position: absolute;
-    left: 428px;
+    left: 538px;
     top: -100px;
 }
 .image-first{
     position: absolute;
     top: -100px;
-    right: 1153px;
-}
+    left: 138px;}
 .image-third{
     position: absolute;
     top: -100px;
-    left: 1200px;
+    margin-left: 1280px;
 }

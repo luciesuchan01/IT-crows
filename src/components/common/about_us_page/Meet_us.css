@@ -1,7 +1,7 @@
 .meet-us{
     position: absolute;
     height: 1851px;
-    width: 100%;
+    width: 1440px;
     left: 0px;
     top: 140px;
     display:flexbox;
@@ -45,7 +45,7 @@ font-family: 'Montserrat', sans-serif;
     text-align: left;
     line-height: 180%;
     color: #181818;
-    width: 973px;
+    width: 1073px;
 }
 .meet-us-pic{
     position: absolute;
@@ -62,8 +62,8 @@ font-family: 'Montserrat', sans-serif;
     background-color: #F5F5F5;
     border: 1px solid #F5F5F5;
     text-align: center;
-    margin-top: 550px;
-    margin-left: 410px;
+    margin-top: 600px;
+    margin-left: 553px;
     margin-right: 390px;
     text-align: center;
 
@@ -105,7 +105,7 @@ font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 24px;
     text-align:center;
-    margin-left: 410px;
+    margin-left: 553px;
   }
   .grid-item-meet-us-second{
     display: inline-grid;
@@ -132,7 +132,7 @@ font-family: 'Montserrat', sans-serif;
     margin-bottom: 60pt;
     margin-top: 140px;
 }
-.mezera{
+.mezera-meet-us{
     width: auto;
     height: 50px;
 }

@@ -1,19 +1,20 @@
 .Services {
     margin: 0 auto;
-    width: 930pt;
+    width: 1440px;
     height: 1009px;
 }
 
 .Main-title.Services {
     height: 96px;
     padding-top: 60px;
-    margin-left: auto;
+    margin-left: 220px;
 }
 
 
 .Main-title.Services h2 {
     width: 596px;
     height: 96px;
+    font-family: Montserrat;
     font-family: sans-serif;
     color: #F5F5F5;
     font-weight: 700;
@@ -27,12 +28,14 @@
     width: 602px;
     height: 96px;
     font-size: 24px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     text-transform: none;
     line-height: 43px;
     margin-top: 30px;
-    margin-left: 600px;
+    margin-left: 650px;
     font-weight: 400;
+    letter-spacing: 0em;
 }
 
 .Services-red-text {
@@ -44,6 +47,7 @@
     display: flex;
     justify-content: center;
     margin-top: 210px;
+    margin-left: 102px;
 }
 
 .Services-boxes h3 {
@@ -68,20 +72,25 @@
 
 .Development-box {
     height: 685px;
+    width: 608px;
+
 }
 
 .Design-box {
     height: 551px;
+    width: 608px;
+
 }
 
 .box {
-    width: 608px;
-    margin-left: 10px;
+    margin-left: 102px;
     margin-right: 10px;
     border-radius: 40px;
     border: 1px solid black;
+    width: 608px;
 }
 
 .box img {
     margin-top: 69px;
 }
+
