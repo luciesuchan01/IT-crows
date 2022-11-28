@@ -16,10 +16,12 @@ function Navbar(){
 
                     <li>                
                         <Link to='/our_work'>our work</Link>
+
                     </li>
 
                     <li>
                         <Link to='/services'>services</Link>
+
                     </li>
                     
                     <li>
