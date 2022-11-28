@@ -13,6 +13,7 @@ import { Meet_us } from './components/common'
 import { Slider } from './components/common'
 import { Good_work } from './components/common'
 import { Banner_services } from './components/common'
+import { Services_page_nav } from './components/common'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
         <Route exact path="/services">
           <Header />
           <Banner_services />
+          <Services_page_nav />
         </Route>
 
         <Route exact path="/career">
