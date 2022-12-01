@@ -14,6 +14,7 @@ import { Slider } from './components/common'
 import { Good_work } from './components/common'
 import { Banner_services } from './components/common'
 import { Services_page_nav } from './components/common'
+import { Services_page_services } from './components/common'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
@@ -58,6 +59,10 @@ function App() {
           <Header />
           <Banner_services />
           <Services_page_nav />
+          <Services_page_services />
+          <div className='footer-services'>
+            <Footer/>
+          </div>
         </Route>
 
         <Route exact path="/career">

@@ -3,7 +3,7 @@ import './Banner_services.css'
 import arrowServices from './images/arrowServices.png';
 function Banner_services(){
     return(
-        <section className='bannr-services'> 
+        <section className='banner-services'> 
             <div className='banner-services-main-title'>we build</div>
             <div className='banner-services-title'>software solutions</div>
             <div className='Gint-button'>
@@ -16,7 +16,10 @@ function Banner_services(){
                     </span>
                 </a>
             </div>
-            <div className='text-services'>Keep up with customer and business demand in this era of rapid digitalization. We are your partners in strategy and execution of your vision.</div>
+            <div className='text-services-services'>
+                Keep up with customer and business demand in this era of rapid digitalization. 
+                We are your partners in strategy and execution of your vision.
+            </div>
         </section>
     )
 }

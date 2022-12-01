@@ -7,7 +7,6 @@
 }
 
 .grid-container-services {
-    /*grid: auto-flow dense / repeat(3, 180px);*/
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto;
@@ -17,6 +16,17 @@
     margin-left: 152px;
     text-align: center;
 }
+
+.grid-container-services :hover{
+    border:1px solid #FF4747;
+    background-color: #FF4747;
+    color: #FF4747;
+    font-weight: 700;
+    text-shadow: 1px 0 #F5F5F5, -1px 0 #F5F5F5, 0 1px #F5F5F5, 0 -1px #F5F5F5,
+    1px 1px #F5F5F5, -1px -1px #F5F5F5, 1px -1px #F5F5F5, -1px 1px #F5F5F5;
+}
+
+
 .grid-item-services{
     display: inline-grid;
     justify-content: right;
@@ -25,68 +35,12 @@
     height: 117px;
     align-items: center;
     text-align: center;
-    background-color: #FF4747;
     border-radius: 40px 0px 0px 40px;
     width: 1577px;
     text-align: center;
 }
-.grid-item-services-second{
-    display: inline-grid;
-    justify-content: right;
-    background-color: #F5F5F5;
-    text-align: center;
-    height: 117px;
-    align-items: center;
-    text-align: center;
-    border-radius: 40px 0px 0px 40px;
-    width: 1577px;
-    text-align: center;
-}
-.nav-text-services{
-    width: 657px;
-    height: 48px;
-    margin-left: 24px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 100%;
-    /* identical to box height, or 48px */
-    display: flex;
-    align-items: center;
-    text-align: right;
-    color: #F5F5F5;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-}
+
 .nav-number-services{
-    width: 75px;
-    height: 64px;
-
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 100%;
-    /* identical to box height, or 64px */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #FF4747;
-    text-shadow: 1px 0 #F5F5F5, -1px 0 #F5F5F5, 0 1px #F5F5F5, 0 -1px #F5F5F5,
-    1px 1px #F5F5F5, -1px -1px #F5F5F5, 1px -1px #F5F5F5, -1px 1px #F5F5F5;
-    font-family: 'Montserrat', sans-serif;
-    /* Inside auto layout */
-    margin-right: 1422px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.nav-number-services-second{
     width: 75px;
     height: 64px;
 
@@ -111,7 +65,9 @@
     order: 0;
     flex-grow: 0;
 }
-.nav-text-services-second{
+
+
+.nav-text-services{
     width: 657px;
     height: 48px;
     margin-left: 24px;

@@ -6,48 +6,47 @@ function Services_page_nav(){
         <section className='services-page-nav'> 
             <div className='grid-container-services'>
 
+                <div className='grid-item-services'>
+                    <div className='nav-number-services'>01
+                        <div className='nav-text-services'>
+                                web development
+                        </div>
+                    </div>
+                </div>
+
 
                 <div className='grid-item-services'>
-                <div className='nav-number-services'>01
-                <div className='nav-text-services'>
-                        web development
+                    <div className='nav-number-services'>02
+                        <div className='nav-text-services'>
+                            apps
+                        </div>
                     </div>
                 </div>
-                </div>
 
-
-                <div className='grid-item-services-second'>
-                <div className='nav-number-services-second'>02
-                    <div className='nav-text-services-second'>
-                        apps
+                <div className='grid-item-services'>
+                    <div className='nav-number-services'>03
+                        <div className='nav-text-services'>
+                            software
+                        </div>
                     </div>
                 </div>
-                </div>
 
-                <div className='grid-item-services-second'>
-                <div className='nav-number-services-second'>03
-                    <div className='nav-text-services-second'>
-                        software
+
+                <div className='grid-item-services'>
+                    <div className='nav-number-services'>04
+                        <div className='nav-text-services'>
+                            e-commerce
+                        </div>
                     </div>
                 </div>
-                </div>
 
 
-                <div className='grid-item-services-second'>
-                <div className='nav-number-services-second'>04
-                    <div className='nav-text-services-second'>
-                        e-commerce
+                <div className='grid-item-services'>
+                    <div className='nav-number-services'>05
+                        <div className='nav-text-services'>
+                            ai
+                        </div>
                     </div>
-                </div>
-                </div>
-
-
-                <div className='grid-item-services-second'>
-                <div className='nav-number-services-second'>05
-                    <div className='nav-text-services-second'>
-                        ai
-                    </div>
-                </div>
                 </div>
                 
 

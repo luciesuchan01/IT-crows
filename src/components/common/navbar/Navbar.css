@@ -32,3 +32,8 @@ nav li a:active{
     color: black;
     text-decoration: underline;
 }
+
+nav li a:hover{
+    color: black;
+    text-decoration: underline;
+}
