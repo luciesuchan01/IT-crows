@@ -15,6 +15,7 @@ import { Good_work } from './components/common'
 import { Banner_services } from './components/common'
 import { Services_page_nav } from './components/common'
 import { Services_page_services } from './components/common'
+import { Services_page_services_app } from './components/common'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 function App() {
@@ -60,6 +61,7 @@ function App() {
           <Banner_services />
           <Services_page_nav />
           <Services_page_services />
+          <Services_page_services_app/>
           <div className='footer-services'>
             <Footer/>
           </div>

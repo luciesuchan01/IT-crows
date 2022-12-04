@@ -62,12 +62,12 @@
 .sipka-services{
     margin-left: 42px;
 }
-.text-services-services{
+.services-page-banner-text{
     position: absolute;
     width: 916px;
     height: 76px;
     left: 364px;
-    top: 696px;
+    margin-top: 696px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;

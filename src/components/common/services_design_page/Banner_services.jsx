@@ -16,7 +16,8 @@ function Banner_services(){
                     </span>
                 </a>
             </div>
-            <div className='text-services-services'>
+            
+            <div className='services-page-banner-text'>
                 Keep up with customer and business demand in this era of rapid digitalization. 
                 We are your partners in strategy and execution of your vision.
             </div>
