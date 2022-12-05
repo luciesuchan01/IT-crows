@@ -20,10 +20,9 @@
     font-weight: 700;
     font-size: 140px;
     line-height: 100%;
-/* identical to box height, or 140px */
 }
 .banner-services-title{
-    position: absolute;
+    position: relative;
     width: 1340px;
     height: 96px;
     left: 200px;
@@ -38,7 +37,19 @@
     margin-top: 140px;
 }
 
-
+.text-serv{
+    position: absolute;
+    height: 76px;
+    left: 364px;
+    margin-top: 136px;
+    width: 916px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 160%;
+    display: flex;
+    color: #181818;
+}
 .Gint-button {
     margin-left: 1064px;
     margin-top: 66px;
@@ -49,7 +60,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 32px;
     line-height: 57px;
-    margin-top: 250px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -61,20 +71,4 @@
 
 .sipka-services{
     margin-left: 42px;
-}
-.services-page-banner-text{
-    position: absolute;
-    width: 916px;
-    height: 76px;
-    left: 364px;
-    margin-top: 696px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 160%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #181818;
 }
