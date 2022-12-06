@@ -11,6 +11,7 @@ import Services_page_nav from "./services_design_page/Services_page_nav";
 import Services_page_services from "./services_design_page/Services_page_services";
 import Services_page_services_app from "./services_design_page/Services_page_services_app";
 import Services_page_services_custom from "./services_design_page/Services_page_services_custom";
+import Services_page_webpages from "./services_design_page/Services_page_webpages";
 export{
     Header,
     Navbar,
@@ -24,5 +25,6 @@ export{
     Services_page_nav,
     Services_page_services,
     Services_page_services_app,
-    Services_page_services_custom
+    Services_page_services_custom,
+    Services_page_webpages
 }

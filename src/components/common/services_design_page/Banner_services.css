@@ -53,8 +53,8 @@
 .Gint-button {
     margin-left: 1064px;
     margin-top: 66px;
-
 }
+
 .Gint-text{
     color: #181818;
     font-family: 'Montserrat', sans-serif;
@@ -71,4 +71,12 @@
 
 .sipka-services{
     margin-left: 42px;
+
+}
+.arrowServices{
+    width: 133px; 
+    height: 26px;
+}
+.arrowServices:hover{
+    width: 73px; 
 }
