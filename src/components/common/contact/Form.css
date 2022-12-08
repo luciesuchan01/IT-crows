@@ -1,0 +1,49 @@
+.form{    
+    position: absolute;
+    width: 1440px;
+    height: 2199px;
+    left: 0px;
+    top: 216px;
+    background: #F4F4F4;
+}
+.form-main-title{
+    margin-top: 80px;
+    position: absolute;
+    width: 488px;
+    height: 117px;
+    left: 598px;
+    color: #F5F5F5;    
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+    1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+}
+.red-part{
+    color: #FF4747;
+    margin-left: 34px;
+    text-shadow: 1px 0 #FF4747, -1px 0 #FF4747, 0 1px #FF4747, 0 -1px #FF4747,
+    1px 1px #FF4747, -1px -1px #FF4747, 1px -1px #FF4747, -1px 1px #FF4747;
+}
+.help-title{
+    width: 452px;
+    height: 29px;
+    margin-top: 317px;
+    margin-left: 634px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #181818;
+    text-transform: uppercase;
+}

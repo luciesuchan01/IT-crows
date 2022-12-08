@@ -25,7 +25,7 @@ export default function Banner() {
            </div>
 
            <div className="Get-in-touch button">
-                <a href="#">
+                <a href="/contact">
                     <span className="Get-in-touch text">
                         Get in touch
                     </span>

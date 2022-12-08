@@ -19,7 +19,8 @@ import { Services_page_services_app } from './components/common'
 import { Services_page_services_custom } from './components/common'
 import { Services_page_webpages } from './components/common'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
-import {Artificial_intelligence } from "./components/common"
+import { Artificial_intelligence } from "./components/common"
+import { Form } from "./components/common"
 function App() {
   return (
     <div className="App">
@@ -31,7 +32,10 @@ function App() {
           <Cases />,
           <Services />,
           <About_us />,
-          <Switcher />,
+          <div className='switcher-main'>
+            <Switcher />,
+          </div>
+          
           <div className='footer-main'>
           <Footer />
           </div>
@@ -67,6 +71,9 @@ function App() {
           <Services_page_services_custom/>
           <Services_page_webpages />
           <Artificial_intelligence />
+          <div className='switcher-services'>
+            <Switcher/>,
+          </div>
           <div className='footer-services'>
             <Footer/>
           </div>
@@ -77,7 +84,8 @@ function App() {
         </Route>
 
         <Route exact path="/contact">
-          <Header />
+          <Header />,
+          <Form />
         </Route>
 
       </Switch>

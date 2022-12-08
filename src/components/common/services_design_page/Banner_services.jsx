@@ -7,7 +7,7 @@ function Banner_services(){
             <div className='banner-services-main-title'>we build</div>
             <div className='banner-services-title'>software solutions</div>
             <div className='Gint-button'>
-                <a href="/">
+                <a href="/contact">
                     <span className="Gint-text">
                         Get in touch
                         <div className='sipka-services'>
