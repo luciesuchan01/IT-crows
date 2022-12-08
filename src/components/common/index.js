@@ -12,6 +12,7 @@ import Services_page_services from "./services_design_page/Services_page_service
 import Services_page_services_app from "./services_design_page/Services_page_services_app";
 import Services_page_services_custom from "./services_design_page/Services_page_services_custom";
 import Services_page_webpages from "./services_design_page/Services_page_webpages";
+import Artificial_intelligence from "./services_design_page/Artificial_intelligence";
 export{
     Header,
     Navbar,
@@ -26,5 +27,6 @@ export{
     Services_page_services,
     Services_page_services_app,
     Services_page_services_custom,
-    Services_page_webpages
+    Services_page_webpages,
+    Artificial_intelligence
 }

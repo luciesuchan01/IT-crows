@@ -19,7 +19,7 @@ import { Services_page_services_app } from './components/common'
 import { Services_page_services_custom } from './components/common'
 import { Services_page_webpages } from './components/common'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
-
+import {Artificial_intelligence } from "./components/common"
 function App() {
   return (
     <div className="App">
@@ -66,7 +66,7 @@ function App() {
           <Services_page_services_app/>
           <Services_page_services_custom/>
           <Services_page_webpages />
-          
+          <Artificial_intelligence />
           <div className='footer-services'>
             <Footer/>
           </div>

@@ -102,8 +102,6 @@ function Services_page_webpages(){
                     <div className='images-text-third'>design, UI/UX</div>   
                 </div>
             </div>
-
-
         </section>
     )
 }
