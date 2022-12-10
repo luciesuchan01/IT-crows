@@ -49,7 +49,12 @@
 }
 .buttons-first-row{
     margin-top: 76px;
-
+    
+}
+.buttons-first-row a{
+    margin-top: 76px;
+    text-decoration: none;
+    
 }
 .grey-button-first{
     display: flex;
@@ -260,4 +265,86 @@
 
     color: #181818;
 }
-  
+.icons {
+    margin-bottom: 30px;
+    position: absolute;
+    color: #000000;
+}
+.ig{
+    height: 29.33333396911621px;
+    width: 29.33333396911621px;
+    margin-left: 1080px;
+    margin-top: 433px;
+    background-color: #EBEBEB;
+}
+.fb{
+    height: 29.33333396911621px;
+    position: absolute;
+    margin-left: 1191px;
+    margin-top: -27px;
+}
+.be{
+    margin-top: -18px;
+    margin-left: 1288px;
+    width: 31px;
+}
+.lin{
+    
+    margin-top: 45px;
+    margin-left: 870px;
+}
+
+.ytb{
+    margin-top: -25px;
+    margin-left: 1080px;
+}
+.sth{
+    margin-left: 1288px;
+    margin-top: -25px;
+}
+.icons-title{ 
+    position: absolute;
+    width: 105px;
+    height: 58px;
+    margin-left: 1150px;
+    margin-top: 330px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #181818;
+}
+.email-title{ 
+    position: absolute;
+    width: 105px;
+    height: 58px;
+    margin-left: 277px;
+    margin-top: 330px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #181818;
+}
+.email-address{
+    position: absolute;
+    width: 228px;
+    height: 43px;
+    left: 230px;
+    margin-top: 400px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+}
+.upload{
+    margin-top: -50px;
+    margin-left: 585px;
+}
