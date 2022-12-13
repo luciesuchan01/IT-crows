@@ -26,6 +26,7 @@ export default function Footer(){
                                 <input type="text" placeholder="youremail@mail.com" />
                                 <input type="text" placeholder="Explain, how we can help you?" />
                             </div>
+                            
                             <div className="Footer-checkbox">
                                 <input type="checkbox" name="checkbox" id="" />
                                 <label for="checkbox">I have read and understand ITCROWS Privacy Notice.</label>
@@ -46,14 +47,22 @@ export default function Footer(){
                                 BIG_cheese@itcrows.com
                             +420 123 123 123
                             </div>
-                            {/*
-                            <div className='upper-right-text-low'>
-                                head of design
-                                head of developing
-                                strategist
-                                </div>*/}
+                         
+                        </div>
+                        
+                    </div>
+                    <div className='upr'>
+                        <div className='upper-right-text-low'>
+                            head of design
+                        </div>
+                        <div className='upper-right-text-low'>
+                            head of developing
+                        </div>
+                        <div className='upper-right-text-low'>
+                            strategist
                         </div>
                     </div>
+                    
                     
      {/* DĚLÍCÍ ČÁRA */}
      <p>

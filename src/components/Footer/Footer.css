@@ -215,9 +215,12 @@ input[type='checkbox'] {
     margin-left: 400px;
     margin-top: -70px;
 }
+.upr{
+    margin-top: -180px;
+}
 .upper-right-text-low{
-    width: 238px;
-    height: 20px;
+    width: 338px;
+    height: 70px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -227,6 +230,7 @@ input[type='checkbox'] {
     justify-content: right;
     text-align: right;
     color: #F5F5F5;
-    margin-left: 350px;
+    margin-left: 750px;
     text-transform: uppercase;
+    margin-top: 0px;
 }
