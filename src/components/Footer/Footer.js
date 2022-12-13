@@ -8,6 +8,7 @@ import Facebook from './images/Facebook.svg';
 import Be from './images/Be.svg';
 import Linkedin from './images/Linkedin.svg';
 import Youtube from './images/Youtube.svg';
+import FooterImage from './images/footer_image.jpg'
 
 
 
@@ -39,7 +40,18 @@ export default function Footer(){
 
                         {/* PRAVÝ HORNÍ  */}
                         <div className="Upper-Footer-right">
-                            <p>YYY</p>
+                        <img src={FooterImage} alt="" className='footer-image'/>
+                            <div className='upper-right-text'>
+                                BIG BIG_cheese
+                                BIG_cheese@itcrows.com
+                            +420 123 123 123
+                            </div>
+                            {/*
+                            <div className='upper-right-text-low'>
+                                head of design
+                                head of developing
+                                strategist
+                                </div>*/}
                         </div>
                     </div>
                     
@@ -79,8 +91,8 @@ export default function Footer(){
 
     <div className="Post-Footer">
             <div className="Post-Footer-up">
-                <a href="" ><img src={Instagram} alt="" /></a>
-                <a href=""><img src={Facebook} alt="" /></a>
+                <a href="https://www.instagram.com/_itcrows/"><img src={Instagram} alt="" /></a>
+                <a href="https://www.facebook.com/itcrows"><img src={Facebook} alt="" /></a>
                 <a href=""><img src={Be} alt="" /></a>
                 <a href=""><img src={Linkedin} alt="" /></a>
                 <a href=""><img src={Youtube} alt="" /></a>
@@ -109,6 +121,7 @@ export default function Footer(){
         </div>
 
             </div>
+
         </div>
     )
 }

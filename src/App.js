@@ -21,6 +21,8 @@ import { Services_page_webpages } from './components/common'
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
 import { Artificial_intelligence } from "./components/common"
 import { Form } from "./components/common"
+import { Banner_graciano } from "./components/common"
+import { About_graciano } from "./components/common"
 function App() {
   return (
     <div className="App">
@@ -86,6 +88,14 @@ function App() {
         <Route exact path="/contact">
           <Header />,
           <Form />
+        </Route>
+
+        <Route exact path="/graciano">
+          <div className='header-graciano'>
+            <Header />
+          </div>
+          <Banner_graciano/>,
+          <About_graciano/>
         </Route>
 
       </Switch>

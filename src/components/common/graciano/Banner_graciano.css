@@ -1,0 +1,44 @@
+.banner-graciano{
+    background-color: #181818;  
+    width: 1730px;
+    height: 675px;
+    left: 0px;
+    top: 140px;
+}
+.graciano-title{
+    position: absolute;
+    width: 804px;
+    height: 171px;
+    left: 25%;
+    top: 340px;
+    text-transform: uppercase;
+    text-shadow: 1px 0 #FFB800, -1px 0 #FFB800, 0 1px #FFB800, 0 -1px #FFB800,
+    1px 1px #FFB800, -1px -1px #FFB800, 1px -1px #FFB800, -1px 1px #FFB800;
+    font-family: 'Montserrat', sans-serif;
+    color: #181818;
+    line-height: 117px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    margin-bottom: 40pt;
+}
+.graciano-title-sec{
+    position: absolute;
+    width: 527px;
+    height: 38px;
+    left: 33%;
+    top: 528px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F5F5F5;
+}
+.img-grac{
+    margin-top: 601px;
+}

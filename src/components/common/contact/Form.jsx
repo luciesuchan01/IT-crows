@@ -7,7 +7,7 @@ import Be from './images/Be.svg';
 import Linkedin from './images/Linkedin.svg';
 import Youtube from './images/Youtube.svg';
 import Sth from "./images/sth.svg"
-
+import upld from './images/Upload_button.svg'
 function Form(){
     return(
         <section className='form'> 
@@ -70,8 +70,16 @@ function Form(){
                         placeholder="Project details (optional)"
                         name="details"
                         />
-                        <input type="file" className='upload'/>
                         
+                        <div class="image-upload">
+                            <label for="file-input">
+                                <img src={upld} alt="" />
+                            </label>
+
+                            <input id="file-input" type="file"/>
+                        </div>
+
+
                         <button class="form-btn" type="submit">
                         Start a project
                         </button>

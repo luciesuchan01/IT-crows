@@ -14,6 +14,8 @@ import Services_page_services_custom from "./services_design_page/Services_page_
 import Services_page_webpages from "./services_design_page/Services_page_webpages";
 import Artificial_intelligence from "./services_design_page/Artificial_intelligence";
 import Form from "./contact/Form";
+import Banner_graciano from "./graciano/Banner_graciano";
+import About_graciano from "./graciano/About_graciano";
 export{
     Header,
     Navbar,
@@ -30,5 +32,7 @@ export{
     Services_page_services_custom,
     Services_page_webpages,
     Artificial_intelligence,
-    Form
+    Form,
+    Banner_graciano,
+    About_graciano
 }

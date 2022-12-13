@@ -21,7 +21,7 @@ export default function Switcher() {
             </h2>
 
             <div className="Switcher-project-btn">
-                <a href="#">
+                <a href="/contact">
                     Discus a project 
                 </a>
                 <img src={Arrow} className="Arrow" />

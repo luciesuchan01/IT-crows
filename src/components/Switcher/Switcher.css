@@ -19,22 +19,23 @@
 }
 
 
-.Switcher-project-btn {
-    width: 895px;
-    height: 119px;
-    background-color: #FF4747;
-    font-size: 48px;
-    border-radius: 60px;
-    color: white;
-    text-transform: uppercase;
-    margin: 56px auto;
 
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 316px;
-    
+.Switcher-project-btn {
+  width: 895px;
+  height: 119px;
+  background-color: #FF4747;
+  font-size: 48px;
+  border-radius: 60px;
+  color: white;
+  text-transform: uppercase;
+  margin: 56px auto;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 316px;
 }
+
 
 .Switcher-project-btn a {
     color: white;
@@ -68,6 +69,7 @@
     opacity: 0;
     width: 50px;
     height: 50px;
+    
   }
   
   .slider {
@@ -93,6 +95,7 @@
     -webkit-transition: .4s;
     transition: 0.4s;
   }
+
   
 
   input.Switch-input:checked + .slider:before {
@@ -100,7 +103,7 @@
     -ms-transform: translateX(26px);
     transform: translateX(84px);
   }
-  
+
   /* Rounded sliders */
   .slider.round {
     border-radius: 74px;

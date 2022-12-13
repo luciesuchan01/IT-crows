@@ -21,8 +21,9 @@ function Cases(){
             <div class="grid-container">
                 <div class="grid-item">
                     <div className='grid-item-left'>
+                        <a href='/graciano'>
                         <img src={graciano_picture} alt="" width="730" height="550"/>
-                    
+                        </a>
                         <h1>graciano
                         <h2>
                             <div className='first-pic'>UI/UIX, develop, e-commerce</div>
