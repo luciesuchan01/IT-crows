@@ -1,7 +1,7 @@
 .about-graciano{
     top: 1219px;
     background-color: #f5f5f5;
-    height: 2248px;
+    height: 1541px;
     left: 102px;
     top: 120px;
 }
@@ -46,7 +46,7 @@
     width: 608px;
     height: 258px;
     left: 240px;
-    top: 2315px;
+    top: 2265px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -59,11 +59,70 @@
 }
 .mobile-img-sec{
     margin-left: 979px;
-    margin-top: 1200px;
+    margin-top: -900px;
     height: 1078px;
 }
 .mobile-img{
     margin-left: 979px;
     padding-top: 0px;
 
+}
+.grid-container-graciano{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 240px;
+    text-align: center;
+    margin-top: 1900px;
+    width: 350px;
+
+}
+.grid-item-graciano{
+    display: inline-grid;
+    top: 40px;
+    justify-content: center;
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 59px;
+    align-items: center;
+    justify-content: left;
+    width: 360px;
+}
+
+.grid-container-graciano-sec{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto auto auto;
+    margin-left: 240px;
+    text-align: center;
+    margin-top: 40px;
+    width: 350px;
+}
+.grid-item-graciano-sec{
+    display: inline-grid;
+    justify-content: center;
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 59px;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: -15px;
+}
+.grid-graciano-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 410px;
+    
+}
+.grid-text-grac{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.bigger-text{
+    font-weight: 800;
 }

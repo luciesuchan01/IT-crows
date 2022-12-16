@@ -1,0 +1,144 @@
+.solution{
+    position: absolute;
+    width: 1440px;
+    height: 4076px;
+    left: 0px;
+    top: 4735px;
+}
+.solution-title{
+    position: absolute;
+    width: 1000px;
+    height: 101px;
+    left: 0px;
+    top: 120px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFB800;
+    line-height: 117px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    margin-bottom: 40pt;
+}
+.solution-text-first{
+    position: absolute;
+    width: 702px;
+    height: 258px;
+    left: 240px;
+    top: 287px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    /* or 43px */
+
+    display: flex;
+    align-items: center;
+
+    color: #181818;
+}
+.solution-text-second{
+    position: absolute;
+    width: 730px;
+    height: 215px;
+    left: 848px;
+    top: 609px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    /* or 43px */
+
+    display: flex;
+    align-items: center;
+
+    color: #181818;
+}
+.grid-container-solution{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-left: 240px;
+    text-align: center;
+    margin-top: 928px;
+
+}
+.grid-item-solution{
+    display: inline-grid;
+    top: 40px;
+    justify-content: center;
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 883px;
+    align-items: center;
+    justify-content: left;
+    width: 628px;
+    margin-bottom: 20px;
+}
+.mac{
+    margin-left: 240px;
+
+}
+.commas{
+    left: 836.78px;
+    top: 3586px;
+    position: absolute;
+}
+.solution-text-third{
+    position: absolute;
+    width: 608px;
+    height: 171.56px;
+    left: 830px;
+    top: 3650.81px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #181818;
+}
+.coolGrac{
+    left: 830px;
+    top: 3853.29px;
+    position: absolute;
+
+}
+.coolGrac-text{
+position: absolute;
+width: 282px;
+height: 42.89px;
+left: 959px;
+top: 3853.29px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 180%;
+display: flex;
+align-items: center;
+color: #181818;
+}
+.coolGrac-text-sec{ 
+    position: absolute;
+    width: 224px;
+    height: 42.89px;
+    left: 959px;
+    top: 3910px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #181818;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

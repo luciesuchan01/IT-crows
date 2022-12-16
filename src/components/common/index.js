@@ -16,6 +16,10 @@ import Artificial_intelligence from "./services_design_page/Artificial_intellige
 import Form from "./contact/Form";
 import Banner_graciano from "./graciano/Banner_graciano";
 import About_graciano from "./graciano/About_graciano";
+import Project_task from "./graciano/Project_task";
+import Solution from "./graciano/Solution";
+import Responsive from "./graciano/Responsive";
+import Header_sec from "./header/Header_sec";
 export{
     Header,
     Navbar,
@@ -34,5 +38,9 @@ export{
     Artificial_intelligence,
     Form,
     Banner_graciano,
-    About_graciano
+    About_graciano,
+    Project_task,
+    Solution,
+    Responsive,
+    Header_sec
 }

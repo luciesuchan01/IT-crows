@@ -1,0 +1,68 @@
+.project-task{
+    position: absolute;
+    width: 1440px;
+    height: 1507px;
+    left: 0px;
+    top: 3228px;
+}
+.project-task-title{
+    position: absolute;
+    width: 1000px;
+    height: 171px;
+    left: 100px;
+    top: 120px;
+    text-transform: uppercase;
+    text-shadow: 1px 0 #FFB800, -1px 0 #FFB800, 0 1px #FFB800, 0 -1px #FFB800,
+    1px 1px #FFB800, -1px -1px #FFB800, 1px -1px #FFB800, -1px 1px #FFB800;
+    font-family: 'Montserrat', sans-serif;
+    color: #f5f5f5;
+    line-height: 117px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    margin-bottom: 40pt;
+}
+.project-task-text{
+    position: absolute;
+    width: 954px;
+    height: 172px;
+    left: 343px;
+    top: 296px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    display: flex;
+    align-items: center;
+    color: #181818;
+}
+
+
+.slider-about-us{
+    position: absolute;
+    width: 1440px;
+    height: 939px;
+    margin-top: 1990px;
+    display:flexbox;
+    align-items: center;
+    background: #F5F5F5;
+    border: #F5F5F5;
+}
+.image-first{
+    position: absolute;
+    top: 693px;
+    left: 662px;
+}
+.image-second{
+    position: absolute;
+    left: 100px;
+    top: 700px;
+}
+
+.image-third{
+    position: absolute;
+    top: 700px;
+    margin-left: 1186px;
+}

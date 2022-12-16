@@ -23,6 +23,11 @@ import { Artificial_intelligence } from "./components/common"
 import { Form } from "./components/common"
 import { Banner_graciano } from "./components/common"
 import { About_graciano } from "./components/common"
+import { Project_task } from "./components/common"
+import { Solution } from "./components/common"
+import { Responsive } from "./components/common"
+import { Header_sec } from "./components/common"
+
 function App() {
   return (
     <div className="App">
@@ -92,10 +97,16 @@ function App() {
 
         <Route exact path="/graciano">
           <div className='header-graciano'>
-            <Header />
+            <Header_sec />
           </div>
           <Banner_graciano/>,
-          <About_graciano/>
+          <About_graciano/>,
+          <Project_task/>,
+          <Solution/>,
+          <Responsive/>,
+          <div className='footer-graciano'>
+            <Footer/>
+          </div>
         </Route>
 
       </Switch>
