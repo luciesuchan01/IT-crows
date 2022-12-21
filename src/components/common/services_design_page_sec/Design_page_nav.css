@@ -1,0 +1,88 @@
+.design-page-nav{
+    position: absolute;
+    width: 1680px;
+    height: 450px;
+    top: 772px;
+    justify-content: right;
+}
+
+.grid-container-design {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    margin-top: 104px;
+    margin-left: 152px;
+    text-align: center;
+}
+
+.grid-container-design :hover{
+    border:1px solid #FF4747;
+    background-color: #FF4747;
+    color: #FF4747;
+    font-weight: 700;
+    text-shadow: 1px 0 #F5F5F5, -1px 0 #F5F5F5, 0 1px #F5F5F5, 0 -1px #F5F5F5,
+    1px 1px #F5F5F5, -1px -1px #F5F5F5, 1px -1px #F5F5F5, -1px 1px #F5F5F5;
+}
+
+
+.grid-item-design{
+    display: inline-grid;
+    justify-content: right;
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 117px;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px 0px 0px 40px;
+    width: 1577px;
+    text-align: center;
+}
+
+.nav-number-design{
+    width: 75px;
+    height: 64px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    /* identical to box height, or 64px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #F5F5F5;
+    text-shadow: 2px 0 #181818, -2px 0 #181818, 0 2px #181818, 0 -2px #181818,
+    2px 2px #181818, -2px -2px #181818, 2px -2px #181818, -2px 2px #181818;
+    font-family: 'Montserrat', sans-serif;
+    /* Inside auto layout */
+    margin-right: 1422px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.nav-text-design{
+    width: 657px;
+    height: 48px;
+    margin-left: 24px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 100%;
+    /* identical to box height, or 48px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #181818;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

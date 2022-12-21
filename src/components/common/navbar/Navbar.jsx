@@ -1,9 +1,7 @@
 import React from 'react';
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-
 function Navbar(){
-
     return(
     
         <section>
@@ -11,25 +9,29 @@ function Navbar(){
                 <ul>
 
                     <li>
-                        <Link to="/about_us">about us</Link>
+                        <a href="/about_us">about us</a>
                     </li>
 
                     <li>                
-                        <Link to='/our_work'>our work</Link>
+                        <a href='/our_work'>our work</a>
 
                     </li>
 
                     <li>
-                        <Link to='/services'>services</Link>
+                        <a href='#'>services</a>
+                        <ul> 
 
-                    </li>
+                        <li><a href="/services">development</a></li>
+
+                        <li><a href="/services_design">design</a></li>
+                        </ul></li>
                     
                     <li>
-                        <Link to='/career'>career</Link>
-            
+                        <a href='/career'>career</a>
+                        
                     </li>
                     <li>
-                        <Link to='/contact'>contact</Link>
+                        <a href='/contact'>contact</a>
             
                     </li>
 

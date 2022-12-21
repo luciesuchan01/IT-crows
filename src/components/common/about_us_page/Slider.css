@@ -1,24 +1,22 @@
-.slider-about-us{
+.slider-as{
     position: absolute;
     width: 1440px;
-    height: 939px;
-    top: 1990px;
+    height: 869px;
+    top: 2147px;
     display:flexbox;
     align-items: center;
     background: #F5F5F5;
     border: #F5F5F5;
 }
-.image-second{
-    position: absolute;
-    left: 538px;
-    top: -100px;
+.image-second-slider{
+    margin-left: 385px;
+    margin-top: -870px;
 }
-.image-first{
-    position: absolute;
-    top: -100px;
-    left: 138px;}
-.image-third{
-    position: absolute;
-    top: -100px;
-    margin-left: 1280px;
+.image-first-slider{
+    margin-top: -200px;
+    margin-left: -840px;
+}
+.image-third-slider{
+    margin-top: -870px;
+    margin-left: 1340px;
 }

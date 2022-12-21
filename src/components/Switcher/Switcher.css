@@ -37,7 +37,6 @@
 }
 
 
-
 .Switcher-project-btn a {
     color: white;
     text-decoration: none;
@@ -72,6 +71,7 @@
     height: 50px;
     
   }
+
   
   .slider {
     position: absolute;
@@ -104,7 +104,7 @@
     -ms-transform: translateX(26px);
     transform: translateX(84px);
   }
-  input.Switch-input:checked + .Switcher-project-btn:before {
+  input.Switch-input:checked + .Switcher-project-btn {
     display: none;
   }
 

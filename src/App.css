@@ -20,9 +20,15 @@
 .switcher-services{
   margin-top: 106px;
 }
+.switcher-services-sec{
+  margin-top: 146px;
+}
 .header-graciano{
   background-color: #181818;
 }
 .footer-graciano{
   margin-top: 6389px;
+}
+.footer-services-sec{
+  margin-top: 650px;
 }

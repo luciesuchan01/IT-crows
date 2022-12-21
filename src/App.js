@@ -6,7 +6,7 @@ import Services from './components/Services/Services';
 import Switcher from './components/Switcher/Switcher';
 import Footer from './components/Footer/Footer';
 import React from 'react'
-import { Header, Our_work_cases } from './components/common'
+import { Custom_soft, Design_page_nav, Header, Our_work_cases, Webpages_design, Web_dev } from './components/common'
 import { Cases } from './components/common'
 import { About_us } from './components/common'
 import { Meet_us } from './components/common'
@@ -18,7 +18,7 @@ import { Services_page_services } from './components/common'
 import { Services_page_services_app } from './components/common'
 import { Services_page_services_custom } from './components/common'
 import { Services_page_webpages } from './components/common'
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import { BrowserRouter as Route, Switch} from "react-router-dom"
 import { Artificial_intelligence } from "./components/common"
 import { Form } from "./components/common"
 import { Banner_graciano } from "./components/common"
@@ -27,7 +27,6 @@ import { Project_task } from "./components/common"
 import { Solution } from "./components/common"
 import { Responsive } from "./components/common"
 import { Header_sec } from "./components/common"
-
 function App() {
   return (
     <div className="App">
@@ -94,7 +93,20 @@ function App() {
           <Header />,
           <Form />
         </Route>
-
+        <Route exact path="/services_design">
+          <Header />,
+          <Banner_services />,
+          <Design_page_nav/>,
+          <Web_dev/>,
+          <Custom_soft/>,
+          <Webpages_design/>,
+          <div className='switcher-services-sec'>
+            <Switcher/>,
+          </div>
+          <div className='footer-services-sec'>
+            <Footer/>
+          </div>
+        </Route>
         <Route exact path="/graciano">
           <div className='header-graciano'>
             <Header_sec />

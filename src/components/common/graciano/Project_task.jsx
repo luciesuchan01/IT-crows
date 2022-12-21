@@ -1,8 +1,8 @@
 import React from 'react'
 import './Project_task.css'
-import  slider2  from './images/project-task1.svg'
-import slider1 from './images/project-task2.svg'
-import slider3 from './images/project-task3.svg'
+import slider_1 from './images/project-task2.svg'
+import  slider_2  from './images/project-task1.svg'
+import slider_3 from './images/project-task3.svg'
 function Project_task(){
     return(
         <section className='project-task'> 
@@ -12,14 +12,14 @@ function Project_task(){
             Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
 
 
-            <div className='image-first'>
-                <img src={slider1} alt="" width="491" height="614"/>
+            <div className='image-first-sec'>
+                <img src={slider_1} alt="" width="491" height="614"/>
             </div>
-            <div className='image-second'>
-                <img src={slider2} alt="" width="504" height="598"/>
+            <div className='image-second-sec'>
+                <img src={slider_2} alt="" width="504" height="598"/>
             </div>
-            <div className='image-third'>
-                <img src={slider3} alt="" width="504" height="598"/>
+            <div className='image-third-sec'>
+                <img src={slider_3} alt="" width="504" height="598"/>
             </div>
         </section>
     )

@@ -6,14 +6,14 @@ import slider3 from './images/slider3.png'
 
 function Slider(){
     return(
-        <section className='slider-about-us'> 
-            <div className='image-first'>
-                <img src={slider1} alt="" width="378" height="869"/>
+        <section className='slider-as'> 
+            <div className='image-first-slider'>
+                <img src={slider1} alt="" width="378" height="867"/>
             </div>
-            <div className='image-second'>
+            <div className='image-second-slider'>
                 <img src={slider2} alt="" width="714" height="869"/>
             </div>
-            <div className='image-third'>
+            <div className='image-third-slider'>
                 <img src={slider3} alt="" width="319" height="869"/>
             </div>
         </section>

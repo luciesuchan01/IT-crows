@@ -20,6 +20,10 @@ import Project_task from "./graciano/Project_task";
 import Solution from "./graciano/Solution";
 import Responsive from "./graciano/Responsive";
 import Header_sec from "./header/Header_sec";
+import Design_page_nav from "./services_design_page_sec/Design_page_nav";
+import Web_dev from "./services_design_page_sec/Web_dev";
+import Custom_soft from "./services_design_page_sec/Custom_soft";
+import Webpages_design from "./services_design_page_sec/Webpages_design";
 export{
     Header,
     Navbar,
@@ -42,5 +46,9 @@ export{
     Project_task,
     Solution,
     Responsive,
-    Header_sec
+    Header_sec,
+    Design_page_nav,
+    Web_dev,
+    Custom_soft,
+    Webpages_design
 }

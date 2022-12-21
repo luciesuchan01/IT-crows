@@ -37,3 +37,33 @@ nav li a:hover{
     color: black;
     text-decoration: underline;
 }
+
+nav ul li ul{
+
+    display: none;
+    
+}
+        
+nav ul li:hover ul{
+    display: block;
+    position: absolute;
+    float: none;
+    width: 30px;
+}    
+
+nav ul li ul li{
+    position: relative;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    margin-left: 200px;
+    justify-items:center;
+    float: left;
+    border: #181818;
+    height: 20px;
+    position: relative;
+}    
+
+
+    
+    

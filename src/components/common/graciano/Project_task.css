@@ -50,18 +50,18 @@
     background: #F5F5F5;
     border: #F5F5F5;
 }
-.image-first{
+.image-first-sec{
     position: absolute;
     top: 693px;
     left: 662px;
 }
-.image-second{
+.image-second-sec{
     position: absolute;
     left: 100px;
     top: 700px;
 }
 
-.image-third{
+.image-third-sec{
     position: absolute;
     top: 700px;
     margin-left: 1186px;
