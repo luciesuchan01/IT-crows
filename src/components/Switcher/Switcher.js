@@ -19,14 +19,14 @@ export default function Switcher() {
                  your <span className="Switcher-red-text"> business </span>  <br />
                 to the <span className="Switcher-red-text"> next level </span> 
             </h2>
+            <a href="/contact">
 
             <div className="Switcher-project-btn">
-                <a href="/contact">
                     Discuss a project 
-                </a>
                 <img src={Arrow} className="Arrow" />
             </div>
-            
+            </a>
+
         </div>
     )
 }

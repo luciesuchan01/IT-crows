@@ -36,13 +36,12 @@
     align-items: center;
     text-align: center;
     border-radius: 40px 0px 0px 40px;
-    width: 1577px;
     text-align: center;
 }
 
 .nav-number-design{
     width: 75px;
-    height: 64px;
+    height: 100%;
 
     font-style: normal;
     font-weight: 700;
@@ -68,8 +67,8 @@
 
 
 .nav-text-design{
-    width: 657px;
-    height: 48px;
+    width: 1057px;
+    height: 100%;
     margin-left: 24px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;

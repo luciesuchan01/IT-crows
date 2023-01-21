@@ -1,6 +1,6 @@
 .services-page-nav{
     position: absolute;
-    width: 1680px;
+    width: 100%;
     height: 793px;
     top: 772px;
     justify-content: right;
@@ -36,20 +36,17 @@
     align-items: center;
     text-align: center;
     border-radius: 40px 0px 0px 40px;
-    width: 1577px;
     text-align: center;
 }
 
 .nav-number-services{
     width: 75px;
-    height: 64px;
-
+    height: 100%;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     /* identical to box height, or 64px */
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -58,18 +55,14 @@
     text-shadow: 2px 0 #181818, -2px 0 #181818, 0 2px #181818, 0 -2px #181818,
     2px 2px #181818, -2px -2px #181818, 2px -2px #181818, -2px 2px #181818;
     font-family: 'Montserrat', sans-serif;
-    /* Inside auto layout */
-    margin-right: 1422px;
-
+    margin-right: 1427px;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
-
-
 .nav-text-services{
-    width: 657px;
-    height: 48px;
+    width: 1057px;
+    height: 100%;
     margin-left: 24px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;

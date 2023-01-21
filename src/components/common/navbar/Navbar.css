@@ -59,11 +59,7 @@ nav ul li ul li{
     margin-left: 200px;
     justify-items:center;
     float: left;
-    border: #181818;
+    border-color: #181818;
     height: 20px;
     position: relative;
-}    
-
-
-    
-    
+}   

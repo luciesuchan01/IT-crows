@@ -11,7 +11,7 @@
     position: absolute;
     width: 488px;
     height: 117px;
-    left: 600px;
+    left: 43%;
     color: #F5F5F5;    
     
     font-family: 'Montserrat', sans-serif;
@@ -36,7 +36,7 @@
     width: 452px;
     height: 29px;
     margin-top: 317px;
-    margin-left: 634px;
+    margin-left: 45%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -58,7 +58,7 @@
 }
 .grey-button-first{
     display: flex;
-    margin-left: 370px;
+    margin-left: 30%;
     align-items: center;
     flex-direction: row;
     padding: 12px 40px;
@@ -78,7 +78,7 @@
 .red-button-first{
     display: flex;
     margin-top: -68px;
-    margin-left: 595px;
+    margin-left: 46%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@
 }
 .grey-button-second{
     display: flex;
-    margin-left: 913px;
+    margin-left: 68%;
     flex-direction: row;
     align-items: center;
     padding: 12px 40px;
@@ -113,7 +113,7 @@
 }
 .grey-button-third{
     display: flex;
-    margin-left: 1126px;
+    margin-left: 82%;
     flex-direction: row;
     align-items: center;
     padding: 12px 40px;
@@ -132,7 +132,7 @@
 }
 .grey-button-fourth{
     display: flex;
-    margin-left: 522px;
+    margin-left: 38%;
     flex-direction: row;
     align-items: center;
     padding: 12px 40px;
@@ -152,7 +152,7 @@
 .red-button-second{
     display: flex;
     margin-top: -67px;
-    margin-left: 695px;
+    margin-left: 50%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,7 @@
 }
 .grey-button-fifth{
     display: flex;
-    margin-left: 931px;
+    margin-left: 66%;
     flex-direction: row;
     align-items: center;
     padding: 12px 40px;
@@ -186,17 +186,16 @@
     border-radius: 24px;
 }
 .form-container {
-    width: 994px;
+    width: 70%;
     height: 737px;
     background-color: #EBEBEB;
-    margin-left: 323px;
+    margin-left: 25%;
     margin-top: 178px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
     padding-left: 135px;
     padding-top: 229px;
     padding-right: 165px;
     border-radius: 100px;
-
   }
   
   .register-form {
@@ -204,6 +203,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
+
   }
   
   .form-field {
@@ -212,13 +212,13 @@
     border: 0;
     height: 85px;
     width: 706px;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
     font-weight: 600;
     background: #EBEBEB;
+    font-family: "Montserrat", sans-serif;
   }
+
   input {
-    border-collapse: collapse;
+    border-bottom: #181818;
     color: #181818;
 }
 
@@ -233,9 +233,9 @@
     gap: 10px;
     color: #FAFAFA;
     position: absolute;
-    width: 710px;
+    width: 50%;
     height: 88px;
-    left: 364px;
+    left: 28%;
     top: 1324px;
     margin-left: 94px;
     border-radius: 24px;
@@ -246,12 +246,10 @@
 .form-title{
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
-
-
     position: absolute;
     width: 418px;
     height: 29px;
-    left: 616px;
+    left: 45%;
     top: 802px;
     padding-top: 80px;
     font-family: 'Montserrat';

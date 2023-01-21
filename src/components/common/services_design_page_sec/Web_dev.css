@@ -2,14 +2,13 @@
     position: absolute;
     width: 1440px;
     height: 2063px;
-    margin-left: 0px;
     top: 1262px;
     background: #F5F5F5;
 }
 .web-dev-main-title{
     position: absolute;
     width: 804px;
-    margin-left: 240px;
+    margin-left: 200px;
     height: 96px;
     font-size: 96px;
     margin-top: 117px;
@@ -60,9 +59,7 @@
     margin-top: 350px;
     margin-left: 462px;
 }
-a{
-    
-}
+
 .video-web-dev{
     position: absolute;
     left: 462px;

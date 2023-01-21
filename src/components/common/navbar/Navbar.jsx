@@ -37,6 +37,7 @@ function Navbar(){
 
                 </ul>
             </nav>
+            
         </section>
     )
 
