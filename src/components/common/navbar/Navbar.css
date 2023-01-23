@@ -34,7 +34,7 @@ nav li a:active{
 }
 
 nav li a:hover{
-    color: #696969;
+    color: black;
     text-decoration: underline;
 }
 
@@ -63,3 +63,7 @@ nav ul li ul li{
     height: 20px;
     position: relative;
 }    
+
+
+    
+    

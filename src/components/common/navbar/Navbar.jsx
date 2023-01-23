@@ -25,13 +25,11 @@ function Navbar(){
 
                         <li><a href="/services_design">design</a></li>
                         </ul></li>
-                    {/*
-
+                    
                     <li>
                         <a href='/career'>career</a>
                         
                     </li>
-                    */}
                     <li>
                         <a href='/contact'>contact</a>
             
