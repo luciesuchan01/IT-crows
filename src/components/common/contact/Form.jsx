@@ -16,30 +16,30 @@ function Form(){
                 how can we help you with?
             </div>
             <div className='buttons-first-row'>
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='grey-button-first'>Web apps</button>
                 </a> 
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='red-button-first'>Custom software</button> 
                 </a> 
 
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='grey-button-second'>Website</button> 
                 </a> 
 
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='grey-button-third'>AI</button> 
                 </a> 
 
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='grey-button-fourth'>UI/UIX</button> 
                 </a> 
 
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='red-button-second'>Branding</button> 
                 </a> 
 
-                <a href='/services'>
+                <a href='/services_development'>
                     <button type="submit" className='grey-button-fifth'>Webflow</button> 
                 </a> 
             </div>
@@ -99,12 +99,6 @@ function Form(){
                 </div>
                 <div className='lin'>
                     <a href=""><img src={Linkedin} alt="" /></a>
-                </div>
-                <div className='ytb'>
-                    <a href=""><img src={Youtube} alt="" /></a>
-                </div>
-                <div className='sth'>
-                    <a href=""><img src={Sth} alt="" /></a>
                 </div>
             </div>
             <div className='email-title'>Contact</div>

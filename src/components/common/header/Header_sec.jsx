@@ -1,6 +1,5 @@
 import React from 'react'
 import { Navbar } from '../../common';
-import {Link} from 'react-router-dom'
 import './Header_sec.css'
 
 function Header_sec(){
@@ -8,7 +7,7 @@ function Header_sec(){
         <section className='header-sec'>
             <section className='header-logo-sec'>
 
-                <Link to='/' className='header-logo-sec'>itcrows</Link>
+                <a href='/' className='header-logo-sec'>itcrows</a>
             </section>
             <section className= 'header-top_navbar'>
                 <Navbar />

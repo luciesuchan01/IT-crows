@@ -34,7 +34,7 @@ nav li a:active{
 }
 
 nav li a:hover{
-    color: black;
+    color: #696969;
     text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ nav ul li ul li{
     margin-left: 200px;
     justify-items:center;
     float: left;
-    border-color: #181818;
+    border: #181818;
     height: 20px;
     position: relative;
-}   
+}    

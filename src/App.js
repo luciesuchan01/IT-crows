@@ -68,7 +68,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/services">
+        <Route exact path="/services_development">
           <Header />
           <Banner_services />
           <Services_page_nav />

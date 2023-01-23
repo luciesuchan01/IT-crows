@@ -21,15 +21,17 @@ function Navbar(){
                         <a href='#'>services</a>
                         <ul> 
 
-                        <li><a href="/services">development</a></li>
+                        <li><a href="/services_development">development</a></li>
 
                         <li><a href="/services_design">design</a></li>
                         </ul></li>
-                    
+                    {/*
+
                     <li>
                         <a href='/career'>career</a>
                         
                     </li>
+                    */}
                     <li>
                         <a href='/contact'>contact</a>
             

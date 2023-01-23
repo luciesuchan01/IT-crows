@@ -23,7 +23,7 @@ export default function Services (){
                         <li>websites</li>
                         <li>e-comerce</li>
                     </ul>
-                    <a href="#">
+                    <a href="/services">
                         <img src={ReadMoreBtn} />
                     </a>
                 </div>
@@ -35,7 +35,7 @@ export default function Services (){
                         <li>webflow</li>
                         <li>branding</li>
                     </ul>
-                        <a href="#">
+                        <a href="/services_design">
                             <img src={ReadMoreBtn} />
                         </a>
                 </div>

@@ -272,24 +272,25 @@
     height: 29.33333396911621px;
     width: 29.33333396911621px;
     margin-left: 1080px;
-    margin-top: 433px;
+    margin-top: 415px;
     background-color: #EBEBEB;
 }
 .fb{
     height: 29.33333396911621px;
     position: absolute;
     margin-left: 1191px;
-    margin-top: -27px;
+    margin-top: -30px;
 }
 .be{
-    margin-top: -18px;
+    height: 29.33333396911621px;
+    margin-top: -20px;
     margin-left: 1288px;
     width: 31px;
 }
 .lin{
-    
-    margin-top: 45px;
-    margin-left: 870px;
+    height: 29.33333396911621px;
+    margin-top: -33px;
+    margin-left: 1390px;
 }
 
 .ytb{
@@ -304,7 +305,7 @@
     position: absolute;
     width: 105px;
     height: 58px;
-    margin-left: 1150px;
+    margin-left: 1190px;
     margin-top: 330px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
