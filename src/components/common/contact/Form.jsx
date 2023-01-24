@@ -97,9 +97,7 @@ function Form(){
                 <div className='be'>
                     <a href=""><img src={Be} alt="" /></a>
                 </div>
-                <div className='lin'>
-                    <a href=""><img src={Linkedin} alt="" /></a>
-                </div>
+
             </div>
             <div className='email-title'>Contact</div>
             <div className='email-address'>hello@itcrows.com</div>

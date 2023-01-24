@@ -1,6 +1,6 @@
 .form{    
     position: absolute;
-    width: 1440px;
+    width: 80%;
     height: 2199px;
     left: 0px;
     top: 216px;
@@ -9,17 +9,13 @@
 .form-main-title{
     margin-top: 80px;
     position: absolute;
-    width: 488px;
+    width: 30%;
     height: 117px;
     left: 43%;
     color: #F5F5F5;    
-    
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 96px;
-    line-height: 117px;
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -41,9 +37,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
-    display: flex;
-    align-items: center;
     color: #181818;
     text-transform: uppercase;
 }
@@ -63,7 +56,7 @@
     flex-direction: row;
     padding: 12px 40px;
     gap: 10px;
-    width: 210px;
+    width: 15%;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
@@ -83,7 +76,7 @@
     justify-content: center;
     align-items: center;
     padding: 12px 40px;
-    width: 294px;
+    width: 20%;
     height: 67px;
     background: #FF4747;
     border: 1px solid #FF4747;
@@ -97,15 +90,17 @@
     margin-left: 68%;
     flex-direction: row;
     align-items: center;
-    padding: 12px 40px;
+    justify-content: center;
+    padding: 12px 60px 12px 60px;
     margin-top: -68px;
     gap: 10px;
-    width: 179px;
+    width: 12%;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
+    overflow-wrap: initial;
     font-style: normal;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 4px 20px rgba(10, 35, 50, 0.1);
@@ -119,7 +114,8 @@
     padding: 12px 40px;
     margin-top: -68px;
     gap: 10px;
-    width: 105px;
+    width: 7%;
+    justify-content: center;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
@@ -138,7 +134,8 @@
     padding: 12px 40px;
     margin-top: 40px;
     gap: 10px;
-    width: 149px;
+    width: 10%;
+    justify-content: center;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
@@ -156,8 +153,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 40px;
-    width: 212px;
+    padding: 12px 50px;
+    width: 15%;
+    justify-content: center;
     height: 67px;
     background: #FF4747;
     border: 1px solid #FF4747;
@@ -175,6 +173,7 @@
     margin-top: -67px;
     gap: 10px;
     width: 187px;
+    justify-content: center;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
@@ -187,15 +186,17 @@
 }
 .form-container {
     width: 70%;
-    height: 737px;
+    height: 35%;
     background-color: #EBEBEB;
     margin-left: 25%;
     margin-top: 178px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    padding-left: 135px;
-    padding-top: 229px;
-    padding-right: 165px;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-right: 10%;
     border-radius: 100px;
+    padding-bottom: 10%;
+
   }
   
   .register-form {
@@ -203,17 +204,16 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
-
   }
   
   .form-field {
     padding: 15px;
     font-size: 16px;
     border: 0;
-    height: 85px;
-    width: 706px;
+    height: 5%;
     font-weight: 600;
     background: #EBEBEB;
+    margin-bottom: 7%;
     font-family: "Montserrat", sans-serif;
   }
 
@@ -233,11 +233,12 @@
     gap: 10px;
     color: #FAFAFA;
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: 88px;
-    left: 28%;
-    top: 1324px;
-    margin-left: 94px;
+    left: 37%;
+    right: 25%;
+    margin-top: 50%;
+    margin-bottom: 10%;
     border-radius: 24px;
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
@@ -247,10 +248,11 @@
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     position: absolute;
-    width: 418px;
+    width: 40%;
+    text-align: center;
     height: 29px;
-    left: 45%;
-    top: 802px;
+    left: 40%;
+    top: 35%;
     padding-top: 80px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -259,53 +261,40 @@
     line-height: 29px;
     display: flex;
     align-items: center;
-    text-align: right;
-
+    text-align: center;
+    justify-content: center;
     color: #181818;
 }
 .icons {
     margin-bottom: 30px;
     position: absolute;
     color: #000000;
+    margin-left: 85%;
 }
 .ig{
     height: 29.33333396911621px;
     width: 29.33333396911621px;
-    margin-left: 1080px;
     margin-top: 415px;
     background-color: #EBEBEB;
 }
 .fb{
     height: 29.33333396911621px;
     position: absolute;
-    margin-left: 1191px;
     margin-top: -30px;
+    margin-left: 300%;
 }
 .be{
     height: 29.33333396911621px;
-    margin-top: -20px;
-    margin-left: 1288px;
+    margin-top: -22px;
     width: 31px;
-}
-.lin{
-    height: 29.33333396911621px;
-    margin-top: -33px;
-    margin-left: 1390px;
-}
+    margin-left: 600%;
 
-.ytb{
-    margin-top: -25px;
-    margin-left: 1080px;
-}
-.sth{
-    margin-left: 1288px;
-    margin-top: -25px;
 }
 .icons-title{ 
     position: absolute;
     width: 105px;
     height: 58px;
-    margin-left: 1190px;
+    margin-left: 90%;
     margin-top: 330px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -318,9 +307,9 @@
 }
 .email-title{ 
     position: absolute;
-    width: 105px;
+    width: 5%;
     height: 58px;
-    margin-left: 277px;
+    margin-left: 19%;
     margin-top: 330px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -333,9 +322,9 @@
 }
 .email-address{
     position: absolute;
-    width: 228px;
-    height: 43px;
-    left: 230px;
+    width: 10%;
+    height: 5%;
+    left: 16%;
     margin-top: 400px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -351,12 +340,207 @@
 
 .image-upload img
 {
-    width: 20px;
-    height: 30px;
+    width: 5%;
+    height: 5%;
     cursor: pointer;
-    margin-left: 550px;
+    margin-left: 50%;
 }
 .image-upload{
-    margin-top: -60px;
-    margin-left: 100px;
+    margin-top: -12%;
+    margin-left: 5%;
+}
+@media only screen and (max-width: 786px) {
+    .form{    
+        position: absolute;
+        width: 100%;
+        height: 2199px;
+        left: 0px;
+        top: 30%;
+        background: #F4F4F4;
+    }
+    .form-main-title{
+        margin-top: 5%;
+        width: auto;
+        left: 10%;
+        font-size: 64px;
+    }
+    .help-title{
+        width: 90%;
+        margin-top: 45%;
+        margin-left: 5%;
+    }
+    .buttons-first-row{
+        margin-top: 15%;
+        
+    }
+    .grey-button-first{
+        margin-left: 25%;
+        padding: 12px 40px;
+        justify-content: center;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+    }
+    .red-button-first{
+        margin-left: 25%;
+        padding: 12px 40px;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .grey-button-second{
+        margin-left: 25%;
+        padding: 12px 50px;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .grey-button-third{
+        margin-left: 25%;
+        padding: 12px 80px;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .grey-button-fourth{
+        margin-left: 25%;
+        padding: 12px 60px;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .red-button-second{
+        margin-left: 25%;
+        padding: 12px 40px;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .grey-button-fifth{
+        margin-left: 25%;
+        padding: 12px 50px;
+        width: 50%;
+        height: 67px;
+        font-size: 20px;
+        margin-top: 10%;
+    }
+    .form-container {
+        width: 70%;
+        height: 35%;
+        background-color: #EBEBEB;
+        margin-left: 15%;
+        top: 35px;
+        padding-left: 10%;
+        padding-top: 15%;
+        padding-right: 10%;
+        border-radius: 100px;
+        padding-bottom: 10%;
+      }
+      
+      .register-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        height: 80%;
+      }
+      
+      .form-field {
+        border: 0;
+        height: 5%;
+        margin-bottom: 7%;
+      }
+    
+      input {
+        border-bottom: #181818;
+        color: #181818;
+        overflow-wrap: normal;
+    }
+    
+      .form-btn{
+        width: 40%;
+        height: 88px;
+        left: 30%;
+        right: 25%;
+        margin-top: 90%;
+        margin-bottom: 10%;
+        border-radius: 24px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        border: 1px solid #FF4747;
+      }
+    .form-title{
+        display: none;
+    }
+    
+    .icons {
+        margin-bottom: 0;
+        position: absolute;
+        color: #000000;
+        width: 80%;
+        margin-top: -7%;
+        margin-left: 20%;
+
+    }
+    .ig{
+        height: 29.33333396911621px;
+        width: 29.33333396911621px;
+        background-color: #EBEBEB;
+        
+    }
+    .fb{
+        height: 29.33333396911621px;
+        position: absolute;
+        margin-left: 35%;
+    }
+    .be{
+        height: 29.33333396911621px;
+        margin-top: -4%;
+        width: 31px;
+        margin-left: 70%;
+    }
+    .lin{
+        height: 29.33333396911621px;
+        margin-left: 45%;
+    }
+    .icons-title{ 
+        margin-left: 35%;
+        margin-top: 30%;
+        height: 58px;
+        margin-bottom: 0;
+        display: none;
+    }
+    .email-title{ 
+        position: absolute;
+        width: 50%;
+        height: 58px;
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .email-address{
+        position: absolute;
+        width: 70%;
+        left: 10%;
+        margin-top: 20%;
+        right: 15%;
+    }
+    .image-upload > input
+    {
+        display: none;
+    }
+    .image-upload img
+    {
+        height: 30px;
+        margin-left: 0px;
+    }
+    .image-upload{
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
 }

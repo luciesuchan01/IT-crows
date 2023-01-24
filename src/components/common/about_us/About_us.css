@@ -87,7 +87,7 @@
     .about_us{
         position: absolute;
         justify-content: center;
-        width: 100%;
+        width: 90%;
         height: 1614px;    
         left: -9%;
         top: 4900px;
@@ -109,6 +109,7 @@
     
     .grid-container-about-us {
         display: grid;
+        margin-left: 15%;
         padding: 0pt;
         grid-template-columns: auto;
         grid-template-rows: auto auto;

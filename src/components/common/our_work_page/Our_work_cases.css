@@ -31,9 +31,6 @@
     font-size: 96px;
     margin-bottom: 80px;
 }
-
-
-
 .plus-border-our-work{
     border-radius: 1000px;
     background-color:#FF4747;
@@ -56,8 +53,6 @@
     margin-left: 28px;
     margin-top: 40px;
 }
-
-
 .grid-container-our-work{
     display: grid;
     grid-template-columns: auto auto;
@@ -69,8 +64,6 @@
     align-content: start;
     width: 100%;
   }
-  
-
   .grid-item-our-work {
     display: inline-grid;
     background-color: #F5F5F5;
@@ -114,6 +107,7 @@
     margin-top: 86px;
     margin-bottom: 100px;
   }
+  
   /*
 .first-pic{
     margin-left: 200pt;
@@ -132,6 +126,69 @@
     margin-left: 140pt;
 }
 */
-@media only screen and(max-height: 786px) {
+@media only screen  and (max-width: 786px){
+    .cases_our_work{
+        padding: 0;
+        position: absolute;
+        width: 90%;
+        height: 2543px;
+        left: 5%;
+        right: 5%;
+        top: 45%;
+    }
+    .mezera{
+        margin-top: 20pt;
+    }
+    .cases-main-title{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 79px;
+        line-height: 117px;
+        font-size: 72px;
+        margin-bottom: 80px;
+    }
+    .plus-border-our-work{
+        display: none;
+    }
+    .plus-text-our-work{
+        display: none;
+    }
     
+    
+    .grid-container-our-work{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto;
+        width: 100%;
+      }
+      
+    
+      .grid-item-our-work {
+        display: inline-grid;
+        font-size: 30px;
+        height: 50%;
+        margin-top: 20pt;
+        margin-bottom: 100pt;
+    
+      }
+      .grid-item-left-our-work{
+        margin-left: 5%;
+        margin-right: 5%;
+        
+      }
+      .grid-item-right-our-work{
+        margin-right: 5%;
+        margin-left: 5%;
+      }
+    
+      .grid-container-second-our-work{
+        display: none;
+    }
+        .grid-item-second-our-work {
+        display: none;
+      }
+      .fourth-pic{
+        margin-left: 0%;
+        margin-top: 25%;
+    }
 }
