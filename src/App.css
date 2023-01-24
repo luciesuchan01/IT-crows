@@ -15,7 +15,7 @@
   margin-top: 604px;
 }
 .switcher-main{
-  margin-top: 3613px;
+  margin-top: 3213px;
 }
 .switcher-services{
   margin-top: 106px;
@@ -31,4 +31,12 @@
 }
 .footer-services-sec{
   margin-top: 650px;
+}
+@media only screen and (max-width: 786px) {
+  .switcher-main{
+    display: none;
+  }
+  .footer-main{
+    margin-top: 3178px;
+  }
 }

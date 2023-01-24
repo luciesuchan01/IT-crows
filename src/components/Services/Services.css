@@ -1,13 +1,13 @@
 .Services {
     margin: 0 auto;
-    width: 1440px;
-    height: 1009px;
+    width: 90%;
+    height: 1509px;
 }
 
 .Main-title.Services {
     height: 96px;
     padding-top: 60px;
-    margin-left: 220px;
+    margin-left: 180px;
 }
 
 
@@ -93,4 +93,84 @@
 .box img {
     margin-top: 69px;
 }
+@media only screen  and (max-width: 768px){
+    .Services {
+        margin: 5%;
+        margin-top: 30%;
+    }
+    
+    .Main-title.Services {
+        height: 48px;
+        padding-top: 60px;
+        margin-left: 0%;
+        margin-right: 2%;
+        font-size: 48px;
+    }
+    
+    .Main-title.Services p {
+        margin-top: 120px;
+        margin-left: 0px;
+        overflow-wrap: normal;
+        font-weight: 400;
+        letter-spacing: 0em;
+        width: 100%;
+    }
 
+    
+    .Services-boxes {
+        display: grid;
+        justify-content: center;
+        margin-top: 350px;
+        margin-left: 15%;
+    }
+    
+    .Services-boxes h3 {
+        font-size: 26px; 
+        text-align: left;  
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 5%;
+    }
+    
+    .Services-boxes ul {
+        list-style: none;
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: left;
+        font-family: Montserrat;
+    }
+    
+    .Services-boxes ul li {
+        padding: 0 15% 5% 15%;
+    }
+    
+    .Development-box {
+        width: 50%;
+        height: auto;
+        margin-bottom: 10%;
+    }
+    
+    .Design-box {
+        height: auto;
+        width: 70%;
+        margin-bottom: 10%;
+
+    }
+    
+    .box {
+        margin-left: 0%;
+        border-radius: 40px;
+        border: 1px solid black;
+        width: 100%;
+    }
+    
+    .box img {
+        margin-top: 15%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    
+}

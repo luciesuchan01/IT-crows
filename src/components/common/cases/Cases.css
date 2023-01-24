@@ -2,7 +2,7 @@
     position: absolute;
     width: 1440px;
     height: 2743px;
-    left: 102px;
+    left: 160px;
     top: 2019px;
     display:flexbox;
     align-items: center;
@@ -199,3 +199,98 @@ h2{
 }
 
 
+
+@media only screen  and (max-width: 768px){
+    .cases{
+        position: absolute;
+        width: 100%;
+        height: 2943px;
+        left: 5%;
+        right: 5%;
+        top: 2769px;
+        margin-bottom: 15%;
+    }
+    .cases-title{
+        width: 60%;
+        margin-left: 0%;
+        margin-top: 5%;
+        line-height: 117px;
+        font-weight: 700;
+        font-size: 48px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto;
+        width: 100%;
+    }
+    .grid-item {
+    display: inline-grid;
+    margin-top: 20pt;
+    margin-bottom: 35%;
+    }
+    .grid-item-left{
+    margin-left: 0;
+    width: 75%;
+    height: 75%;
+    margin-right: auto;
+    
+    }
+    .grac-img{
+    width: 110%;
+    height: 110%;
+    }
+    .grid-item-right{
+    display: none;
+    }
+    
+    .plus-border{
+    display: none;
+}
+    .plus-text{
+        display: none;
+    }
+
+    .third-pic{
+        margin-left: 0%;
+        margin-top: 15%;
+        margin-bottom: 25%;
+    }
+    .first-pic{
+        margin-left: 0px;
+        margin-top: 15%;
+    }
+    .pujc-pic{
+        margin-top: 35px;
+    }
+    .pujc-border{
+        width: 120%;
+    }
+    .todo-img{
+        margin-top: 55%;
+        width: 110%;
+    }
+    .grid-container-second{
+        display: none
+
+    }
+    .grid-item-second {
+        display: none;
+      }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .second-pic{
+        margin-left: 0%;
+        margin-top: 15%;
+    }
+    .more-view-a{
+        display: none;
+    }
+    .more-view{
+        display: none;
+    }
+    }

@@ -1,7 +1,7 @@
 .Switcher {
     /*margin: 100px auto;*/
     position: absolute;
-    width: 1212px;
+    width: 72%;
     height: 435px;
     left: 250px;
 }
@@ -118,3 +118,4 @@
   .slider.round:before {
     border-radius: 50%;
   }
+

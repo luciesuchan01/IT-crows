@@ -1,5 +1,5 @@
 .Footer {
-    width: 1236px;
+    width: 70%;
     height: 1351px;
     background-color: #181818;
     margin: 0 auto;    
@@ -10,13 +10,12 @@
     margin-bottom: 0;
 
     position: absolute;
-    width: 1236px;
     /*left: 102px;*/
-    left: 260px;
+    left: 15%;
 }
 
 .Footer-Main {
-    width: 1076px;
+    width: 90%;
     height: 1159px;
     
     margin: 50px auto;
@@ -57,7 +56,7 @@
 }
 
 .Upper-Footer input, textarea {
-    width: 458px;
+    width: 50%;
     height: 56px;
     display: flex;
     cursor: text;
@@ -105,7 +104,7 @@ input[type='checkbox'] {
 }
 
 .Footer-Line {
-    width: 1076px;
+    width: 80%;
     margin-top: 64px;
     border: 1px solid #F5F5F5;
     opacity: 0.6;
@@ -233,4 +232,118 @@ input[type='checkbox'] {
     margin-left: 750px;
     text-transform: uppercase;
     margin-top: 0px;
+}
+@media only screen and (max-width:786px) {
+    .Footer{
+        width: 80%;
+        left: 10%;
+    }
+    .Footer-Main {
+        margin: 5% auto;
+       
+    }
+    .Upper-Footer-left {
+        width: 200%;
+        margin-right: 0%;
+    }
+    .Upper-Footer-right {
+        display: none;
+    }
+    .Footer h2 {
+        font-size: 32px;
+        margin-left: 5%;
+        text-align: center;
+    }
+    input[type='checkbox'] {
+        width: 1%;
+        margin-bottom: 5%;
+    }
+
+    .Footer-checkbox label{
+        margin: 0 0 10% 5%;
+    
+    }
+    .Upper-Footer-left .button {
+        font-size: 22px;
+        width: 90%;
+        height: 78px;
+        border: 1px solid white;
+        margin-right: 0px;
+        border-radius: 20px;
+        background-color: transparent;
+    }
+    .Upper-Footer input, textarea {
+        width: 90%;
+        font-size: 14px;
+        margin-top: 0;
+        
+    }
+    
+    .Upper-Footer-left-text{
+        margin-top: 25%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+
+    .Lower-Footer-right {
+        display: none;
+    }
+    .Footer-Line {
+        width: 100%;
+    }
+    .Lower-Footer-left-text{
+        margin-top: 55%;
+    }
+    
+    .Lower-Footer-left p {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+
+
+
+    .Post-Footer-up {
+        margin-bottom: 30px;
+    }
+    
+    .Post-Footer-down {
+        margin-top: 44px;
+    }
+    
+    .Post-Footer-up a {
+        margin: 0 3% 0% 3%;
+    }
+    .Post-Footer-down {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    .Post-Footer-down p {
+        margin: 0 5%;
+        font-size: 14px;
+    }
+    .footer-image{
+        width: 200px;
+        height: 270px;
+        margin-left: -200px;
+        margin-top: -30px;
+    }
+    .upper-right-text{
+        width: 124px;
+        height: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        justify-content: right;
+        text-align: right;
+        color: #F5F5F5;
+        margin-left: 400px;
+        margin-top: -70px;
+    }
+
 }

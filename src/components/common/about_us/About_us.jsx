@@ -22,7 +22,7 @@ function About_us(){
                 </div>
                 <div className='grid-item-about-us'>
                     <div className='our_team_image'>
-                        <img src={our_team_picture} alt="" width="618" height="556"/>
+                        <img src={our_team_picture} alt=""/>
                     </div>
                 </div>
 

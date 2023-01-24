@@ -24,5 +24,36 @@
     margin-left: 126px;
     margin-top: 23px;
     font-family: 'Montserrat', sans-serif;
-    
+    width: 30%;
+}
+@media only screen  and (max-width: 768px){
+    .header{
+        position: absolute;
+        height: 140px;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display:flexbox;
+        align-items: center;
+        font-display:inherit;
+        background: #F5F5F5;
+        
+    }
+    .header-top_navbar{
+        display: block;
+        word-wrap: normal;
+    }
+    .header-logo{
+        padding: auto;
+        display:flex;
+        text-decoration: none; 
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 44px;
+        color: #FF4747;
+        margin-left: 15%;
+        width: 70%;
+    }
 }

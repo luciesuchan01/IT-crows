@@ -9,11 +9,11 @@ function Navbar(){
                 <ul>
 
                     <li>
-                        <a href="/about_us">about us</a>
+                        <a href="/about_us">about&nbsp;us</a>
                     </li>
 
                     <li>                
-                        <a href='/our_work'>our work</a>
+                        <a href='/our_work'>our&nbsp;work</a>
 
                     </li>
 

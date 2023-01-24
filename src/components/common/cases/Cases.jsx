@@ -16,14 +16,16 @@ function Cases(){
                 <div className='plus-text'>20+</div>
             </div>
             <div className='cases-title'>
-                our works
+                our&nbsp;works
             </div>
             <div class="grid-container">
                 <div class="grid-item">
                     <div className='grid-item-left'>
+                        <div className='grac-img'>
                         <a href='/graciano'>
-                        <img src={graciano_picture} alt="" width="730" height="550"/>
+                        <img src={graciano_picture} alt="" width="100%" height="100%"/>
                         </a>
+                        </div>
                         <h1>graciano
                         <h2>
                             <div className='first-pic'>UI/UIX, develop, e-commerce</div>
@@ -35,7 +37,7 @@ function Cases(){
                     <div class="grid-item-left">
                         <div class = "pujc-border">
                             <div className='pujc-pic'>
-                                <img src={pujc_picture} alt="" width="248" height="505"/>
+                                <img src={pujc_picture} />
                             </div>
                         </div>
                         
@@ -50,8 +52,9 @@ function Cases(){
 
                 <div class="grid-item">
                     <div className='grid-item-left'>
-                        <img src={todolist_picture} alt="" width="609" height="550"/>
-                    
+                        <div className='todo-img'>
+                        <img src={todolist_picture} alt="" width="100%" height="87%"/>
+                        </div>
                         <h1>todo list
                             <h2>
                                 <div className='third-pic'>UI/UX, develop, app</div>
@@ -64,7 +67,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                     <div className='load-pic'>
-                        <img src={lorem_picture} alt="" width="450" height="550"/>
+                        <img src={lorem_picture} alt="" width="98%" height="100%"/>
                     
                     <h1>lorem
                         <h2>

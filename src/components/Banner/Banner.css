@@ -8,13 +8,14 @@
 body {
     background: /*#EFEFEF;*/#F5F5F5;
     margin-top: 80px;
-    width: 1440px;
+    /*width: 1440px;*/
+    width: 90%;
 }
 
 .Banner {
-    height: 794px;
+    height: 70%;
     margin: 0 auto;
-    margin-left: 102px;
+    margin-left: 10%;
     margin-right: 117px;
     margin-top: 80px;
 }
@@ -23,8 +24,8 @@ body {
     text-transform: uppercase;
     display: flex;
     text-align: left;
-    margin-left: 138px;
-    width: 1185px;
+    margin-left: 7%;
+    width: 80%;
     font-size: 96px;
     font-family: 'Halvar Breitschrift', sans-serif;
     line-height: 130px;
@@ -93,19 +94,20 @@ body {
 }
 
 .title {
-    width: 730px;
+    width: 50%;
     text-align: left;   
-    margin-left: 730px;
+    margin-left: 60%;
     font-size: 24px;
     font-family: Montserrat;
     font-weight: 400;
     line-height: 43px;
-    margin-top: 357px;
+    margin-top: 380px;
 }
 
 .Get-in-touch.button {
     margin-top: 64px;
-    margin-left: 840px;
+    margin-left: 47%;
+    width: 55%;
 }
 
 .Get-in-touch .text{
@@ -147,4 +149,53 @@ body {
     color: #EFEFEF;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+}
+@media only screen  and (max-width: 768px){
+    .Main-title {
+        text-transform: uppercase;
+        display: flex;
+        text-align: left;
+        margin-left: 5%;
+        width: 70%;
+        font-size: 96px;
+        font-family: 'Halvar Breitschrift', sans-serif;
+        line-height: 100px;
+        letter-spacing: 3%;
+        font-weight: 500;
+        font-style: normal;
+        
+    }
+    .Main-title h2{
+        font-size: 56px;
+        text-transform: uppercase;
+    }
+    .changing-text {
+        font-size: 56px;
+    }
+    .Banner {
+        margin-left: 5%;
+        height: 1000px;
+        margin-bottom: 5%;
+    }
+    .title {
+        width: 100%;
+        text-align: left;   
+        margin-left: 5%;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 43px;
+        margin-top: 450px;
+    }
+    .Get-in-touch.button {
+        display: none;
+    }
+    .Get-in-touch .text{
+        display: none;
+    }
+    .Arrows-down {
+        text-align: left;
+        margin-top: 0%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
 }

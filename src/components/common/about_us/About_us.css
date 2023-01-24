@@ -29,6 +29,8 @@
     position: relative;
     margin-top: 149px;
     margin-right: 102px;
+    width:618px;
+    height:556px
 }
 
 .grid-container-about-us {
@@ -80,4 +82,57 @@
 }
 .red-text{
     font-weight: 800;
+}
+@media only screen and (max-width: 768px){
+    .about_us{
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+        height: 1614px;    
+        left: -19%;
+        top: 4762px;
+    }
+    .about_us_title{
+        width: 100%;
+        font-weight: 700;
+        font-size: 48px;
+        margin-top: 76px;
+    }
+    .our_team_image{
+        display:flex;
+        position: relative;
+        margin-top: 15%;
+        margin-right: 0%;
+        width: 45%;
+        height: 45%;
+    }
+    
+    .grid-container-about-us {
+        display: grid;
+        padding: 0pt;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        text-align: center;
+        margin-top: 0pt;
+        margin-left: 70pt;
+      }
+    .grid-item-about-us{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        text-align: center;
+        width: 50%;
+        margin-right: 20px;
+    }
+    .text-about-us{
+        position:relative;
+        width: 100%;
+    }
+    .read-more{
+        width: 133px;
+        height: 30px;
+        line-height: 50%;
+        margin-top: 245px;
+        margin-left: 0pt;
+        text-decoration: underline;
+    }
 }
