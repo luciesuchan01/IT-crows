@@ -12,7 +12,7 @@
 
 
 .Main-title.Services h2 {
-    width: 596px;
+    width: 50%;
     height: 96px;
     font-family: Montserrat;
     font-family: sans-serif;
@@ -25,7 +25,7 @@
     }
 
 .Main-title.Services p {
-    width: 602px;
+    width: 50%;
     height: 96px;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
@@ -96,19 +96,23 @@
 @media only screen  and (max-width: 768px){
     .Services {
         margin: 5%;
-        margin-top: 30%;
+        margin-top: 60%;
+        width: 100%;
     }
     
     .Main-title.Services {
-        height: 48px;
-        padding-top: 60px;
+        height: 32px;
+        width: 100%;
+        padding-top: 0px;
         margin-left: 0%;
         margin-right: 2%;
-        font-size: 48px;
+        font-size: 38px;
     }
-    
+    .Main-title.Services h2 {
+        width: 90%;
+        }
     .Main-title.Services p {
-        margin-top: 120px;
+        margin-top: 40%;
         margin-left: 0px;
         overflow-wrap: normal;
         font-weight: 400;
@@ -120,8 +124,9 @@
     .Services-boxes {
         display: grid;
         justify-content: center;
-        margin-top: 350px;
-        margin-left: 15%;
+        margin-top: 90%;
+        margin-left: 5%;
+        width: 90%;
     }
     
     .Services-boxes h3 {

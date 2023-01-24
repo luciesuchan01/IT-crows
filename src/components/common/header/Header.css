@@ -24,7 +24,7 @@
     margin-left: 126px;
     margin-top: 23px;
     font-family: 'Montserrat', sans-serif;
-    width: 30%;
+    
 }
 @media only screen  and (max-width: 768px){
     .header{
@@ -39,10 +39,6 @@
         background: #F5F5F5;
         
     }
-    .header-top_navbar{
-        display: block;
-        word-wrap: normal;
-    }
     .header-logo{
         padding: auto;
         display:flex;
@@ -54,6 +50,7 @@
         line-height: 44px;
         color: #FF4747;
         margin-left: 15%;
+        margin-right: 15%;
         width: 70%;
     }
 }

@@ -1,7 +1,7 @@
 .about_us{
     position: absolute;
     justify-content: center;
-    width: 1440px;
+    width:94%;
     height: 1214px;    
     left: 102px;
     top: 4762px;
@@ -89,11 +89,11 @@
         justify-content: center;
         width: 100%;
         height: 1614px;    
-        left: -19%;
-        top: 4762px;
+        left: -9%;
+        top: 4900px;
     }
     .about_us_title{
-        width: 100%;
+        width: 90%;
         font-weight: 700;
         font-size: 48px;
         margin-top: 76px;
@@ -114,7 +114,6 @@
         grid-template-rows: auto auto;
         text-align: center;
         margin-top: 0pt;
-        margin-left: 70pt;
       }
     .grid-item-about-us{
         display: inline-grid;

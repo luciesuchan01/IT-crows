@@ -35,8 +35,8 @@ function App() {
         <Route exact path="/" >
           <Header />,
           <Banner />,
-          <Cases />,
           <Services />,
+          <Cases />,
           <About_us />,
           <div className='switcher-main'>
             <Switcher />,
