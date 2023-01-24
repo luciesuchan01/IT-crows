@@ -150,7 +150,7 @@ body {
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
 }
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 786px){
     .Main-title {
         text-transform: uppercase;
         display: flex;
@@ -167,6 +167,7 @@ body {
     }
     .Main-title h2{
         font-size: 56px;
+        margin-top: 15%;
         text-transform: uppercase;
     }
     .changing-text {

@@ -7,7 +7,7 @@ function Meet_us(){
     return(
         <section className='meet-us'>
             <div className='meet-us-title'>
-                Meet us
+                Meet&nbsp;us
             </div>
             <div className='text-meet-us'>
             Valuable only <font color = '#FF4747' className = 'red-text'>new and unique.</font> That changes the usual order of things. 
@@ -27,7 +27,9 @@ function Meet_us(){
 
                 </div>
                 <div className='grid-item-meet-us'>
-                    <div className='text-grid'>2</div>
+                    <div className='grid-item-meet-us-sec'>
+                        <div className='text-grid'>2</div>
+                    </div>
 
                 </div>
             </div>
@@ -35,13 +37,13 @@ function Meet_us(){
 
             <div className='grid-container-meet-us-second'>
                 <div className='grid-item-meet-us-second'>
-                   <div className='websites-text'>Websites created</div>                 
+                   <div className='websites-text'>Websites&nbsp;created</div>                 
                 </div>
                 <div className='grid-item-meet-us-second'>
                     <div className='clients-text'>Clients</div>
                 </div>
                 <div className='grid-item-meet-us-second'>
-                    <div className='years-text'>Years on marke</div>
+                    <div className='years-text'>Years&nbsp;on&nbsp;market</div>
 
                 </div>
             </div>

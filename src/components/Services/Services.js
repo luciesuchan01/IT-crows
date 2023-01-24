@@ -6,7 +6,7 @@ export default function Services (){
     return(
         <div className="Services">
             <div className="Main-title Services">
-                <h2>We create</h2>
+                <h2>We&nbsp;create</h2>
                 <p>
                     Based on  <span className="Services-red-text">bussines analysis, user experience</span> and 
                    current  <span className="Services-red-text">technologies</span>

@@ -5,7 +5,7 @@
   margin-top: 678px;
 }
 .footer-about-us{
-  margin-top: 4306px;
+  margin-top: 3006px;
 }
 .footer-our-work{
   margin-top: 5252px;
@@ -37,5 +37,8 @@
   }
   .footer-main{
     margin-top: 3178px;
+  }
+  .footer-about-us{
+    margin-top: 5296px;
   }
 }

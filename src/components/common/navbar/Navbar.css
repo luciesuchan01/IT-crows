@@ -4,7 +4,7 @@ section{
 }
 nav{
     display: flex;
-    margin-left: 1069px;
+    margin-left: 65%;
     margin-top: -25px;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -63,14 +63,17 @@ nav ul li ul li{
     height: 20px;
     position: relative;
 }    
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 786px){
+
     nav{
         display: block;
         margin-left: 10%;
         margin-right: 5%;
-        margin-top: 10px;
+        margin-top: 10%;
         width: 80%;
         overflow-wrap: normal;
+        border-bottom: #A3A1A1 1px solid;
+        border-top: #A3A1A1 1px solid;
     }
      
  nav li {

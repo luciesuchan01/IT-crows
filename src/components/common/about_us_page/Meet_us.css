@@ -145,3 +145,84 @@ font-family: 'Montserrat', sans-serif;
 .years-text{
     margin-left: -60px;
 }
+@media only screen and (max-width: 786px){
+    .meet-us{
+        height: 1851px;
+        width: 100%;
+        left: 0px;
+        top: 40%;
+        display:flexbox;
+        align-items: center;
+        font-display:inherit;
+        background: #F5F5F5;
+    }
+    .meet-us-title{
+        width: 90%;
+        height: 96px;
+        margin-left: 10%;
+        margin-top: 20px;
+        font-size: 68px;
+    }
+    
+    .text-meet-us{
+        margin-left: 10%;
+        margin-right: 0%;
+        width: 90%;
+        overflow-wrap: normal;
+    }
+    .meet-us-pic{
+        display: none;
+    }
+    
+    .grid-container-meet-us {
+        /*grid: auto-flow dense / repeat(3, 180px);*/
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        margin-top: 250px;
+        margin-left: 35%;
+        margin-right: 15%;
+      }
+    .grid-item-meet-us{
+        width: 50%;
+        margin-bottom: 10%;
+    }
+    .grid-item-meet-us-sec{
+        margin-left: 25%;
+    }
+    .text-grid{
+        height: 117px;
+        font-weight: 700;
+        font-size: 68px;
+    }
+    .grid-container-meet-us-second {
+        display: grid;
+        grid-template-columns: auto; 
+        grid-template-rows: auto auto auto;
+        margin-left: 25%;
+        font-size: 24px;
+        margin-top: -330px;
+      }
+      .grid-item-meet-us-second{
+        width: 50%;
+        margin-bottom: 50%;
+    }
+    .story-of-creation{
+        width: 90%;
+        height: 117px;
+        margin-left: 5%;
+        font-size: 72px;
+    }
+    .mezera-meet-us{
+        width: auto;
+        height: 20%;
+    }
+    .websites-text{
+        margin-left: 0px ;
+    }
+    .clients-text{
+        margin-left: 50%;
+    }
+    .years-text{
+        margin-left: 10%;
+    }
+}

@@ -26,7 +26,7 @@
     font-family: 'Montserrat', sans-serif;
     
 }
-@media only screen  and (max-width: 768px){
+@media only screen  and (max-width: 786px){
     .header{
         position: absolute;
         height: 140px;
@@ -46,11 +46,11 @@
         text-transform: uppercase;
         font-style: normal;
         font-weight: 700;
-        font-size: 35px;
+        font-size: 28px;
         line-height: 44px;
         color: #FF4747;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 17%;
+        margin-right: 17%;
         width: 70%;
     }
 }

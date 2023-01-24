@@ -83,7 +83,7 @@
 .red-text{
     font-weight: 800;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 786px){
     .about_us{
         position: absolute;
         justify-content: center;

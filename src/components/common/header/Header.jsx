@@ -8,7 +8,7 @@ function Header(){
         <section className='header'>
             <section className='header-logo'>
 
-                <Link to='/' className='header-logo'>itcrows</Link>
+                <a href='/' className='header-logo'>itcrows</a>
             </section>
             <section className= 'header-top_navbar'>
                 <Navbar />

@@ -1,12 +1,13 @@
 .good-work{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 1312px;
-    top: 2929px;
+    top:3029px;
     display:flexbox;
     align-items: center;
     font-display:inherit;
     background: #F5F5F5;
+
 }
 .good-work-title{
     width: 917px;
@@ -112,3 +113,92 @@ font-family: 'Montserrat', sans-serif;
 }
 
 /*145*/
+@media only screen and (max-width: 786px){
+    .good-work{
+        width: 100%;
+        top: 3539px;
+    }
+    .good-work-title{
+        width: 80%;
+        height: 117px;
+        margin-left: 15%;
+        margin-right: 5%;
+        margin-top: 2%;
+        font-size: 72px;
+        margin-bottom: 120%;
+    }
+    .text-good-work{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20%;
+        height: auto;
+        text-align: left;
+        line-height: 180%;
+        width: 90%;
+    }
+    .grid-container-good-work {
+        /*grid: auto-flow dense / repeat(3, 180px);*/
+        display: grid;
+        padding: 0pt;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .grid-item-good-work{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .text-grid-good-work{
+        height: 117px;
+        align-items: center;
+        flex: none;
+        text-shadow: 1px 0 #FF4747, -1px 0 #FF4747, 0 1px #FF4747, 0 -1px #FF4747,
+                 1px 1px #FF4747, -1px -1px #FF4747, 1px -1px #FF4747, -1px 1px #FF4747;
+    
+        font-family: 'Montserrat', sans-serif;
+        color: #F5F5F5;
+        font-weight: 700;
+        font-size: 48px;
+        display: flex;
+        margin-left: 80px;
+    }
+    .grid-container-good-work-second{
+        /*grid: auto-flow dense / repeat(3, 180px);*/
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -590px;
+        font-weight: 400;
+        line-height: 180%;
+        
+    }
+    
+    .grid-item-good-work-second{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 150px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .mezera-good-work{
+        margin-top: 1%;
+    }
+    
+}

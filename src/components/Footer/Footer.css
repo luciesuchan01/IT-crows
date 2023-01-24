@@ -230,7 +230,7 @@ input[type='checkbox'] {
     text-transform: uppercase;
     margin-top: 0px;
 }
-@media only screen and (max-width:786px) {
+@media only screen and (max-width:1086px) {
     .Footer{
         width: 80%;
         position: absolute;
@@ -247,13 +247,18 @@ input[type='checkbox'] {
         margin-left: 5%;
         text-align: center;
     }
+    .Footer-checkbox{
+        height: 55%;
+    }
     input[type='checkbox'] {
-        width: 1%;
-        margin-bottom: 5%;
+        width: 5%;
+        margin-bottom: 0%;
     }
 
     .Footer-checkbox label{
-        margin: 0 0 10% 5    
+        margin: 0 0 10% 5;
+        width: 180%;
+        
     }
     .Upper-Footer-left .button {
         font-size: 22px;
