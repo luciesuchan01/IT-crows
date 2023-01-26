@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### About
+
+The website serve as promotion of the company IT crows, a web application development company. 
+
+### Used technologies
+
+REACT
+JavaScript
+CSS
+HTML
+
+### Content and system
+
+The websites contains a home page, where you can find basic informations about the company. Other pages focus on an individual part (what services company provides, example of their previous work, ...).
+Specifically:
+
+/about_us
+/our_work
+/services_development
+/services_design
+/contact
+/graciano
+
+Each page consists of several .jsx and .css files, located in single directories according to the name of the page in the directory "common". Functions from each file are exported in index.js
+
+Routing is located in the file App.js - function App(). 
