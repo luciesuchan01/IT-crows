@@ -42,6 +42,7 @@
 }
 .buttons-first-row{
     margin-top: 76px;
+    width: 100%;
     
 }
 .buttons-first-row a{
@@ -54,13 +55,13 @@
     margin-left: 30%;
     align-items: center;
     flex-direction: row;
-    padding: 12px 40px;
+    padding: 12px 30px 12px 30px;
     gap: 10px;
     width: 15%;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -75,13 +76,13 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 40px;
+    padding: 12px 40px 12px 40px;
     width: 20%;
     height: 67px;
     background: #FF4747;
     border: 1px solid #FF4747;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: #EBEBEB;
     border-radius: 24px;
 }
@@ -94,24 +95,25 @@
     padding: 12px 60px 12px 60px;
     margin-top: -68px;
     gap: 10px;
-    width: 12%;
+    width: 15%;
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     overflow-wrap: initial;
     font-style: normal;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0px 4px 20px rgba(10, 35, 50, 0.1);
     border-radius: 24px;
+    margin-right:28%;
 }
 .grey-button-third{
     display: flex;
-    margin-left: 82%;
+    margin-left: 84%;
     flex-direction: row;
     align-items: center;
-    padding: 12px 40px;
+    padding: 12px 40px 12px 40px;
     margin-top: -68px;
     gap: 10px;
     width: 7%;
@@ -119,7 +121,7 @@
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -139,7 +141,7 @@
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -160,7 +162,7 @@
     background: #FF4747;
     border: 1px solid #FF4747;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     color: #EBEBEB;
     border-radius: 24px;
 }
@@ -177,7 +179,7 @@
     height: 67px;
     background: #EBEBEB;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     font-style: normal;
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -186,7 +188,7 @@
 }
 .form-container {
     width: 70%;
-    height: 40%;
+    height: auto;
     background-color: #EBEBEB;
     margin-left: 25%;
     margin-top: 178px;
@@ -204,6 +206,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
+    margin-top: 20%;
   }
   
   .form-field {
@@ -225,21 +228,10 @@
   .form-btn{
     background-color: #FF4747;
     cursor: pointer;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     padding: 12px 40px;
-    gap: 10px;
     color: #FAFAFA;
-    position: absolute;
-    width: 45%;
-    height: 88px;
-    left: 37%;
-    right: 25%;
-    margin-top: 50%;
-    margin-bottom: 10%;
     border-radius: 24px;
+    margin-top: 25%;
     font-family: "Montserrat", sans-serif;
     font-size: 32px;
     border: 1px solid #FF4747;
@@ -258,6 +250,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
+    margin-top: 5%;
     line-height: 29px;
     display: flex;
     align-items: center;
@@ -346,7 +339,7 @@
     margin-left: 50%;
 }
 .image-upload{
-    margin-top: -12%;
+    margin-top: -20%;
     margin-left: 5%;
 }
 @media only screen and (max-width: 786px) {
@@ -361,7 +354,9 @@
     .form-main-title{
         margin-top: 5%;
         width: auto;
-        left: 10%;
+        left: 5%;
+        width: 50%;
+        align-items: center;
         font-size: 64px;
     }
     .help-title{
@@ -375,9 +370,10 @@
     }
     .grey-button-first{
         margin-left: 25%;
-        padding: 12px 40px;
+        padding: 12px 40px 12px 40px;
         justify-content: center;
         width: 50%;
+        margin-right: 25%;
         height: 67px;
         font-size: 20px;
     }
@@ -398,7 +394,7 @@
         margin-top: 10%;
     }
     .grey-button-third{
-        margin-left: 25%;
+        margin-left: 27%;
         padding: 12px 80px;
         width: 50%;
         height: 67px;
@@ -431,15 +427,17 @@
     }
     .form-container {
         width: 70%;
-        height: 35%;
+        height: auto;
         background-color: #EBEBEB;
         margin-left: 15%;
-        top: 35px;
+        margin-top: 178px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
         padding-left: 10%;
         padding-top: 15%;
         padding-right: 10%;
         border-radius: 100px;
         padding-bottom: 10%;
+    
       }
       
       .register-form {
@@ -447,37 +445,53 @@
         flex-direction: column;
         justify-content: space-evenly;
         padding: 10px;
-        height: 80%;
+        margin-top: 20%;
       }
       
       .form-field {
+        padding: 15px;
+        font-size: 16px;
         border: 0;
         height: 5%;
+        font-weight: 600;
+        background: #EBEBEB;
         margin-bottom: 7%;
+        font-family: "Montserrat", sans-serif;
+        margin-top: 5%;
       }
     
       input {
         border-bottom: #181818;
         color: #181818;
-        overflow-wrap: normal;
     }
     
       .form-btn{
-        width: 40%;
-        height: 88px;
-        left: 30%;
-        right: 25%;
-        margin-top: 90%;
-        margin-bottom: 10%;
+        background-color: #FF4747;
+        cursor: pointer;
+        padding: 12px 40px;
+        color: #FAFAFA;
         border-radius: 24px;
+        margin-top: 5%;
         font-family: "Montserrat", sans-serif;
-        font-size: 24px;
+        font-size: 18px;
         border: 1px solid #FF4747;
       }
     .form-title{
-        display: none;
+        text-align: center;
+        left: 30%;
+        top: auto;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: -15%;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        color: #181818;
     }
-    
     .icons {
         margin-bottom: 0;
         position: absolute;
@@ -496,11 +510,11 @@
     .fb{
         height: 29.33333396911621px;
         position: absolute;
-        margin-left: 35%;
+        margin-left: 37%;
     }
     .be{
         height: 29.33333396911621px;
-        margin-top: -4%;
+        margin-top: -8%;
         width: 31px;
         margin-left: 70%;
     }
@@ -525,7 +539,7 @@
     .email-address{
         position: absolute;
         width: 70%;
-        left: 10%;
+        left: 15%;
         margin-top: 20%;
         right: 15%;
     }
