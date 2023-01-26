@@ -65,10 +65,10 @@ function Services_page_services_app(){
             </div>
 
             <div className='graciano-image'>
-                <img src={graciano} alt="" width="763" height="457"/>  
+                <img src={graciano} alt="" width="50%" height="80%"/>  
             
                 <div className='todo-photo'>
-                    <img src={todo} alt="" width="385" height="457"/>            
+                    <img src={todo} alt="" width="100%" height="100%"/>            
                 </div>
             </div>
            <div className='grid-container-app'>

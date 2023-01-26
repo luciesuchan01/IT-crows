@@ -63,7 +63,7 @@ function Services_page_services_custom(){
                 </div>
         </div>
         <div className='custom-photo'>
-            <img src={custom} alt="" width="1220" height="541"/> 
+            <img src={custom} alt="" width="80%" height="100%"/> 
             <div className='custom-text-image'>pujc</div>      
             <div className='custom-text-image-sec'> UI/UIX, develop</div>  
         </div>

@@ -1,6 +1,6 @@
 .webpages-design{
     height: 1992px;
-    width: 1440px;
+    width: 100%;
     background-color: #f5f5f5;
     margin-top: 4676px;
 }
@@ -227,4 +227,76 @@ a{
     margin-top: 575px;
     font-size: 20px;
     font-style: normal;
+}
+@media only screen and (max-width: 786px) {
+    .webpages-design{
+        margin-top: 4476px;
+    }
+    .webpages-main-title{
+        width: 90%;
+        left: 5%;
+        font-size: 68px;
+        margin-top: 174px;
+    }
+    .plus-border-webpages-design{
+        display: none;
+    }
+    .plus-text-webpages-design{
+        display: none;
+    }
+    
+    .webpages-design-text{
+        width: 90%;
+        top: 298px;
+        margin-left: 5%;
+    }
+    
+    .grid-container-webpage-design{
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 700px;
+    
+    }
+    .grid-item-webpage-design{
+        width: 90%;
+    }
+    
+    .grid-container-webpage-design-sec{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 80px;
+        width: 90%;
+    }
+    .grid-container-web-page{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 64px;
+    }
+    .grid-item-web-page{
+        width: 90%;
+    }
+    .grid-container-web-page-sec{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 80px;
+        width: 90%;
+    }
+    .images{
+        margin-top: 89px;
+        position: relative;
+        display: flex;
+        margin-left: 5%;
+    }
+    .todo-photo{
+        margin-left: 201px;
+    }
 }

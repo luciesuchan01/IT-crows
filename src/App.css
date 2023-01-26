@@ -44,4 +44,13 @@
   .footer-our-work{
     margin-top: 5052px;
   }
+  .switcher-services{
+    display: none;
+  }
+  .switcher-services-sec{
+    display: none;
+  }
+  .footer-services-sec{
+    margin-top: 250px;
+  }
 }

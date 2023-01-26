@@ -1,6 +1,6 @@
 .custom{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     margin-left: 0px;
     top: 4629px;
     height: 1800px;
@@ -128,7 +128,7 @@
     font-style: normal;
     position: absolute;
     text-transform: uppercase;
-    margin-left: 0px;
+    margin-left: 120pt;
     font-size: 32px;
     font-weight: 700;
     margin-top: 14px;
@@ -137,8 +137,84 @@
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     position: absolute;
-    margin-left: 110px;
+    margin-left: 270px;
     margin-top: 25px;
     font-size: 20px;
     font-style: normal;
+}
+@media only screen and (max-width: 786px) {
+    .custom-title{
+        width: 90%;
+        font-size: 62px;
+        margin-left: 5%;
+    }
+    .plus-border-custom{
+        display: none;
+    }
+    .plus-text-custom{
+        display: none;
+    }
+    .custom-text{
+        margin-right: 5%;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 180px;
+    }
+    .grid-container-custom{
+        margin-left: 5%;
+        margin-top: 400px;
+        font-size: 32px;
+    }
+    .grid-container-custom-sec{
+        margin-left: 5%;
+        margin-top: 130px;
+    }
+    .grid-item-custom-sec{
+        margin-bottom: 15px;
+    }
+    .grid-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .grid-custom-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        
+    }
+    .grid-custom-text-second{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        margin-left: 30px;
+    }
+    .custom-photo{
+        margin-left: 5%;
+        margin-top: 80px;
+    
+    }
+    .custom-text-image{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        position: absolute;
+        text-transform: uppercase;
+        margin-left: 8%;
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 14px;
+    }
+    .custom-text-image-sec{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        position: absolute;
+        margin-left: 35%;
+        margin-top: 25px;
+        font-size: 20px;
+        font-style: normal;
+    }
 }

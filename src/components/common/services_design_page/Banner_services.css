@@ -1,7 +1,7 @@
 .banner-services{
     position: absolute;
-    width: 1440px;
-    height: 556px;
+    width: 100%;
+    height: 100%;
     margin-left: 0px;
     top: 216px;
     background: #F5F5F5;
@@ -23,9 +23,9 @@
 }
 .banner-services-title{
     position: relative;
-    width: 1340px;
+    width: 85%;
     height: 96px;
-    left: 200px;
+    left: 5%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -61,6 +61,7 @@
     font-size: 32px;
     line-height: 57px;
     position: absolute;
+    line-height: 100%;
     display: flex;
     align-items: center;
 }
@@ -79,4 +80,46 @@
 }
 .arrowServices:hover{
     width: 73px; 
+}
+@media only screen and (max-width: 786px) {
+    .banner-services{
+        top: 270px;
+    }
+    .banner-services-main-title{
+        width: 90%;
+        left: 5%;
+        font-size: 72px;
+    }
+    .banner-services-title{
+        width: 90%;
+        height: 96px;
+        left: 5%;
+        font-size: 48px;
+        margin-top: 120pt;
+    }
+    .text-serv{
+        left: 5%;
+        margin-top: 80pt;
+        width: 90%;
+        font-size: 18px;
+    }
+    .Gint-button {
+        margin-left: 10%;
+        margin-top: 20pt;
+    }
+    .Gint-text{
+        font-size: 24px;
+        line-height: 100%;
+    } 
+    .sipka-services{
+        margin-left: 32px;
+    
+    }
+    .arrowServices{
+        width: 133px; 
+        height: 26px;
+    }
+    .arrowServices:hover{
+        width: 73px; 
+    }   
 }

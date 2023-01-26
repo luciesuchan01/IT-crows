@@ -1,6 +1,6 @@
 .artificial-intellignece{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 1012px;
     left: 0px;
     top: 7998px;
@@ -120,4 +120,52 @@
 .a{
     color: #FF4747;
     text-decoration: underline;
+}
+@media only screen and (max-width: 786px) {
+    .artificial-intellignece{
+        position: absolute;
+        width: 100%;
+        height: 1012px;
+        left: 0px;
+        top: 8098px;
+    }
+    .ai-main-title{
+        width: 90%;
+        left: 5%;
+        overflow-wrap: break-word;
+        font-size: 46px;
+        line-height: 100%;
+        display: flex;
+        margin-top: 400px;
+        text-align: left;
+    }
+    .plus-border-ai{
+        display: none;
+    }
+    .plus-text-ai{
+        display: none;
+    }
+    .services-ai-text{
+        width: 90%;
+        height: 215px;
+        top: 550px;
+        margin-left:5%;
+    }
+    .grid-container-ai{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin-left: 5%;
+        margin-top: 991px;
+        width: 90%;
+    }
+    .grid-container-ai-sec{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        margin-top: 150px;
+    }
+    .grid-item-ai-sec{
+        margin-bottom: 15px;
+    }
 }

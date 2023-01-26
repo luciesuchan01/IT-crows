@@ -1,6 +1,6 @@
 .Services-webpages{
     height: 1992px;
-    width: 1440px;
+    width: 100%;
     background-color: #f5f5f5;
     margin-top: 6106px;
 }
@@ -227,4 +227,122 @@ a{
     margin-top: 575px;
     font-size: 20px;
     font-style: normal;
+}
+@media only screen and (max-width: 786px) {
+    .webpages-main-title{
+        width: 90%;
+        height: auto;
+        left: 5%;
+        font-size: 36px;
+        overflow-wrap: break-word;
+        margin-top: 174px;
+    }
+    .plus-border-webpages{
+        display: none;
+    }
+    .plus-text-webpages{
+       display: none;
+    }
+    .webpages-text{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .grid-container-webpage{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        margin-left: 5%;
+        margin-top: 900px;
+    }
+    .grid-item-webpage{
+        width: 90%;
+    }
+    
+    .grid-container-webpage-sec{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        margin-top: 0px;
+        width: 90%;
+    }
+    .grid-text{
+        font-size: 32px;
+    }
+    .grid-webpage-text{
+        font-size: 24px;
+        
+    }
+    .grid-webpage-text-second{
+        font-size: 24px;
+        margin-left: 30px;
+    }
+    .grid-container-web{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 124px;
+    
+    }
+    .grid-item-web{
+        display: inline-grid;
+        top: 40px;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 59px;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+    }
+    .grid-container-web-sec{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 40px;
+        width: 350px;
+    }
+    .grid-item-web-sec{
+        display: inline-grid;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 59px;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: -15px;
+    }
+    a{
+        color: #FF4747;
+    }
+    .lorem-webpage{
+        display: none;
+    }
+    .images{
+        margin-top: 89px;
+        position: relative;
+        display: flex;
+        margin-left: 5%;
+    }
+    .todo-photo{
+        margin-left: 0%;
+        display: none;
+    }
+    
+    .images-text{
+        display: none;
+
+    }
+    .images-text-sec{
+        display: none;
+
+    }
+    .images-text-third{
+        display: none;
+    }
 }
