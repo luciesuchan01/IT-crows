@@ -75,22 +75,22 @@ The website serve as promotion of the company IT crows, a web application develo
 
 ### Used technologies
 
-REACT
-JavaScript
-CSS
-HTML
+- REACT
+- JavaScript
+- CSS
+- HTML
 
 ### Content and system
 
 The websites contains a home page, where you can find basic informations about the company. Other pages focus on an individual part (what services company provides, example of their previous work, ...).
 Specifically:
 
-/about_us
-/our_work
-/services_development
-/services_design
-/contact
-/graciano
+- /about_us
+- /our_work
+- /services_development
+- /services_design
+- /contact
+- /graciano
 
 Each page consists of several .jsx and .css files, located in single directories according to the name of the page in the directory "common". Functions from each file are exported in index.js
 
