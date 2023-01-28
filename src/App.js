@@ -116,7 +116,9 @@ function App() {
           <Project_task/>,
           <Solution/>,
           <Responsive/>,
-         
+         <div className='footer-graciano'>
+          <Footer/>,
+         </div>
         </Route>
 
       </Switch>

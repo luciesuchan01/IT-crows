@@ -18,9 +18,7 @@
     color: #FF4747;
 }
 
-
-
-.Switcher-project-btn {
+.Switcher-project-btn{
   width: 895px;
   height: 119px;
   background-color: #FF4747;
@@ -31,7 +29,7 @@
   margin: 56px auto;
   justify-content: center;
   align-items: center;
-  display: flex;
+  visibility:hidden;
   margin-top: 316px;
   font-weight: 700;
 }
@@ -91,7 +89,7 @@
     width: 74px;
     left: 6px;
     bottom: 6px;
-    background-color: red;
+    background-color: #181818;
     -webkit-transition: .4s;
     transition: 0.4s;
   }
@@ -102,7 +100,12 @@
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(84px);
+    background-color: red;
   }
+  input.Switch-input:checked .Switcher-project-btn{
+    visibility:visible;
+  }
+  
   /* Rounded sliders */
   .slider.round {
     border-radius: 74px;

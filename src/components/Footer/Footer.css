@@ -203,13 +203,13 @@ input[type='checkbox'] {
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 30px;
     display: flex;
     justify-content: right;
     text-align: right;
     color: #F5F5F5;
     margin-left: 80%;
-    margin-top: -70px;
+    margin-top: 250px;
 }
 .upr{
     margin-top: -180px;

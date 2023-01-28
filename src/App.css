@@ -31,6 +31,13 @@
 .footer-services-sec{
   margin-top: 650px;
 }
+
+@media only screen and (max-width: 1500px) {
+  .footer-graciano{
+    margin-top: 11589px;
+  }
+}
+
 @media only screen and (max-width: 786px) {
   .switcher-main{
     display: none;
@@ -54,11 +61,6 @@
     margin-top: 250px;
   }
   .footer-graciano{
-    display: none;
-  }
-}
-@media only screen and (max-width: 1500px) {
-  .footer-graciano{
-    margin-top: 11589px;
+    margin-top: 8589px;
   }
 }

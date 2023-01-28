@@ -41,7 +41,9 @@ export default function Footer(){
 
                         {/* PRAVÝ HORNÍ  */}
                         <div className="Upper-Footer-right">
+                            {/*
                         <img src={FooterImage} alt="" className='footer-image'/>
+                            */}
                             <div className='upper-right-text'>
                                 BIG BIG_cheese
                                 BIG_cheese@itcrows.com
