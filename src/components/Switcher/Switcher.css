@@ -34,23 +34,6 @@
   display: flex;
   margin-top: 316px;
   font-weight: 700;
-  display: none;
-}
-.Switcher-project-btn ::after {
-  width: 895px;
-  height: 119px;
-  background-color: #FF4747;
-  font-size: 48px;
-  border-radius: 60px;
-  color: white;
-  text-transform: uppercase;
-  margin: 56px auto;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  margin-top: 316px;
-  font-weight: 700;
-  display: flex;
 }
 
 .Switcher-project-btn a {
