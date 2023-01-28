@@ -176,6 +176,7 @@
         border-radius: 40px;
         border: 1px solid black;
         width: 100%;
+        height: auto;
     }
     .button-services{
         width: 80%;

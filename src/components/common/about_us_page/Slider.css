@@ -11,14 +11,14 @@
 }
 .image-second-slider{
     margin-left: 85px;
-    margin-top: -1000px;
+    margin-top: -1060px;
 }
 .image-first-slider{
     margin-top: -200px;
     margin-left: -1140px;
 }
 .image-third-slider{
-    margin-top: -1130px;
+    margin-top: -1250px;
     margin-left: 1290px;
 }
 @media only screen and (max-width: 786px){

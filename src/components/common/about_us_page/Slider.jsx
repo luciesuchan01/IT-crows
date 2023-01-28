@@ -8,7 +8,7 @@ function Slider(){
     return(
         <section className='slider-as'> 
             <div className='image-first-slider'>
-                <img src={slider1} alt="" width="378" height="860"/>
+                <img src={slider1} alt="" width="378" height="869"/>
             </div>
             <div className='image-second-slider'>
                 <img src={slider2} alt="" width="714" height="869"/>

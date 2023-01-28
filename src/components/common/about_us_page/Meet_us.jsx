@@ -14,7 +14,7 @@ function Meet_us(){
             That gives a new experience. What astonishes. Only special people are able to create unique things. Those who are not afraid.
             </div>
             <div className='meet-us-pic'>
-                <img src={meet_us_pic} alt="" width="1236" height="500"/>
+                <img src={meet_us_pic} alt="" width="110%" height="500"/>
             </div>
 
 

@@ -61,13 +61,13 @@
 
   }
   .grid-item-left{
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: auto;
     overflow-wrap: normal;
   }
   .grid-item-right{
     margin-right: 102px;
-    margin-left: 200px;
+    margin-left: 25%;
     overflow-wrap: normal;
   }
 .pujc-pic{
@@ -113,6 +113,7 @@ h1{
     width: 276px;
     height: 59px;
     font-weight: 700;
+    overflow-wrap: normal;
     display: flex;
     justify-content: flex-start;
     margin-top: 14px;
@@ -121,6 +122,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     text-transform: none;
     font-size: 24px;
+    overflow-wrap: normal;
     font-weight: 400;
     margin-top: 15pt;
     position:absolute;
@@ -130,19 +132,28 @@ h2{
 }
 .first-pic{
     margin-left: 200pt;
+    overflow-wrap: normal;
 
 }
 .second-pic{
     margin-left: 150px;
+    overflow-wrap: normal;
+
 }
 .third-pic{
     margin-left: 200pt;
+    overflow-wrap: normal;
+
 }
 .fourth-pic{
     margin-left: 150pt;
+    overflow-wrap: normal;
+
 }
 .fifth-pic{
     margin-left: 140pt;
+    overflow-wrap: normal;
+
 }
 .more-view-a{
     font-family: 'Montserrat', sans-serif;
@@ -203,8 +214,6 @@ h2{
 .grac-img{
     width: 110%;
 }
-
-
 @media only screen  and (max-width: 786px){
     .cases{
         position: absolute;

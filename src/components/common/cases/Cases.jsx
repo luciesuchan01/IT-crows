@@ -67,7 +67,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                     <div className='load-pic'>
-                        <img src={lorem_picture} alt="" width="98%" height="100%"/>
+                        <img src={lorem_picture} alt="" width="130%" height="100%"/>
                     
                     <h1>lorem
                         <h2>
@@ -81,7 +81,7 @@ function Cases(){
             <div className='grid-container-second'>
                 <div className='grid-item-second'>
                     <div class="grid-item-left">
-                        <img src={ecommerce_picture} alt="" width="1114" height="550"/>
+                        <img src={ecommerce_picture} alt="" width="110%" height="550"/>
                     
                         <h1>lorem
                             <h2>
