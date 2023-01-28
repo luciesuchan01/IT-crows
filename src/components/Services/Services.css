@@ -1,19 +1,19 @@
 .Services {
     margin: 0 auto;
     width: 90%;
-    height: 1509px;
+    height: auto;
 }
 
 .Main-title.Services {
     height: 96px;
     padding-top: 60px;
-    margin-left: 180px;
+    margin-left: 10%;
 }
 
 
 .Main-title.Services h2 {
     width: 50%;
-    height: 96px;
+    height: 116px;
     font-family: Montserrat;
     font-family: sans-serif;
     color: #F5F5F5;
@@ -26,7 +26,7 @@
 
 .Main-title.Services p {
     width: 50%;
-    height: 96px;
+    height: 136px;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -35,6 +35,7 @@
     margin-top: 30px;
     margin-left: 650px;
     font-weight: 400;
+    min-width: 40%;
     letter-spacing: 0em;
 }
 
@@ -47,7 +48,6 @@
     display: flex;
     justify-content: center;
     margin-top: 210px;
-    margin-left: 102px;
 }
 
 .Services-boxes h3 {
@@ -55,12 +55,13 @@
     text-align: left;  
     font-family: Montserrat;
     text-transform: uppercase;
-    margin: 40px 0 68px 80px;
+    margin: 40px 40px 68px 80px;
 }
 
 .Services-boxes ul {
     list-style: none;
     font-size: 32px;
+    padding-right: 5%;
     text-transform: uppercase;
     text-align: left;
     font-family: Montserrat;
@@ -72,24 +73,30 @@
 
 .Development-box {
     height: 685px;
-    width: 608px;
-
+    width: 30%;
 }
 
 .Design-box {
     height: 551px;
-    width: 608px;
+    width: 30%;
 
 }
 
 .box {
-    margin-left: 102px;
+    margin-left: 10%;
     margin-right: 10px;
     border-radius: 40px;
     border: 1px solid black;
-    width: 608px;
+    width: 40%;
+    overflow-wrap: break-word;
+    height: auto;
 }
-
+.button-services{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
 .box img {
     margin-top: 69px;
 }
@@ -123,7 +130,7 @@
     .Services-boxes {
         display: grid;
         justify-content: center;
-        margin-top: 100%;
+        margin-top: 110%;
         margin-left: 5%;
         width: 90%;
     }
@@ -170,7 +177,13 @@
         border: 1px solid black;
         width: 100%;
     }
-    
+    .button-services{
+        width: 80%;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
     .box img {
         margin-top: 15%;
         width: 100%;

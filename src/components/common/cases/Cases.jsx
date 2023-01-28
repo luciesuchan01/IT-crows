@@ -34,10 +34,10 @@ function Cases(){
                     </div>
                 </div>                
                 <div class="grid-item">
-                    <div class="grid-item-left">
+                    <div class="grid-item-right">
                         <div class = "pujc-border">
                             <div className='pujc-pic'>
-                                <img src={pujc_picture} />
+                                <img src={pujc_picture}/>
                             </div>
                         </div>
                         

@@ -25,6 +25,7 @@ export default function Switcher() {
                     Discuss a project 
                 <img src={Arrow} className="Arrow" />
             </div>
+            
             </a>
 
         </div>

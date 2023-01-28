@@ -24,7 +24,7 @@ export default function Services (){
                         <li>e-comerce</li>
                     </ul>
                     <a href="/services">
-                        <img src={ReadMoreBtn} />
+                        <img src={ReadMoreBtn} className="button-services"/>
                     </a>
                 </div>
 
@@ -36,7 +36,7 @@ export default function Services (){
                         <li>branding</li>
                     </ul>
                         <a href="/services_design">
-                            <img src={ReadMoreBtn} />
+                            <img src={ReadMoreBtn} className="button-services"/>
                         </a>
                 </div>
 

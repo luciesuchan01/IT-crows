@@ -1,9 +1,9 @@
 .cases{
     position: absolute;
-    width: 1440px;
+    width: 90%;
     height: 2743px;
-    left: 160px;
-    top: 2019px;
+    left: 10%;
+    top: 2219px;
     display:flexbox;
     align-items: center;
     font-display:inherit;
@@ -11,7 +11,7 @@
     
 }
 .cases-title{
-    width: 647px;
+    width: 50%;
     height: 117px;
     display: flex;
     align-items: center;
@@ -56,20 +56,23 @@
     text-align: center;
     height: 450px;
     margin-top: 20pt;
+    margin-left: 10%;
     margin-bottom: 200px;
 
   }
   .grid-item-left{
-    margin-left: 102px;
+    margin-left: 10%;
     margin-right: auto;
-    
+    overflow-wrap: normal;
   }
   .grid-item-right{
     margin-right: 102px;
     margin-left: 200px;
+    overflow-wrap: normal;
   }
 .pujc-pic{
     margin-top: 35px;
+    
 }
 .pujc-border{
     border: 2px solid #EBEBEB;
@@ -79,7 +82,7 @@
     Width: 384px;
     Height: 550px;
     padding: 0;
-    margin-right: 102px;    
+    margin-right: 102px; 
 }
 .grid-container-second{
     display: grid;
@@ -197,22 +200,24 @@ h2{
 .load-pic{
     margin-left: -50pt;
 }
-
+.grac-img{
+    width: 110%;
+}
 
 
 @media only screen  and (max-width: 786px){
     .cases{
         position: absolute;
-        width: 90%;
+        width: 100%;
         height: 2943px;
-        left: 10%;
+        left: 0%;
         right: 5%;
-        top: 2890px;
+        top: 2950px;
         margin-bottom: 15%;
     }
     .cases-title{
         width: 60%;
-        margin-left: 0%;
+        margin-left: 10%;
         margin-top: 5%;
         line-height: 117px;
         font-weight: 700;
@@ -230,15 +235,15 @@ h2{
     margin-bottom: 35%;
     }
     .grid-item-left{
-    margin-left: -5%;
+    margin-left: 0%;
     width: 90%;
     height: 75%;
-    margin-right: 5%;
+    margin-right: 0%;
     
     }
     .grac-img{
-    width: 110%;
-    height: 110%;
+    width: 100%;
+    height: 100%;
     }
     .grid-item-right{
     display: none;
@@ -267,8 +272,8 @@ h2{
         width: 120%;
     }
     .todo-img{
-        margin-top: 55%;
-        width: 110%;
+        margin-top: -210%;
+        width: 100%;
     }
     .grid-container-second{
         display: none
