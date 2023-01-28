@@ -1,16 +1,19 @@
 .banner-graciano{
     background-color: #181818;  
-    width: 1728px;
+    width: 100%;
     height: 675px;
+    right: 0px;
     left: 0px;
-    top: 140px;
+    text-align: center;
+    position: absolute;
 }
 .graciano-title{
     position: absolute;
-    width: 804px;
+    width: 50%;
     height: 171px;
     left: 25%;
-    top: 340px;
+    right: 25%;
+    margin-top: 340px;
     text-transform: uppercase;
     text-shadow: 1px 0 #FFB800, -1px 0 #FFB800, 0 1px #FFB800, 0 -1px #FFB800,
     1px 1px #FFB800, -1px -1px #FFB800, 1px -1px #FFB800, -1px 1px #FFB800;
@@ -19,14 +22,15 @@
     line-height: 117px;
     font-style: normal;
     font-weight: 700;
-    font-size: 140px;
+    font-size: 120px;
     margin-bottom: 40pt;
 }
 .graciano-title-sec{
     position: absolute;
-    width: 527px;
+    width: 32%;
     height: 38px;
-    left: 33%;
+    left: 34%;
+    align-items: center;
     top: 528px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -41,4 +45,60 @@
 }
 .img-grac{
     margin-top: 601px;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+}
+@media only screen  and (max-width: 1500px){
+    .banner-graciano{
+        background-color: #181818;  
+        width: 100%;
+        height: 70%;
+        right: 0px;
+        left: 0px;
+        text-align: center;
+        position: absolute;
+    }
+    .graciano-title{
+        position: absolute;
+        width: 60%;
+        height: 171px;
+        left: 20%;
+        right: 20%;
+        margin-top: 10%;
+        font-size: 54px;
+    }
+    .graciano-title-sec{
+        width: 50%;
+        left: 25%;
+        top: 60%;
+    }
+    .img-grac{
+        margin-top: 35%;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }    
+}
+@media only screen  and (max-width: 786px){
+    .graciano-title{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin-top: 20%;
+        font-size: 54px;
+    }
+    .graciano-title-sec{
+        width: 80%;
+        left: 10%;
+        top: 50%;
+        justify-content: center;
+    }
+    .img-grac{
+        margin-top: 100%;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+    }    
 }

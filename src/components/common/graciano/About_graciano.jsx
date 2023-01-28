@@ -16,6 +16,9 @@ function About_graciano(){
             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
             Sed ullamcorper finibus rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
             </div>
+
+            <img src={iphone} alt="" className='mobile-img-sec'></img>
+
             <div className='grid-container-graciano'>
                 <div className='grid-item-graciano'>
                     <div className='grid-text-grac'>
@@ -51,7 +54,6 @@ function About_graciano(){
                
             </div>
 
-            <img src={iphone} alt="" className='mobile-img-sec'></img>
 
             
 

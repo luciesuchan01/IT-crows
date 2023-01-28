@@ -1,7 +1,7 @@
 .header-sec{
     position: absolute;
     height: 140px;
-    width: 1728px;
+    width: 100%;
     left: 0px;
     top: 0px;
     display:flexbox;
@@ -25,4 +25,32 @@
     margin-top: 23px;
     font-family: 'Montserrat', sans-serif;
     
+}
+@media only screen  and (max-width: 786px){
+    .header-sec{
+        position: absolute;
+        height: 140px;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        display:flexbox;
+        align-items: center;
+        font-display:inherit;
+        background: #181818;
+        
+    }
+    .header-logo-sec{
+        padding: auto;
+        display:flex;
+        text-decoration: none; 
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 44px;
+        color: #FF4747;
+        margin-left: 17%;
+        margin-right: 17%;
+        width: 70%;
+    }
 }

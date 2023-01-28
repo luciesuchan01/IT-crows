@@ -26,7 +26,7 @@
   background-color: #181818;
 }
 .footer-graciano{
-  margin-top: 6389px;
+  margin-top: 10589px;
 }
 .footer-services-sec{
   margin-top: 650px;
@@ -52,5 +52,13 @@
   }
   .footer-services-sec{
     margin-top: 250px;
+  }
+  .footer-graciano{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .footer-graciano{
+    margin-top: 11589px;
   }
 }
