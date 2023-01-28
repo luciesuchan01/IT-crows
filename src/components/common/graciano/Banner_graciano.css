@@ -56,6 +56,7 @@
         height: 70%;
         right: 0px;
         left: 0px;
+        top: 13%;
         text-align: center;
         position: absolute;
     }
@@ -81,6 +82,10 @@
     }    
 }
 @media only screen  and (max-width: 786px){
+    .banner-graciano{
+        top: 30%;
+        width: 100%;
+    }
     .graciano-title{
         position: absolute;
         width: 90%;
@@ -88,6 +93,7 @@
         right: 5%;
         margin-top: 20%;
         font-size: 54px;
+        
     }
     .graciano-title-sec{
         width: 80%;

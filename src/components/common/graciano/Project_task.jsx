@@ -13,13 +13,13 @@ function Project_task(){
 
 
             <div className='image-first-sec'>
-                <img src={slider_1} alt="" width="491" height="614"/>
+                <img src={slider_1} alt="" width="130%" height="598"/>
             </div>
             <div className='image-second-sec'>
-                <img src={slider_2} alt="" width="504" height="598"/>
+                <img src={slider_2} alt="" width="130%" height="598"/>
             </div>
             <div className='image-third-sec'>
-                <img src={slider_3} alt="" width="504" height="598"/>
+                <img src={slider_3} alt="" width="130%" height="598"/>
             </div>
         </section>
     )

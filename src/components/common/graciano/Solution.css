@@ -149,7 +149,7 @@ color: #181818;
         }
         .solution-title{
             top: 0%;
-            font-size: 48px;
+            font-size: 96px;
             text-align: left;
             margin-bottom: 40pt;
         }
@@ -221,7 +221,7 @@ color: #181818;
 }
 @media only screen and (max-width: 786px) {
     .solution{
-        top: 5035px;
+        top: 5235px;
     }
     .solution-title{
         top: 0%;

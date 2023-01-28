@@ -95,14 +95,14 @@
     }
     .image-first-sec{
         position: absolute;
-        top: 485px;
-        width: 20%;
-        left: 52%;
+        top: 493px;
+        width: 38%;
+        left: 48%;
     }
     .image-second-sec{
         position: absolute;
         left: -3%;
-        width: 20%;
+        width: 40%;
         top: 493px;
     }
     
@@ -113,7 +113,7 @@
 
 @media only screen and (max-width: 786px) {
     .project-task{
-        top: 3628px;
+        top: 3728px;
         height: auto;
     }
     .project-task-title{
@@ -136,9 +136,10 @@
     }
     .image-second-sec{
         position: absolute;
-        left: -20%;
-        width: 60%;
+        left: -25%;
+        width: 90%;
         top: 800px;
+        margin-left: 9%;
     }
     
     .image-third-sec{

@@ -164,11 +164,11 @@
         width: 100%;
     }
     .title-about{
-        width: 90%;
+        width: 80%;
         left: 10%;
         top:0%;
         font-weight: 700;
-        font-size: 54px;
+        font-size: 48px;
         line-height: 100%;
     }
     .graciano-text-about{
@@ -183,17 +183,25 @@
     }
     .mobile-img-sec{
         margin-left: 0%;
-        width: 80%;
+        margin-right: 0;
+        width: 70%;
         margin-top: 340%;
         height: 1078px;
     }
     .grid-container-graciano{
-        margin-left: 10%;
+        margin-left: 5%;
         text-align: center;
         margin-top: -30%;
         font-size: 20px;
-        width: 80%;
+        width: 50%;
     }
+    .grid-container-graciano-sec{
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 40px;
+        width: 90%;
+    }
+
     .grid-graciano-text{
         font-size: 18px;
         
