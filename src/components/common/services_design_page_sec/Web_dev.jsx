@@ -71,7 +71,7 @@ function Web_dev(){
 
 
         <div className='web-dev-image'>
-            <img src={todo} alt="" width="55%" height="457"/>  
+            <img src={todo} alt="" width="70%" height="457"/>  
         
             <div className='pujc-photo'>
                 <img src={pujc} alt="" width="100%" height="457"/>            

@@ -92,12 +92,12 @@ function Webpages_design(){
 
             
             <div className='images'>
-                <img src={todo} alt="" width="609" height="550"/>  
+                <img src={todo} alt="" width="50%" height="550"/>  
                 <div className='images-text'>todo list</div>
                 <div className='images-text-sec'>design, UI/UX</div>
 
                 <div className='todo-photo'>
-                    <img src={pujc} alt="" width="384" height="550"/>         
+                    <img src={pujc} alt="" width="100%" height="550"/>         
                     <div className='images-text'>pujc</div>
                     <div className='images-text-third'>design, UI/UX</div>   
                 </div>

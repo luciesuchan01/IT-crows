@@ -127,7 +127,6 @@
         width: 100%;
         height: 1012px;
         left: 0px;
-        top: 8098px;
     }
     .ai-main-title{
         width: 90%;
@@ -136,8 +135,8 @@
         font-size: 46px;
         line-height: 100%;
         display: flex;
-        margin-top: 400px;
         text-align: left;
+        margin-top: 60%;
     }
     .plus-border-ai{
         display: none;
@@ -147,15 +146,15 @@
     }
     .services-ai-text{
         width: 90%;
-        height: 215px;
-        top: 550px;
+        height: auto;
         margin-left:5%;
+        margin-top: 0%;
     }
     .grid-container-ai{
         grid-template-columns: auto auto;
         grid-template-rows: auto;
         margin-left: 5%;
-        margin-top: 991px;
+        margin-top: 491px;
         width: 90%;
     }
     .grid-container-ai-sec{
@@ -167,5 +166,11 @@
     }
     .grid-item-ai-sec{
         margin-bottom: 15px;
+    }
+    .grid-text-ai{
+        font-size: 32px;
+    }
+    .grid-container-ai-sec{
+        margin-top: 60pt;
     }
 }

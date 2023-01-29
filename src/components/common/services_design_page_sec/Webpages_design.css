@@ -231,6 +231,7 @@ a{
 @media only screen and (max-width: 786px) {
     .webpages-design{
         margin-top: 4476px;
+        height: 1592px;
     }
     .webpages-main-title{
         width: 90%;
@@ -291,12 +292,14 @@ a{
         width: 90%;
     }
     .images{
-        margin-top: 89px;
+        margin-top: -30%;
         position: relative;
         display: flex;
         margin-left: 5%;
+        width: 100%;
     }
     .todo-photo{
-        margin-left: 201px;
+        width: 0;
+        margin-left: 0;
     }
 }

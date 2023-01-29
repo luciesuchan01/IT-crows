@@ -176,13 +176,14 @@
     }
     .services-app-main-title{
         width: 214px;
-        font-size: 72px;
+        font-size: 48px;
         margin-left: 5%;
+        text-align: left;
     }
     .services-app-text{
         margin-right: 5%;
         width: 90%;
-        margin-top: 120pt;
+        margin-top: 15%;
         margin-left: 5%;
     }
     .plus-border-app{
@@ -201,12 +202,13 @@
     }
     .sa-text{
         font-size: 32px;
+        text-align: left;
     }
     
     
     .grid-container-sas{
         margin-left: 5%;
-        
+        text-align: left;
     }
     .grid-item-sas{
         display: inline-grid;
@@ -214,6 +216,7 @@
         background-color: #F5F5F5;
         text-align: center;
         height: 59px;
+        text-align: left;
         align-items: center;
         justify-content: left;
         margin-bottom: 15px;
@@ -223,7 +226,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
-        
+        text-align: left;
     }
     .sas-text-second{
         font-family: 'Montserrat', sans-serif;
@@ -231,6 +234,7 @@
         font-weight: 400;
         font-size: 24px;
         margin-left: 30px;
+        text-align: left;
     }
     
     .graciano-image{
