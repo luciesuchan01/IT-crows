@@ -3,7 +3,6 @@
     justify-content: center;
     width:94%;
     height: 1214px;    
-    left: 102px;
     top: 4762px;
     display:flexbox;
     align-items: center;
@@ -11,7 +10,7 @@
     background: #F5F5F5;
 }
 .about_us_title{
-    width: 560px;
+    width: 100%;
     height: 117px;
     display: flex;
     text-transform: uppercase;
@@ -22,15 +21,17 @@
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
+    margin-left: 0%;
     margin-top: 128px;
 }
 .our_team_image{
     display: flex;
     position: relative;
     margin-top: 149px;
-    margin-right: 102px;
-    width:618px;
-    height:556px
+    margin-right: 10%;
+    width:50%;
+    height:auto;
+    margin-left: 0%;
 }
 
 .grid-container-about-us {
@@ -42,7 +43,7 @@
     border: 1px solid #F5F5F5;
     text-align: center;
     margin-top: 0pt;
-    margin-left: 70pt;
+    margin-left: 13%;
   }
 .grid-item-about-us{
     display: inline-grid;
@@ -53,7 +54,7 @@
 }
 .text-about-us{
     position:relative;
-    width: 618px;
+    width: 100%;
     height: 344px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

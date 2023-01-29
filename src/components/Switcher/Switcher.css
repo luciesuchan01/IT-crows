@@ -29,9 +29,10 @@
   margin: 56px auto;
   justify-content: center;
   align-items: center;
-  visibility:hidden;
+  /*display: flex;*/
   margin-top: 316px;
   font-weight: 700;
+  display:none;
 }
 
 .Switcher-project-btn a {
@@ -102,9 +103,6 @@
     transform: translateX(84px);
     background-color: red;
   }
-  input.Switch-input:checked .Switcher-project-btn{
-    visibility:visible;
-  }
   
   /* Rounded sliders */
   .slider.round {
@@ -114,4 +112,20 @@
   .slider.round:before {
     border-radius: 50%;
   }
+/*
+input[type=submit] {
+  display:none;
+}
 
+input[type=checkbox]:checked ~ input[type=submit] {
+  display:flex;
+}
+
+
+input.Switcher-project-btn {
+  display:none;
+}
+*/
+input.Switch-input:checked + .Switcher-project-btn {
+  display:flex;
+}
