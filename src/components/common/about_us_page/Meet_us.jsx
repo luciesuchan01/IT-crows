@@ -13,9 +13,7 @@ function Meet_us(){
             Valuable only <font color = '#FF4747' className = 'red-text'>new and unique.</font> That changes the usual order of things. 
             That gives a new experience. What astonishes. Only special people are able to create unique things. Those who are not afraid.
             </div>
-            <div className='meet-us-pic'>
-                <img src={meet_us_pic} alt="" width="110%" height="500"/>
-            </div>
+                <img src={meet_us_pic} alt="" className='meet-us-pic'/>
 
 
             <div className='grid-container-meet-us'>
@@ -37,13 +35,13 @@ function Meet_us(){
 
             <div className='grid-container-meet-us-second'>
                 <div className='grid-item-meet-us-second'>
-                   <div className='websites-text'>Websites&nbsp;created</div>                 
+                   <div className='websites-text'>Websites created</div>                 
                 </div>
                 <div className='grid-item-meet-us-second'>
                     <div className='clients-text'>Clients</div>
                 </div>
                 <div className='grid-item-meet-us-second'>
-                    <div className='years-text'>Years&nbsp;on&nbsp;market</div>
+                    <div className='years-text'>Years on market</div>
 
                 </div>
             </div>

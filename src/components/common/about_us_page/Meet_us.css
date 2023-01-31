@@ -44,12 +44,14 @@ font-family: 'Montserrat', sans-serif;
     text-align: left;
     line-height: 180%;
     color: #181818;
-    width: 60%;
+    width: 75%;
 }
 .meet-us-pic{
     position: absolute;
-    margin-left: 240px;
-    margin-top: 100px;
+    margin-top: 80px;
+    width: 100%;
+    align-items: center;
+    height: 110%;
 }
 
 .grid-container-meet-us {
@@ -65,7 +67,6 @@ font-family: 'Montserrat', sans-serif;
     margin-left: 30%;
     margin-right: 390px;
     text-align: center;
-
   }
 .grid-item-meet-us{
     display: inline-grid;
@@ -144,12 +145,98 @@ font-family: 'Montserrat', sans-serif;
 .years-text{
     margin-left: -60px;
 }
-@media only screen and (max-width: 786px){
-    .meet-us{
-        height: 1851px;
+@media only screen and (max-width: 1000px){
+    .meet-us-title{
+        width: 90%;
+        height: 96px;
+        margin-left: 5%;
+        margin-top: 20px;
+        font-size: 68px;
+    }
+    
+    .text-meet-us{
+        margin-left: 5%;
+        margin-right: 0%;
+        width: 95%;
+        font-size: 28px;
+        text-align: left;
+        line-height: 28px;
+        overflow-wrap: break-word;
+        margin-top: 5%;
+    }
+    .meet-us-pic{
+        position: absolute;
+        margin-left: -45%;
+        margin-top: 50px;
+        width: 90%;
+        height: 20%;
+    }
+    
+    .grid-container-meet-us {
+        margin-top: 510px;
+        margin-left: 15%;
+        margin-right: 0%;
+        width: 80%;
+        align-items: center;
+      }
+    .grid-item-meet-us{
+        width: 20%;
+        margin-left: 0%;
+        margin-right: 0px;
+        margin-bottom: 0%;
+    }
+    .grid-item-meet-us-sec{
+        margin-left: 0%;
+    }
+    .text-grid{
+        height: 44px;
+        font-weight: 700;
+        font-size: 56px;
+    }
+    .grid-container-meet-us-second {
+        margin-left: 5%;
+        font-size: 20px;
+        width: 95%;
+        margin-right: 0;
+        margin-top: 0px;
+      }
+      .grid-item-meet-us-second{
         width: 100%;
+        overflow-wrap: normal;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .websites-text{
+        margin-left: 30px ;
+    }
+    .clients-text{
+        margin-left: 30px;
+    }
+    .years-text{
+        margin-left: 0px;
+    }
+    .story-of-creation{
+        width: 100%;
+        height: 43px;
+        line-height: 43px;
+        margin-left: 5%;
+        text-align: left;
+        font-size: 36px;
+        margin-top: 10%;
+    }
+    .mezera-meet-us{
+        width: auto;
+        height: 1%;
+    }
+
+}
+@media only screen and (max-width: 486px){
+    .meet-us{
+        height: 1951px;
+        width: 90%;
         left: 0px;
-        top: 40%;
+        top: 20%;
         display:flexbox;
         align-items: center;
         font-display:inherit;
@@ -158,70 +245,83 @@ font-family: 'Montserrat', sans-serif;
     .meet-us-title{
         width: 90%;
         height: 96px;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 20px;
-        font-size: 68px;
+        font-size: 36px;
     }
     
     .text-meet-us{
-        margin-left: 10%;
+        margin-left: 5%;
         margin-right: 0%;
-        width: 90%;
-        overflow-wrap: normal;
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        line-height: 28px;
+        overflow-wrap: break-word;
+        margin-top: 5%;
     }
     .meet-us-pic{
-        display: none;
+        position: absolute;
+        margin-left: -42%;
+        margin-top: 100px;
+        height: 10%;
+        width: 100%;
     }
     
     .grid-container-meet-us {
-        /*grid: auto-flow dense / repeat(3, 180px);*/
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        margin-top: 250px;
-        margin-left: 35%;
+        margin-top: 310px;
+        margin-left: 10%;
         margin-right: 15%;
+        width: 100%;
       }
     .grid-item-meet-us{
-        width: 50%;
-        margin-bottom: 10%;
+        width: 20%;
+        margin-left: 5%;
+        margin-bottom: 0%;
     }
     .grid-item-meet-us-sec{
-        margin-left: 25%;
+        margin-left: 0%;
     }
     .text-grid{
-        height: 117px;
+        height: 44px;
         font-weight: 700;
-        font-size: 68px;
+        font-size: 36px;
     }
     .grid-container-meet-us-second {
-        display: grid;
-        grid-template-columns: auto; 
-        grid-template-rows: auto auto auto;
-        margin-left: 25%;
-        font-size: 24px;
-        margin-top: -330px;
+        margin-left: 5%;
+        font-size: 14px;
+        width: 95%;
+        margin-top: 0px;
       }
       .grid-item-meet-us-second{
-        width: 50%;
-        margin-bottom: 50%;
+        width: 100%;
+        overflow-wrap: normal;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .websites-text{
+        margin-left: 20px ;
+    }
+    .clients-text{
+        margin-left: 40px;
+    }
+    .years-text{
+        margin-left: 50px;
     }
     .story-of-creation{
-        width: 90%;
-        height: 117px;
+        width: 100%;
+        height: 43px;
+        line-height: 43px;
         margin-left: 5%;
-        font-size: 72px;
+        text-align: left;
+        font-size: 36px;
+        margin-top: 20%;
+        margin-bottom: 10%;
     }
     .mezera-meet-us{
         width: auto;
-        height: 20%;
+        height: 1%;
     }
-    .websites-text{
-        margin-left: 0px ;
-    }
-    .clients-text{
-        margin-left: 50%;
-    }
-    .years-text{
-        margin-left: 10%;
-    }
+
 }

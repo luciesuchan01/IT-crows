@@ -351,8 +351,9 @@ input[type='checkbox'] {
 }
 @media only screen and (max-width:486px) {
     .Footer{
-        width: 120%;
+        width: 100%;
         margin-left: 0%;
+        margin-right: 0%;
         position: absolute;
     }
     .Upper-Footer{

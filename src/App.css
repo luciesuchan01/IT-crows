@@ -39,8 +39,14 @@
   .switcher-main{
     display: none;
   }
+  .footer-about-us{
+    margin-top: 2700px;
+  }
   .footer-main{
     margin-top: 3000px;
+  }
+  .footer-our-work{
+    margin-top: 7200px;
   }
 }
 
@@ -53,10 +59,10 @@
     margin-top: 1978px;
   }
   .footer-about-us{
-    margin-top: 5296px;
+    margin-top: 3396px;
   }
   .footer-our-work{
-    margin-top: 5052px;
+    margin-top: 4852px;
   }
   .switcher-services{
     display: none;

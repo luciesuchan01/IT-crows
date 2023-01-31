@@ -111,21 +111,123 @@ font-family: 'Montserrat', sans-serif;
 .mezera-good-work{
     margin-top: 40px;
 }
-
-/*145*/
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 1000px) {
     .good-work{
-        width: 100%;
-        top: 3539px;
+        top:2629px;
     }
     .good-work-title{
-        width: 80%;
-        height: 117px;
+        width: 95%;
+        height: 56px;
+        margin-left: 5%;
+        font-size: 56px;
+        margin-bottom: 40pt;
+    }
+    .text-good-work{
+        position:relative;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
         margin-left: 15%;
+        margin-right: 0px;
+        height: 174px;
+        font-weight: 400;
+        font-size: 24px;
+        text-align: left;
+        line-height: 180%;
+        color: #181818;
+        width: 90%;
+    }
+    .grid-container-good-work {
+        /*grid: auto-flow dense / repeat(3, 180px);*/
+        display: grid;
+        padding: 0pt;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        text-align: center;
+        margin-left: 5%;
+        width: 95%;
+        margin-right: 163px;
+        text-align: center;
+    }
+    .grid-item-good-work{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 329px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 0px;
+        width: 20%;
+    }
+    .text-grid-good-work{
+        height: 117px;
+        align-items: center;
+        flex: none;
+        text-shadow: 1px 0 #FF4747, -1px 0 #FF4747, 0 1px #FF4747, 0 -1px #FF4747,
+                 1px 1px #FF4747, -1px -1px #FF4747, 1px -1px #FF4747, -1px 1px #FF4747;
+    
+        font-family: 'Montserrat', sans-serif;
+        color: #F5F5F5;
+        font-weight: 700;
+        font-size: 48px;
+        display: flex;
+        margin-left: 80px;
+    }
+    .grid-container-good-work-second{
+        /*grid: auto-flow dense / repeat(3, 180px);*/
+        display: grid;
+        padding: 0pt;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        text-align:center;
+        margin-left: 5%;
+        margin-right: 0px;
+        margin-top: -100px;
+        align-items: center;
+        text-align: center;
+        font-weight: 400;
+        color: #181818;
+        width: 90%;
+        line-height: 180%;
+    }
+    
+    .grid-item-good-work-second{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        width: 100%;
+        display: flex;
         margin-right: 5%;
-        margin-top: 2%;
-        font-size: 72px;
-        margin-bottom: 120%;
+        margin-left: 6%;
+        align-items: center;
+    
+    }
+    .mezera-good-work{
+        margin-top: 40px;
+    }
+}
+/*145*/
+@media only screen and (max-width: 486px){
+    .good-work{
+        width: 100%;
+        top: 2339px;
+    }
+    .good-work-title{
+        width: 100%;
+        height: 43px;
+        line-height: 43px;
+        margin-left: 5%;
+        text-align: left;
+        font-size: 36px;
+        margin-top: 20%;
+        margin-bottom: 10%;
     }
     .text-good-work{
         margin-left: 5%;
@@ -133,8 +235,9 @@ font-family: 'Montserrat', sans-serif;
         margin-top: 20%;
         height: auto;
         text-align: left;
-        line-height: 180%;
+        line-height: 28px;
         width: 90%;
+        font-size: 16px;
     }
     .grid-container-good-work {
         /*grid: auto-flow dense / repeat(3, 180px);*/
@@ -145,7 +248,7 @@ font-family: 'Montserrat', sans-serif;
         background-color: #F5F5F5;
         border: 1px solid #F5F5F5;
         text-align: center;
-        margin-left: 15%;
+        margin-left: 20%;
         margin-right: 10%;
         text-align: center;
     }
@@ -179,7 +282,7 @@ font-family: 'Montserrat', sans-serif;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
-        margin-left: 5%;
+        margin-left: 15%;
         margin-right: 5%;
         margin-top: -590px;
         font-weight: 400;
@@ -195,6 +298,7 @@ font-family: 'Montserrat', sans-serif;
         margin-bottom: 150px;
         display: flex;
         align-items: center;
+        font-size: 16px;
     
     }
     .mezera-good-work{
