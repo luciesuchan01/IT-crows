@@ -29,10 +29,10 @@ export default function Banner() {
                     <span className="Get-in-touch text">
                         Get in touch
                     </span>
-                    <img src={Arrow} />
+                    <img src={Arrow} className="arrow-git"/>
                 </a>
            </div>
-           
+
            <div className="Arrows-down">
                 <img src={ArrowsDown} />
                 <img src={ArrowsDown} />

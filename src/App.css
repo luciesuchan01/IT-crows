@@ -36,6 +36,12 @@
   .footer-graciano{
     margin-top: 11589px;
   }
+  .switcher-main{
+    display: none;
+  }
+  .footer-main{
+    margin-top: 3500px;
+  }
 }
 
 @media only screen and (max-width: 786px) {
@@ -43,7 +49,7 @@
     display: none;
   }
   .footer-main{
-    margin-top: 2678px;
+    margin-top: 1978px;
   }
   .footer-about-us{
     margin-top: 5296px;

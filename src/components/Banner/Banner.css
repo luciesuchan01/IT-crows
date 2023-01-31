@@ -10,6 +10,7 @@ body {
     margin-top: 80px;
     /*width: 1440px;*/
     width: 90%;
+    text-decoration: none;
 }
 
 .Banner {
@@ -24,7 +25,7 @@ body {
     text-transform: uppercase;
     display: flex;
     text-align: left;
-    margin-left: 7%;
+    margin-left: 5%;
     width: 90%;
     font-size: 96px;
     font-family: 'Halvar Breitschrift', sans-serif;
@@ -34,6 +35,7 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
     margin-bottom: 5%;
+    margin-top: 166px;
 }
 .Main-title h2{
     font-size: 96px;
@@ -113,9 +115,10 @@ body {
     color: #181818;
     font-family: Montserrat;
     font-size: 32px;
+    font-weight: 600;
     line-height: 57px;
-    border-bottom: 1px solid;
     margin-right: 42px;
+    width: auto;
 
 }
 
@@ -149,7 +152,10 @@ body {
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
 }
-@media only screen  and (max-width: 1345px){
+@media only screen  and (max-width: 1300px){
+    .Banner{
+    margin-left: 40px;
+    }
     .title {
     width: 100%;
     text-align: left;   
@@ -162,54 +168,136 @@ body {
     margin-top: 60%;
 }
 
+.Main-title {
+    margin-left: 40px;
+    width: 100%;
+    font-size: 56px;
+    line-height: 100%;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    margin-bottom: 5%;
+    margin-top: 166px;
+}
+.Main-title h2{
+    font-size: 56px;
+    width: 100%;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.changing-text {
+    font-size: 110px;
+}
+
+.title {
+    width: 498px;
+    text-align: left;   
+    margin-left: 427px;
+    top: auto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-top: 203px;
+}
+
+.Get-in-touch.button {
+    margin-top: 24px;
+    margin-left: 457px;
+    width: 55%;
+}
+
+.Get-in-touch .text{
+    color: #181818;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 57px;
+    margin-right: 42px;
+    width: auto;
+
+}
+
+.Get-in-touch a {
+    text-decoration: none;
+}
+
+.Arrows-down {
+    text-align: left;
+    padding-top: 118px;
+    margin-left: 102px;
+}
 }
 @media only screen  and (max-width: 786px){
+
     .Main-title {
         text-transform: uppercase;
         display: flex;
         text-align: left;
-        margin-left: 5%;
+        margin-left: 0;
         width: 70%;
         font-size: 96px;
         font-family: 'Halvar Breitschrift', sans-serif;
-        line-height: 100px;
+        line-height: 36px;
         letter-spacing: 3%;
         font-weight: 500;
-        font-style: normal;
-        
+        font-style: normal;        
     }
     .Main-title h2{
-        font-size: 56px;
+        text-align: center;
+        font-size: 36px;
         margin-top: 15%;
         text-transform: uppercase;
     }
     .changing-text {
-        font-size: 56px;
+        font-size: 48px;
+        line-height: 48px;
+        margin-top: 8px;
     }
     .Banner {
-        margin-left: 5%;
-        height: 1000px;
+        margin-left: 0%;
+        height: 497px;
         margin-bottom: 5%;
     }
     .title {
-        width: 100%;
+        width: 282px;
         text-align: left;   
-        margin-left: 5%;
-        font-size: 24px;
+        margin-left: 70px;
+        font-size: 16px;
         font-weight: 400;
-        line-height: 43px;
-        margin-top: 450px;
+        line-height: 28px;
+        margin-top: 208px;
     }
+    
     .Get-in-touch.button {
-        display: none;
+        margin-top: 24px;
+        margin-left: 70px;
+        width: 100%;
+        text-decoration: none;
     }
+    
     .Get-in-touch .text{
-        display: none;
+        font-size: 24px;
+        line-height: 43px;
+        border-bottom: none;
+        margin-right: 0;
+        width: 100%;
+        display: inline-block;
+        text-decoration: none;
     }
+    
+    .Get-in-touch a {
+        text-decoration: none;
+        width: 100%;
+    }
+    .arrow-git{
+        margin-left: 200px;
+        width: 40%;
+        display: inline-block;
+        top: -30px;
+        position: relative;
+    }
+    
     .Arrows-down {
-        text-align: left;
-        margin-top: 0%;
-        margin-left: 5%;
-        margin-bottom: 5%;
+        display: none;
     }
 }

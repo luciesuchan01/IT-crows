@@ -4,27 +4,29 @@
     height: auto;
 }
 
-.Main-title.Services {
-    height: 96px;
+.main-title.Services {
+    height: 56px;
     padding-top: 60px;
-    margin-left: 10%;
+    font-weight: 800;
+    margin-left: 5%;
+    font-size: 96px;
 }
 
 
-.Main-title.Services h2 {
+.main {
     width: 50%;
     height: 116px;
     font-family: Montserrat;
     font-family: sans-serif;
     color: #F5F5F5;
-    font-weight: 700;
-
-    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
-             1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+    font-weight: 800;
+    margin-left: -5%;
+    text-shadow: 1px 0 #181818, 1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+    1px 1px #181818, -1px -1px #181818, -1px -1px #181818, -1px 1px #181818;
     text-transform: uppercase;
     }
 
-.Main-title.Services p {
+.text-services {
     width: 50%;
     height: 136px;
     font-size: 24px;
@@ -32,8 +34,9 @@
     font-style: normal;
     text-transform: none;
     line-height: 43px;
-    margin-top: 30px;
-    margin-left: 650px;
+    margin-top: -90px;
+    margin-left: 690px;
+    text-align: left;
     font-weight: 400;
     min-width: 40%;
     letter-spacing: 0em;
@@ -72,24 +75,22 @@
 }
 
 .Development-box {
-    height: 685px;
     width: 30%;
 }
 
 .Design-box {
-    height: 551px;
     width: 30%;
 
 }
 
 .box {
-    margin-left: 10%;
+    margin-left: 7%;
     margin-right: 10px;
     border-radius: 40px;
     border: 1px solid black;
-    width: 40%;
+    width: 50%;
     overflow-wrap: break-word;
-    height: auto;
+    height: fit-content;
 }
 .button-services{
     width: 80%;
@@ -100,38 +101,128 @@
 .box img {
     margin-top: 69px;
 }
+
+@media only screen and (max-width:1300px) {
+.Services{
+    width: 100%;
+}
+
+.main-title.Services {
+    height: 56px;
+    padding-top: 60px;
+    font-weight: 800;
+    margin-left: 7%;
+    font-size: 56px;
+}
+.main {
+    width: 45%;
+}
+
+.text-services {
+    width: 50%;
+    line-height: 24px;
+    margin-top: -100px;
+    margin-left: 406px;
+}
+
+.Services-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 124px;
+    width: 100%;
+    margin-left: 2%;
+}
+
+.Services-boxes h3 {
+    font-size: 32px; 
+    text-align: left;  
+    font-family: Montserrat;
+    text-transform: uppercase;
+    margin: 40px 40px 40px 40px;
+}
+
+.Services-boxes ul {
+    list-style: none;
+    font-size: 24px;
+    padding-right: 5%;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Montserrat;
+}
+
+.Services-boxes ul li {
+    padding: 0 0 20px 68px;
+}
+
+.Development-box {
+    width: 30%;
+}
+
+.Design-box {
+    width: 30%;
+
+}
+
+.box {
+    margin-left: 5%;
+    margin-right: 10px;
+    border-radius: 40px;
+    border: 1px solid black;
+    width: 50%;
+    overflow-wrap: break-word;
+    height: fit-content;
+}
+.button-services{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.box img {
+    margin-top: 69px;
+}
+
+}
+
+
 @media only screen  and (max-width: 786px){
     .Services {
-        margin-top: 60%;
+        margin-top: 0%;
         width: 100%;
+        margin-left: 0px;
+        text-align: left;
+        align-items: left;
     }
     
-    .Main-title.Services {
+    .main-title.Services {
         height: 32px;
         width: 100%;
-        margin-left: 0%;
+        margin-left: 40px;
         margin-right: 2%;
-        font-size: 38px;
+        font-size: 36px;
     }
-    .Main-title.Services h2 {
-        margin-left: 5%;
+    .main {
+        margin-left: 0px;
         width: 90%;
+        height: auto;
         }
-    .Main-title.Services p {
-        margin-top: 50%;
-        margin-left: 5%;
+    .text-services {
+        margin-top: 0%;
+        margin-left: 0%;
+        font-size: 16px;
+        line-height: 19px;
         overflow-wrap: normal;
         font-weight: 400;
         letter-spacing: 0em;
-        width: 90%;
+        width: 100%;
     }
 
     
     .Services-boxes {
         display: grid;
         justify-content: center;
-        margin-top: 110%;
-        margin-left: 5%;
+        margin-top: 40%;
+        margin-left: 40px;
         width: 90%;
     }
     
@@ -179,16 +270,18 @@
         height: auto;
     }
     .button-services{
-        width: 80%;
+        width: 70%;
         margin-left: 0%;
         margin-right: 0%;
         margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 5%
     }
     .box img {
         margin-top: 15%;
-        width: 100%;
+        width: 80%;
         margin-bottom: 10%;
+        align-items: center;
+        margin-left: 30px;
     }
     
 }

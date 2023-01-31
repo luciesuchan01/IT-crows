@@ -5,12 +5,12 @@ import ReadMoreBtn from './images/services button.png';
 export default function Services (){
     return(
         <div className="Services">
-            <div className="Main-title Services">
-                <h2>We&nbsp;create</h2>
-                <p>
+            <div className="main-title Services">
+                <div className='main'>We&nbsp;create</div>
+                <div className='text-services'>
                     Based on  <span className="Services-red-text">bussines analysis, user experience</span> and 
                    current  <span className="Services-red-text">technologies</span>
-                </p>
+                </div>
             </div>
             
             <div className="Services-boxes">

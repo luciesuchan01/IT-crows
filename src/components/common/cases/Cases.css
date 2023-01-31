@@ -214,6 +214,174 @@ h2{
 .grac-img{
     width: 110%;
 }
+
+@media only screen and (max-width: 1300px) {
+    .cases{
+        width: 90%;
+        left: 0%;
+        top: 1519px;
+        display:flexbox;
+        align-items: center;
+        font-display:inherit;
+        background: #F5F5F5;
+        
+    }
+    .cases-title{
+        font-weight: 700;
+        margin-left: 5%;
+        font-size: 56px;  
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        background-color: #F5F5F5;
+        justify-content: start;
+        justify-items: flex-start;
+        flex-wrap: wrap;
+        align-content: start;
+        width: 100%;
+      }
+      
+    
+      .grid-item {
+        display: inline-grid;
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        font-size: 30px;
+        text-align: center;
+        height: 450px;
+        margin-top: 20pt;
+        margin-left: 10%;
+        margin-bottom: 200px;
+    
+      }
+      .grid-item-left{
+        margin-left: 5%;
+        margin-right: auto;
+        overflow-wrap: normal;
+        width: 90%;
+      }
+      .grid-item-right{
+        margin-right: 102px;
+        margin-left: 15%;
+        overflow-wrap: normal;
+      }
+    .pujc-pic{
+        margin-top: 35px;
+        
+    }
+    .pujc-border{
+        border: 2px solid #EBEBEB;
+        border-radius: 20px;
+        margin: auto;
+        background-color: #EBEBEB;
+        Width: 384px;
+        Height: 550px;
+        padding: 0;
+        margin-right: 102px; 
+    }
+    .grid-container-second{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        background-color: #F5F5F5;
+        justify-content: start;
+        justify-items: flex-start;
+        flex-wrap: wrap;
+        align-content: start;
+        width: 100%;
+        margin-top: 0pt;
+    }
+    .grid-item-second {
+        display: inline-grid;
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        font-size: 30px;
+        text-align: center;
+        height: 450px;
+        margin-top: 86px;
+        margin-bottom: 100px;
+      }
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: #181818;
+        width: 276px;
+        height: 59px;
+        font-weight: 700;
+        overflow-wrap: normal;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 14px;
+        }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        text-transform: none;
+        font-size: 24px;
+        overflow-wrap: normal;
+        font-weight: 400;
+        margin-top: 15pt;
+        position:absolute;
+        justify-items: baseline;
+        display:flexbox;
+        justify-content:right;
+    }
+    .first-pic{
+        margin-left: 0px;
+        margin-top: 30px;
+        overflow-wrap: normal;
+    
+    }
+    .second-pic{
+        margin-left: 0px;
+        margin-top: 30px;
+        overflow-wrap: normal;
+    
+    }
+    .third-pic{
+        margin-left: 0px;
+        margin-top: 30px;
+        overflow-wrap: normal;
+    
+    }
+    .fourth-pic{
+        margin-left: 0px;
+        margin-top: 30px;
+        overflow-wrap: normal;
+    
+    }
+    .fifth-pic{
+        margin-left: 0px;
+        margin-top: 30px;
+        overflow-wrap: normal;
+    
+    }
+    .more-view-a{
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        color: #181818;
+        font-weight: 400;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 180px;
+    }
+    .more-view{
+        font-size: 24pt;
+        margin-right: 40pt;
+        margin-top: -5pt;
+    }
+    .plus-border{
+        margin-left: 387.02px;
+    }
+    .load-pic{
+        margin-left: -50pt;
+    }
+    .grac-img{
+        width: 110%;
+    }    
+}
 @media only screen  and (max-width: 786px){
     .cases{
         position: absolute;
@@ -221,27 +389,28 @@ h2{
         height: 2943px;
         left: 0%;
         right: 5%;
-        top: 3150px;
+        top: 1850px;
         margin-bottom: 15%;
     }
     .cases-title{
         width: 60%;
-        margin-left: 10%;
+        margin-left: 5%;
         margin-top: 5%;
         line-height: 117px;
-        font-weight: 700;
-        font-size: 48px;
+        font-weight: 800;
+        font-size: 36px;
     }
     .grid-container{
         display: grid;
         grid-template-columns: auto ;
         grid-template-rows: auto auto auto auto;
         width: 100%;
+        margin-left: -5%;
     }
     .grid-item {
     display: inline-grid;
-    margin-top: 20pt;
-    margin-bottom: 35%;
+    margin-top: -40pt;
+    margin-bottom: 45%;
     }
     .grid-item-left{
     margin-left: 0%;

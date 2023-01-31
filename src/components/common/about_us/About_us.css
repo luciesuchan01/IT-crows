@@ -84,28 +84,81 @@
 .red-text{
     font-weight: 800;
 }
+
+@media only screen and (max-width: 1300px){
+    .about_us{ 
+        top: 4062px;
+    }
+    .about_us_title{
+        font-size: 56px;
+    }
+    .our_team_image{
+        display: flex;
+        position: relative;
+        margin-top: 149px;
+        margin-right: 10%;
+        width:40%;
+        height:auto;
+        margin-left: 0%;
+    }
+    
+    .grid-container-about-us {
+        display: grid;
+        padding: 0pt;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        background-color: #F5F5F5;
+        border: 1px solid #F5F5F5;
+        text-align: center;
+        margin-top: 0pt;
+        width: 90%;
+        margin-left: 0px;
+      }
+    .grid-item-about-us{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        text-align: center;
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 20px;
+    }
+    .text-about-us{
+        position:relative;
+        width: 486px;
+        height: 344px;
+        line-height: 43px;
+    }
+    .read-more{
+        margin-left: 0;
+    }
+    .red-text{
+        font-weight: 800;
+    }
+    
+}
 @media only screen and (max-width: 786px){
     .about_us{
         position: absolute;
         justify-content: center;
         width: 90%;
         height: 1614px;    
-        left: -9%;
-        top: 4250px;
+        top: 2850px;
+        left: -15%;
+        justify-content: left;
     }
     .about_us_title{
         width: 90%;
         font-weight: 700;
-        font-size: 48px;
+        font-size: 36px;
         margin-top: 76px;
     }
     .our_team_image{
         display:flex;
         position: relative;
-        margin-top: 15%;
+        margin-top: 5%;
         margin-right: 0%;
-        width: 45%;
-        height: 45%;
+        width: 50%;
+        height: 50%;
     }
     
     .grid-container-about-us {
@@ -128,13 +181,14 @@
     .text-about-us{
         position:relative;
         width: 100%;
+        font-size: 16px;
     }
     .read-more{
         width: 133px;
         height: 30px;
         line-height: 50%;
-        margin-top: 245px;
-        margin-left: 0pt;
-        text-decoration: underline;
+        margin-top: -70px;
+        margin-left: 25%;
+        text-decoration: none;
     }
 }

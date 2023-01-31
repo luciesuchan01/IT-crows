@@ -33,13 +33,13 @@ function App() {
 
       <Switch>
         <Route exact path="/" >
-          <Header />,
-          <Banner />,
-          <Services />,
-          <Cases />,
-          <About_us />,
+          <Header />
+          <Banner />
+          <Services />
+          <Cases />
+          <About_us />
           <div className='switcher-main'>
-            <Switcher />,
+            <Switcher />
           </div>
           
           <div className='footer-main'>
@@ -48,10 +48,10 @@ function App() {
         </Route>
       
         <Route exact path="/about_us">
-          <Header />,
-          <Meet_us />,
-          <Slider />,
-          <Good_work/>,
+          <Header />
+          <Meet_us />
+          <Slider />
+          <Good_work/>
           <div className='footer-about-us'>
             <Footer />
           </div>
@@ -61,8 +61,8 @@ function App() {
         </Route>
 
         <Route exact path="/our_work">
-          <Header />,
-          <Our_work_cases/>,
+          <Header />
+          <Our_work_cases/>
           <div className='footer-our-work'>
             <Footer/>
           </div>
@@ -90,18 +90,18 @@ function App() {
         </Route>
 
         <Route exact path="/contact">
-          <Header />,
+          <Header />
           <Form />
         </Route>
         <Route exact path="/services_design">
-          <Header />,
-          <Banner_services />,
-          <Design_page_nav/>,
-          <Web_dev/>,
-          <Custom_soft/>,
-          <Webpages_design/>,
+          <Header />
+          <Banner_services />
+          <Design_page_nav/>
+          <Web_dev/>
+          <Custom_soft/>
+          <Webpages_design/>
           <div className='switcher-services-sec'>
-            <Switcher/>,
+            <Switcher/>
           </div>
           <div className='footer-services-sec'>
             <Footer/>
@@ -111,13 +111,13 @@ function App() {
           <div className='header-graciano'>
             <Header_sec />
           </div>
-          <Banner_graciano/>,
-          <About_graciano/>,
-          <Project_task/>,
-          <Solution/>,
-          <Responsive/>,
+          <Banner_graciano/>
+          <About_graciano/>
+          <Project_task/>
+          <Solution/>
+          <Responsive/>
          <div className='footer-graciano'>
-          <Footer/>,
+          <Footer/>
          </div>
         </Route>
 
