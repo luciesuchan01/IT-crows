@@ -2,7 +2,7 @@
   text-align: center;
 }
 .footer-main{
-  margin-top: 778px;
+  margin-top: 4578px;
 }
 .footer-about-us{
   margin-top: 3006px;
@@ -14,7 +14,7 @@
   margin-top: 604px;
 }
 .switcher-main{
-  margin-top: 3513px;
+  margin-top: 4013px;
 }
 .switcher-services{
   margin-top: 106px;
@@ -32,7 +32,7 @@
   margin-top: 650px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
   .footer-graciano{
     margin-top: 11589px;
   }
@@ -40,13 +40,14 @@
     display: none;
   }
   .footer-main{
-    margin-top: 3500px;
+    margin-top: 3000px;
   }
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 486px) {
+  
   .switcher-main{
-    display: none;
+    margin-top: 2000px;
   }
   .footer-main{
     margin-top: 1978px;

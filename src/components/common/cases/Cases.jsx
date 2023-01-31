@@ -5,6 +5,8 @@ import todolist_picture from './images/todolist.png'
 import lorem_picture from './images/lorem.png'
 import ecommerce_picture from './images/ecommerce.png'
 import sipka_picture from './images/sipka.png'
+import pujc_picture_sec from './images/pujc_sec.svg'
+import cases_graciano_sec from './images/cases_graciano_sec.svg'
 
 import './Cases.css'
 
@@ -23,7 +25,7 @@ function Cases(){
                     <div className='grid-item-left'>
                         <div className='grac-img'>
                         <a href='/graciano'>
-                        <img src={graciano_picture} alt="" width="100%" height="100%"/>
+                        <img src={cases_graciano_sec} alt="" width="100%"/>
                         </a>
                         </div>
                         <h1>graciano
@@ -35,11 +37,9 @@ function Cases(){
                 </div>                
                 <div class="grid-item">
                     <div class="grid-item-right">
-                        <div class = "pujc-border">
                             <div className='pujc-pic'>
-                                <img src={pujc_picture}/>
+                                <img src={pujc_picture_sec} width="130%"/>
                             </div>
-                        </div>
                         
                         <h1>pujc
                         <h2>
@@ -53,7 +53,7 @@ function Cases(){
                 <div class="grid-item">
                     <div className='grid-item-left'>
                         <div className='todo-img'>
-                        <img src={todolist_picture} alt="" width="100%" height="87%"/>
+                        <img src={todolist_picture} alt="" width="100%"/>
                         </div>
                         <h1>todo list
                             <h2>
@@ -67,7 +67,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                     <div className='load-pic'>
-                        <img src={lorem_picture} alt="" width="130%" height="100%"/>
+                        <img src={lorem_picture} alt="" width="100%"/>
                     
                     <h1>lorem
                         <h2>
@@ -81,7 +81,7 @@ function Cases(){
             <div className='grid-container-second'>
                 <div className='grid-item-second'>
                     <div class="grid-item-left">
-                        <img src={ecommerce_picture} alt="" width="110%" height="550"/>
+                        <img src={ecommerce_picture} alt="" width="100%"/>
                     
                         <h1>lorem
                             <h2>

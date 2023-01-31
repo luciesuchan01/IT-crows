@@ -3,7 +3,7 @@
     justify-content: center;
     width:94%;
     height: 1214px;    
-    top: 4762px;
+    top: 5062px;
     display:flexbox;
     align-items: center;
     font-display:inherit;
@@ -75,7 +75,7 @@
     line-height: 180%;
     display: flex;
     align-items: center;
-    color: #A3A1A1; 
+    color: #181818; 
     flex: none;
     margin-top: 20pt;
     margin-left: 340pt;
@@ -85,80 +85,30 @@
     font-weight: 800;
 }
 
-@media only screen and (max-width: 1300px){
-    .about_us{ 
-        top: 4062px;
-    }
-    .about_us_title{
-        font-size: 56px;
-    }
-    .our_team_image{
-        display: flex;
-        position: relative;
-        margin-top: 149px;
-        margin-right: 10%;
-        width:40%;
-        height:auto;
-        margin-left: 0%;
-    }
-    
-    .grid-container-about-us {
-        display: grid;
-        padding: 0pt;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        background-color: #F5F5F5;
-        border: 1px solid #F5F5F5;
-        text-align: center;
-        margin-top: 0pt;
-        width: 90%;
-        margin-left: 0px;
-      }
-    .grid-item-about-us{
-        display: inline-grid;
-        background-color: #F5F5F5;
-        text-align: center;
-        width: 40%;
-        margin-left: 10%;
-        margin-right: 20px;
-    }
-    .text-about-us{
-        position:relative;
-        width: 486px;
-        height: 344px;
-        line-height: 43px;
-    }
-    .read-more{
-        margin-left: 0;
-    }
-    .red-text{
-        font-weight: 800;
-    }
-    
-}
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 1000px){
     .about_us{
         position: absolute;
         justify-content: center;
         width: 90%;
-        height: 1614px;    
-        top: 2850px;
-        left: -15%;
+        height: 1014px;    
+        top: 3350px;
+        left: -10%;
         justify-content: left;
     }
     .about_us_title{
-        width: 90%;
+        width: 100%;
         font-weight: 700;
-        font-size: 36px;
+        font-size: 56px;
         margin-top: 76px;
+        height: 44px;
     }
     .our_team_image{
         display:flex;
         position: relative;
         margin-top: 5%;
         margin-right: 0%;
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
     
     .grid-container-about-us {
@@ -174,21 +124,84 @@
         display: inline-grid;
         background-color: #F5F5F5;
         text-align: center;
-        width: 50%;
+        width: 100%;
         margin-left: 5%;
         margin-right: 20px;
     }
     .text-about-us{
         position:relative;
         width: 100%;
+        height: 200px;
+        margin-top: 5%;
         font-size: 16px;
     }
     .read-more{
-        width: 133px;
+        width: 181px;
         height: 30px;
         line-height: 50%;
-        margin-top: -70px;
-        margin-left: 25%;
+        margin-top: -40px;
+        margin-left: 40%;
+        font-size: 32px;
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width: 486px){
+    .about_us{
+        position: absolute;
+        justify-content: center;
+        width: 90%;
+        height: 1614px;    
+        top: 2850px;
+        left: -15%;
+        justify-content: left;
+    }
+    .about_us_title{
+        width: 90%;
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 76px;
+        height: 44px;
+    }
+    .our_team_image{
+        display:flex;
+        position: relative;
+        margin-top: 10%;
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 55%;
+        height: 55%;
+    }
+    
+    .grid-container-about-us {
+        display: grid;
+        margin-left: 15%;
+        padding: 0pt;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        text-align: center;
+        margin-top: 0pt;
+      }
+    .grid-item-about-us{
+        display: inline-grid;
+        background-color: #F5F5F5;
+        text-align: center;
+        width: 55%;
+        margin-left: 5%;
+        margin-right: 20px;
+    }
+    .text-about-us{
+        position:relative;
+        width: 100%;
+        margin-top: 0%;
+        font-size: 16px;
+    }
+    .read-more{
+        width: 181px;
+        height: 30px;
+        line-height: 50%;
+        margin-top: 50px;
+        margin-left: 80px;
+        font-size: 32px;
         text-decoration: none;
     }
 }

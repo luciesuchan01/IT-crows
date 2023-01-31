@@ -41,7 +41,6 @@ function App() {
           <div className='switcher-main'>
             <Switcher />
           </div>
-          
           <div className='footer-main'>
           <Footer />
           </div>

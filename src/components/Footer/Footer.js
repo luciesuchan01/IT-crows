@@ -21,22 +21,24 @@ export default function Footer(){
                         <div className="Upper-Footer-left">
                             
                             <h2>Get in touch</h2>
+                            <form action='mailto:hello@itcrows.com' method='post' encType='text/plain'>
                             <div className='Upper-Footer-left-text'>
                                 <input type="text" placeholder="Your name" />
                                 <input type="text" placeholder="youremail@mail.com" />
                                 <input type="text" placeholder="Explain, how we can help you?" />
                             </div>
-                            
                             <div className="Footer-checkbox">
                                 <input type="checkbox" name="checkbox" id="" />
                                 <label for="checkbox">I have read and understand ITCROWS Privacy Notice.</label>
                             </div>
 
                             <a href="#" className="Upper-Footer-left anchor">
-                                <button className="Upper-Footer-left button">
+                                <button type="submit" className="Upper-Footer-left button">
                                     Send Message <img src={RightArrow} alt="" />
                                 </button>
                             </a>
+                            </form>
+
                         </div>
 
                         {/* PRAVÝ HORNÍ  */}
@@ -82,7 +84,15 @@ export default function Footer(){
                         </div>
 
                         <div className="Lower-Footer-right">
-                            <h2>IT crows <span> <img src={Crows} alt="" /></span></h2>
+                            <h2><span> <img src={Crows} alt="" /></span> IT crows </h2>
+                            <div className="Post-Footer-up">
+                                <a href="https://www.instagram.com/_itcrows/"><img src={Instagram} alt="" /></a>
+                                <a href="https://www.facebook.com/itcrows"><img src={Facebook} alt="" /></a>
+                                <a href=""><img src={Be} alt="" /></a>
+                                <a href=""><img src={Linkedin} alt="" /></a>
+                                <a href=""><img src={Youtube} alt="" /></a>
+                            </div>
+                            {/*
                                 <div className='Lower-Footer-right-text'>
                                     <div className="First-Line-Navigation">
                                         <a href="">Contact</a>
@@ -96,11 +106,13 @@ export default function Footer(){
                                         <a href="">Services</a>
                                     </div>
                                 </div>
+                            */}
                         </div>
                     </div>
    
 
     <div className="Post-Footer">
+        {/*
             <div className="Post-Footer-up">
                 <a href="https://www.instagram.com/_itcrows/"><img src={Instagram} alt="" /></a>
                 <a href="https://www.facebook.com/itcrows"><img src={Facebook} alt="" /></a>
@@ -108,6 +120,7 @@ export default function Footer(){
                 <a href=""><img src={Linkedin} alt="" /></a>
                 <a href=""><img src={Youtube} alt="" /></a>
             </div>
+        */}
      {/* DĚLÍCÍ ČÁRA */}
      <p>
         <hr className="Footer-Line-Post-Footer" />

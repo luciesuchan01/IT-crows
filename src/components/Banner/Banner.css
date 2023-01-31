@@ -152,7 +152,7 @@ body {
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
 }
-@media only screen  and (max-width: 1300px){
+@media only screen  and (max-width: 1000px){
     .Banner{
     margin-left: 40px;
     }
@@ -170,8 +170,8 @@ body {
 
 .Main-title {
     margin-left: 40px;
-    width: 100%;
-    font-size: 56px;
+    width: 95%;
+    font-size: 46px;
     line-height: 100%;
     font-weight: 700;
     font-style: normal;
@@ -180,30 +180,30 @@ body {
     margin-top: 166px;
 }
 .Main-title h2{
-    font-size: 56px;
-    width: 100%;
+    font-size: 46px;
+    width: 90%;
     line-height: 140%;
     text-transform: uppercase;
 }
 .changing-text {
-    font-size: 110px;
+    font-size: 66px;
 }
 
 .title {
     width: 498px;
     text-align: left;   
-    margin-left: 427px;
+    margin-left: 157px;
     top: auto;
     font-size: 20px;
     font-weight: 400;
-    line-height: 43px;
+    line-height: 36px;
     margin-top: 203px;
 }
 
 .Get-in-touch.button {
     margin-top: 24px;
-    margin-left: 457px;
-    width: 55%;
+    margin-left: 257px;
+    width: 75%;
 }
 
 .Get-in-touch .text{
@@ -224,16 +224,16 @@ body {
 .Arrows-down {
     text-align: left;
     padding-top: 118px;
-    margin-left: 102px;
+    margin-left: 40px;
 }
 }
-@media only screen  and (max-width: 786px){
+@media only screen  and (max-width: 486px){
 
     .Main-title {
         text-transform: uppercase;
         display: flex;
         text-align: left;
-        margin-left: 0;
+        margin-left: 15%;
         width: 70%;
         font-size: 96px;
         font-family: 'Halvar Breitschrift', sans-serif;
@@ -245,7 +245,7 @@ body {
     .Main-title h2{
         text-align: center;
         font-size: 36px;
-        margin-top: 15%;
+        margin-top: 0%;
         text-transform: uppercase;
     }
     .changing-text {
@@ -270,7 +270,7 @@ body {
     
     .Get-in-touch.button {
         margin-top: 24px;
-        margin-left: 70px;
+        margin-left: 40px;
         width: 100%;
         text-decoration: none;
     }
@@ -290,7 +290,7 @@ body {
         width: 100%;
     }
     .arrow-git{
-        margin-left: 200px;
+        margin-left: 210px;
         width: 40%;
         display: inline-block;
         top: -30px;

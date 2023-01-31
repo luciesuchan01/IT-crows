@@ -63,10 +63,10 @@ nav ul li ul li{
     height: 20px;
     position: relative;
 }
-@media only screen  and (max-width: 1500px){
+@media only screen  and (max-width: 1000px){
 
     nav{
-        display: block;
+        display: none;
         margin-left: 50%;
         margin-right: 5%;
         margin-top: 0%;
@@ -89,10 +89,10 @@ nav ul li ul li{
 
 }
 
-@media only screen  and (max-width: 786px){
+@media only screen  and (max-width: 486px){
 
     nav{
-        display: block;
+        display: none;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 10%;

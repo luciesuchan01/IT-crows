@@ -2,7 +2,6 @@
     position: absolute;
     width: 90%;
     height: 2743px;
-    left: 10%;
     top: 2219px;
     display:flexbox;
     align-items: center;
@@ -19,7 +18,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin-left: 102px;
+    margin-left: 10%;
     margin-top: 169px;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
     1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
@@ -27,7 +26,7 @@
     color: #F5F5F5;
     line-height: 117px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 96px;
     margin-bottom: 40pt;
     flex: none;
@@ -38,13 +37,15 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     background-color: #F5F5F5;
     justify-content: start;
     justify-items: flex-start;
+    margin-left:15%;
     flex-wrap: wrap;
+    margin-top: 50pt;
     align-content: start;
-    width: 100%;
+    width: 90%;
   }
   
 
@@ -54,35 +55,24 @@
     border: 1px solid #F5F5F5;
     font-size: 30px;
     text-align: center;
-    height: 450px;
-    margin-top: 20pt;
-    margin-left: 10%;
-    margin-bottom: 200px;
-
+    margin-left: 0%;
+    margin-bottom: 120px;
+    width: 110%;
   }
   .grid-item-left{
-    margin-left: 5%;
+    margin-left: 0%;
     margin-right: auto;
     overflow-wrap: normal;
   }
   .grid-item-right{
     margin-right: 102px;
-    margin-left: 25%;
+    margin-top: 120px;
     overflow-wrap: normal;
+    margin-left: 30%;
   }
 .pujc-pic{
     margin-top: 35px;
     
-}
-.pujc-border{
-    border: 2px solid #EBEBEB;
-    border-radius: 20px;
-    margin: auto;
-    background-color: #EBEBEB;
-    Width: 384px;
-    Height: 550px;
-    padding: 0;
-    margin-right: 102px; 
 }
 .grid-container-second{
     display: grid;
@@ -94,6 +84,7 @@
     flex-wrap: wrap;
     align-content: start;
     width: 100%;
+    margin-left: 10%;
     margin-top: 0pt;
 }
 .grid-item-second {
@@ -103,7 +94,7 @@
     font-size: 30px;
     text-align: center;
     height: 450px;
-    margin-top: 86px;
+    margin-left: 102px;
     margin-bottom: 100px;
   }
 h1{
@@ -112,7 +103,7 @@ h1{
     color: #181818;
     width: 276px;
     height: 59px;
-    font-weight: 700;
+    font-weight: 800;
     overflow-wrap: normal;
     display: flex;
     justify-content: flex-start;
@@ -160,13 +151,13 @@ h2{
     text-decoration: none;
     color: #181818;
     font-weight: 400;
-    margin:auto;
+    margin-left: 5%;
     display: flex;
     justify-content: center;
-    margin-top: 180px;
+    margin-top: 140px;
 }
 .more-view{
-    font-size: 24pt;
+    font-size: 32pt;
     margin-right: 40pt;
     margin-top: -5pt;
 }
@@ -196,7 +187,7 @@ h2{
     Width: 139px;
     Height: 139px;
     text-align:justify;
-    margin-left: 717.02px;
+    margin-left: 797.02px;
     font-weight: 700;
     position: absolute;
     display:flex;
@@ -212,12 +203,12 @@ h2{
     margin-left: -50pt;
 }
 .grac-img{
-    width: 110%;
+    width: 100%;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1000px) {
     .cases{
-        width: 90%;
+        width: 100%;
         left: 0%;
         top: 1519px;
         display:flexbox;
@@ -232,6 +223,7 @@ h2{
         font-size: 56px;  
     }
     .grid-container{
+        margin-left:5%;
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
@@ -239,8 +231,9 @@ h2{
         justify-content: start;
         justify-items: flex-start;
         flex-wrap: wrap;
+        margin-left: 5%;
         align-content: start;
-        width: 100%;
+        width: 90%;
       }
       
     
@@ -251,24 +244,24 @@ h2{
         font-size: 30px;
         text-align: center;
         height: 450px;
-        margin-top: 20pt;
-        margin-left: 10%;
-        margin-bottom: 200px;
-    
+        margin-top: 0pt;
+        margin-bottom: 100px;
+        width: 100%;
       }
       .grid-item-left{
-        margin-left: 5%;
         margin-right: auto;
         overflow-wrap: normal;
         width: 90%;
       }
       .grid-item-right{
         margin-right: 102px;
-        margin-left: 15%;
+        margin-left: 25%;
+        width: 50%;
+        margin-top: 0px;
         overflow-wrap: normal;
       }
     .pujc-pic{
-        margin-top: 35px;
+        margin-top: 0px;
         
     }
     .pujc-border{
@@ -290,8 +283,9 @@ h2{
         justify-items: flex-start;
         flex-wrap: wrap;
         align-content: start;
-        width: 100%;
+        width: 90%;
         margin-top: 0pt;
+        margin-left: -5%;
     }
     .grid-item-second {
         display: inline-grid;
@@ -300,7 +294,7 @@ h2{
         font-size: 30px;
         text-align: center;
         height: 450px;
-        margin-top: 86px;
+        margin-top: 0px;
         margin-bottom: 100px;
       }
     h1{
@@ -365,7 +359,7 @@ h2{
         margin:auto;
         display: flex;
         justify-content: center;
-        margin-top: 180px;
+        margin-top: 0px;
     }
     .more-view{
         font-size: 24pt;
@@ -382,7 +376,7 @@ h2{
         width: 110%;
     }    
 }
-@media only screen  and (max-width: 786px){
+@media only screen  and (max-width: 486px){
     .cases{
         position: absolute;
         width: 100%;
@@ -405,7 +399,7 @@ h2{
         grid-template-columns: auto ;
         grid-template-rows: auto auto auto auto;
         width: 100%;
-        margin-left: -5%;
+        margin-left: 5%;
     }
     .grid-item {
     display: inline-grid;
@@ -421,7 +415,7 @@ h2{
     }
     .grac-img{
     width: 100%;
-    height: 100%;
+    height: 90%;
     }
     .grid-item-right{
     display: none;
@@ -436,7 +430,7 @@ h2{
 
     .third-pic{
         margin-left: 0%;
-        margin-top: 15%;
+        margin-top: 25%;
         margin-bottom: 25%;
     }
     .first-pic{
@@ -462,9 +456,11 @@ h2{
       }
     h1{
         font-size: 32px;
+        margin-top: 0px;
     }
     h2{
         font-size: 20px;
+        margin-top: 0px;
     }
     .second-pic{
         margin-left: 0%;
