@@ -56,7 +56,7 @@
     font-size: 30px;
     text-align: center;
     margin-left: 0%;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
     width: 110%;
   }
   .grid-item-left{
@@ -95,6 +95,7 @@
     text-align: center;
     height: 450px;
     margin-left: 102px;
+    margin-top: 130pt;
     margin-bottom: 100px;
   }
 h1{
@@ -154,12 +155,12 @@ h2{
     margin-left: 5%;
     display: flex;
     justify-content: center;
-    margin-top: 140px;
+    margin-top: 200px;
 }
 .more-view{
     font-size: 32pt;
     margin-right: 40pt;
-    margin-top: -5pt;
+    margin-top: -10pt;
 }
 .cases-title-plus{
     position: absolute;

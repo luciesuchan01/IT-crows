@@ -2,6 +2,7 @@ import React from 'react'
 import './Services_page_services_app.css'
 import graciano from './images/case graciano.png'
 import todo from './images/todo.png'
+import pujc from './images/pujc.png'
 
 function Services_page_services_app(){
     return(
@@ -63,22 +64,18 @@ function Services_page_services_app(){
                     </div>
                 </div>
             </div>
-
-            <div className='graciano-image'>
-                <img src={graciano} alt="" width="50%" height="80%"/>  
-            
-                <div className='todo-photo'>
-                    <img src={todo} alt="" width="100%" height="100%"/>            
+            <div className='grid-container-app'>
+            <div className='grid-item-app'>
+                <img src={todo} alt=""  className='todo-photo-app'/>  
+                <div className='images-text-app'>todo list</div>
+                <div className='images-text-sec-app'>design, UI/UX</div>
+            </div>
+                <div className='grid-item-app'>
+                    <img src={pujc} alt="" className='pujc-photo-app'/>         
+                    <div className='images-text-app'>pujc</div>
+                    <div className='images-text-third-app'>design, UI/UX</div>   
                 </div>
             </div>
-           <div className='grid-container-app'>
-                <div className='grid-item-app'>
-                    <div className='upper-text'>Graciano</div>UI/UX, develop
-                </div>
-                <div className='grid-item-app-sec'>
-                    <div className='upper-text'>Todo list</div> UI/UX, develop, app
-                </div>
-           </div>
         </section>
     )
 }

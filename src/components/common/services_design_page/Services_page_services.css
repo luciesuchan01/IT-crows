@@ -124,13 +124,112 @@
     font-size: 24px;
     margin-left: 30px;
 }
-@media only screen and (max-width:786px) {
+@media only screen and (max-width: 1000px) {
     .Services-services{
         width: 100%;
+        height: auto;
     }
     .Services-services-main-title{
         width: 90%;
-        font-size: 48px;
+        font-size: 56px;
+        left: 5%;
+        text-align: left;
+    }
+    .plus-border-services{
+        font-size: 48px; 
+        Width: 100px;
+        Height: 100px;
+        margin-left: 85%;
+        display: none;
+    }
+    .plus-text-services{
+        margin-left: 20px;
+        margin-top: 20px;
+        display: none;
+    }
+    .services-text{
+        font-size: 20px;
+        width: 90%;
+        margin-top: 250px;
+        margin-left: 5%;
+    }
+    .video-services{
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 500px;
+    }
+    .grid-container-ss{
+        display: grid;
+        width: 80%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin-left: 20%;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .grid-item-ss{
+        display: inline-grid;
+        top: 40px;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 59px;
+        margin-top: 320px;
+        align-items: center;
+        justify-content: left;
+    }
+    .ss-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    .grid-container-sss{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        margin-left: 20%;
+        width: 80%;
+        text-align: center;
+        margin-top: 40px;
+        
+    }
+    .grid-item-sss{
+        display: inline-grid;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 59px;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: -20px;
+    }
+    .sss-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        
+    }
+    .sss-text-second{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 30px;
+    }   
+}
+@media only screen and (max-width:486px) {
+    .Services-services{
+        width: 100%;
+        top: 1350px;
+    }
+    .Services-services-main-title{
+        width: 90%;
+        font-size: 36px;
         left: 5%;
         text-align: left;
     }
@@ -144,25 +243,26 @@
     .services-text{
         margin-right: 5%;
         height: 215px;
-        font-size: 24px;
+        font-size: 16px;
         width: 90%;
         margin-left: 5%;
-        margin-top: 300px;
+        margin-top: 250px;
 
     }
     .video-services{
         position: absolute;
         left: 5%;
-        top: 820px;
+        top: 570px;
     }
     .grid-container-ss{
         display: grid;
         margin-top: 20pt;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        margin-left: 5%;
-        text-align: left;
-        
+        margin-left: 10%;
+        text-align: center;
+        align-items: center;
+        width: 80%;
     }
     .grid-item-ss{
         display: inline-grid;
@@ -173,15 +273,15 @@
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 32px;
-        text-align: left;
+        font-size: 24px;
+        text-align: center;
         text-transform: uppercase;
     }
     .grid-container-sss{
         display: grid;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
-        margin-left: 5%;
+        margin-left: 10%;
         text-align: center;
         margin-top: 40px;
         
@@ -191,7 +291,7 @@
         justify-content: center;
         background-color: #F5F5F5;
         text-align: center;
-        height: 59px;
+        height: auto;
         align-items: center;
         justify-content: left;
         margin-bottom: 10px;
@@ -200,14 +300,14 @@
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 14px;
         text-align: left;
     }
     .sss-text-second{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 14px;
         margin-left: 30px;
         text-align: left;
     }

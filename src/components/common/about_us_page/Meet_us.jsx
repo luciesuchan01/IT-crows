@@ -1,6 +1,7 @@
 import React from 'react'
 import './Meet_us.css'
 import meet_us_pic from './images/meet-us.png'
+import meet_us_pic_sec from './images/meet_us_sec.svg'
 
 
 function Meet_us(){
@@ -13,7 +14,7 @@ function Meet_us(){
             Valuable only <font color = '#FF4747' className = 'red-text'>new and unique.</font> That changes the usual order of things. 
             That gives a new experience. What astonishes. Only special people are able to create unique things. Those who are not afraid.
             </div>
-                <img src={meet_us_pic} alt="" className='meet-us-pic'/>
+                <img src={meet_us_pic_sec} alt="" className='meet-us-pic'/>
 
 
             <div className='grid-container-meet-us'>

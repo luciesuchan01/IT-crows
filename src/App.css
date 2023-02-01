@@ -42,6 +42,13 @@
   .footer-about-us{
     margin-top: 2700px;
   }
+  .footer-services{
+    margin-top: 200px;
+  }
+  .switcher-services{
+    margin-top: 200px;
+    display: none;
+  }
   .footer-main{
     margin-top: 3000px;
   }
@@ -74,7 +81,7 @@
     margin-top: 250px;
   }
   .footer-services{
-    margin-top: 45%;
+    margin-top: 200px;
   }
   .footer-graciano{
     margin-top: 8589px;

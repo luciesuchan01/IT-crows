@@ -49,9 +49,9 @@ font-family: 'Montserrat', sans-serif;
 .meet-us-pic{
     position: absolute;
     margin-top: 80px;
-    width: 100%;
+    width: 70%;
     align-items: center;
-    height: 110%;
+    margin-left: -35%;
 }
 
 .grid-container-meet-us {
@@ -63,7 +63,7 @@ font-family: 'Montserrat', sans-serif;
     background-color: #F5F5F5;
     border: 1px solid #F5F5F5;
     text-align: center;
-    margin-top: 650px;
+    margin-top: 35%;
     margin-left: 30%;
     margin-right: 390px;
     text-align: center;

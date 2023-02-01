@@ -19,12 +19,12 @@ function Services_page_services_custom(){
 
              <div className='grid-container-custom'>
                 <div className='grid-item-custom'>
-                    <div className='grid-text'>
+                    <div className='grid-text-custom'>
                         what we do:
                     </div>
                 </div>
                 <div className='grid-item-custom'>
-                    <div className='grid-text'>
+                    <div className='grid-text-custom'>
                     read more:
                     </div>
                 </div>

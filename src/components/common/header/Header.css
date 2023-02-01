@@ -51,11 +51,11 @@
         line-height: 44px;
         color: #FF4747;
         margin-left: 40px;
-        margin-right: 17%;
-        width: 50%;
+        margin-right: 0%;
+        width: 40%;
     }
 }
-@media only screen  and (max-width: 786px){
+@media only screen  and (max-width: 486px){
     .header{
         position: absolute;
         height: 140px;

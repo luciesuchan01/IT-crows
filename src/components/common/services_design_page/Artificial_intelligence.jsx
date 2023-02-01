@@ -8,10 +8,10 @@ function Artificial_intelligence(){
                 <div className='plus-text-ai'>2+</div>
              </div>
              <div className='services-ai-text'>
-             Vivamus sed cursus sapien. Fusce sodales ornare risus sit amet pretium. 
-             <font color = '#FF4747' className = 'red-text'> Orci varius</font> natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-             <font color = '#FF4747' className = 'red-text'> Sed ullamcorper finibus</font> rhoncus. Class aptent taciti sociosqu ad litora torquent 
-             per conubia nostra, per inceptos himenaeos. 
+                Vivamus sed cursus sapien. Fusce sodales ornare risus sit amet pretium. 
+                <font color = '#FF4747' className = 'red-text'> Orci varius</font> natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                <font color = '#FF4747' className = 'red-text'> Sed ullamcorper finibus</font> rhoncus. Class aptent taciti sociosqu ad litora torquent 
+                per conubia nostra, per inceptos himenaeos. 
              </div>
 
 

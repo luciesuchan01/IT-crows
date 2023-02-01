@@ -3,13 +3,13 @@
     width: 100%;
     height: 1012px;
     left: 0px;
-    top: 7998px;
+    margin-top: 7998px;
 }
 .ai-main-title{
     position: absolute;
-    width: 911px;
+    width: 60%;
     height: 192px;
-    left: 240px;
+    left: 12%;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
     1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
     font-family: 'Montserrat', sans-serif;
@@ -33,7 +33,7 @@
     Width: 139px;
     Height: 139px;
     text-align:justify;
-    margin-left: 928px;
+    margin-left: 48%;
     margin-top: 186px;
     font-weight: 700;
     position: absolute;
@@ -54,10 +54,10 @@
     text-align: left;
     line-height: 180%;
     color: #181818;
-    width: 735px;
+    width: 60%;
     height: 215px;
     top: 398px;
-    margin-left:483px;
+    margin-left:25%;
 }
 .grid-container-ai{
     display: grid;
@@ -121,40 +121,42 @@
     color: #FF4747;
     text-decoration: underline;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 1000px) {
     .artificial-intellignece{
         position: absolute;
         width: 100%;
-        height: 1012px;
+        height: auto;
         left: 0px;
+        margin-top: 7598px;
     }
     .ai-main-title{
         width: 90%;
+        height: auto;
+        margin-top: 0px;
         left: 5%;
-        overflow-wrap: break-word;
-        font-size: 46px;
-        line-height: 100%;
-        display: flex;
-        text-align: left;
-        margin-top: 60%;
+        margin-bottom: 20pt;
+        font-size: 56px;
     }
     .plus-border-ai{
         display: none;
+        height: 20px;
     }
     .plus-text-ai{
         display: none;
+        height: 20px;
     }
     .services-ai-text{
         width: 90%;
-        height: auto;
-        margin-left:5%;
-        margin-top: 0%;
+        top: 110pt;
+        margin-left: 5%;
+        font-size: 16px;
     }
     .grid-container-ai{
         grid-template-columns: auto auto;
         grid-template-rows: auto;
         margin-left: 5%;
-        margin-top: 491px;
+        margin-top: 100px;
+        height: auto;
         width: 90%;
     }
     .grid-container-ai-sec{
@@ -162,15 +164,95 @@
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
         margin-left: 5%;
-        margin-top: 150px;
+        margin-top: 20pt;
+    }
+    .grid-item-ai{
+        margin-left: 5%;
+        width: 95%;
     }
     .grid-item-ai-sec{
         margin-bottom: 15px;
+        margin-top: 0;
+        height: 20px;
+        margin-left: 5%;
+        text-align: left;
     }
     .grid-text-ai{
-        font-size: 32px;
+        font-size: 24px;
+        text-align: left;
+    }
+    .grid-ai-text-second{
+        font-size: 16px;
+    }
+    .grid-ai-text{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 486px) {
+    .artificial-intellignece{
+        position: absolute;
+        width: 100%;
+        height: 1012px;
+        left: 0px;
+        margin-top: 8998px;
+    }
+    .ai-main-title{
+        width: 90%;
+        height: auto;
+        margin-top: 0px;
+        left: 5%;
+        font-size: 36px;
+    }
+    .plus-border-ai{
+        display: none;
+        height: 20px;
+    }
+    .plus-text-ai{
+        display: none;
+        height: 20px;
+    }
+    .services-ai-text{
+        width: 90%;
+        top: 100px;
+        margin-left: 5%;
+        font-size: 16px;
+    }
+    .grid-container-ai{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        margin-left: 5%;
+        margin-top: 200px;
+        height: auto;
+        width: 90%;
     }
     .grid-container-ai-sec{
-        margin-top: 60pt;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        margin-top: 20pt;
+    }
+    .grid-item-ai{
+        margin-left: 5%;
+        width: 95%;
+    }
+    .grid-item-ai-sec{
+        margin-bottom: 15px;
+        margin-top: 0;
+        margin-left: 5%;
+        text-align: left;
+    }
+    .grid-text-ai{
+        font-size: 24px;
+        text-align: left;
+        height: 30px;
+    }
+    .grid-ai-text-second{
+        font-size: 16px;
+        height: 30px;
+    }
+    .grid-ai-text{
+        font-size: 16px;
+        height: 30px;
     }
 }

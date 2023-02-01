@@ -42,23 +42,21 @@
 .nav-number-design{
     width: 75px;
     height: 100%;
-
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     /* identical to box height, or 64px */
-
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0.1em;
     color: #F5F5F5;
     text-shadow: 2px 0 #181818, -2px 0 #181818, 0 2px #181818, 0 -2px #181818,
     2px 2px #181818, -2px -2px #181818, 2px -2px #181818, -2px 2px #181818;
     font-family: 'Montserrat', sans-serif;
     /* Inside auto layout */
-    margin-right: 1422px;
+    margin-right: 1427px;
 
     flex: none;
     order: 0;

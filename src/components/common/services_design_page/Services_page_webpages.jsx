@@ -7,11 +7,11 @@ import pujc from './images/pujc.png'
 function Services_page_webpages(){
     return(
         <section className='Services-webpages'> 
-            <div className='webpages-main-title'>webpages and e-commerce</div>
+            <div className='webpages-main-title-services'>webpages and e-commerce</div>
 
             <div className='plus-border-webpages'>
                 <div className='plus-text-webpages'>8+</div>
-             </div>
+            </div>
 
              <div className='webpages-text'>
                 Vivamus sed cursus sapien. Fusce sodales ornare risus sit amet pretium. 
@@ -19,9 +19,9 @@ function Services_page_webpages(){
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
              </div>
 
-             <div className='grid-container-webpage'>
+            <div className='grid-container-webpage'>
                 <div className='grid-item-webpage'>
-                    <div className='grid-text'>
+                    <div className='grid-text-custom'>
                         what we do:
                     </div>
                 </div>
@@ -29,7 +29,7 @@ function Services_page_webpages(){
                 <div className='grid-item-webpage'>
                     <div className='grid-text'>
                     <div className='lorem-webpage'>     
-                        <img src={loremImage} alt="" width="730" height="550"/>  
+                        <img src={loremImage} alt="" width="200%" height="200%"/>  
                         <div className='lorem-text'>lorem</div>
                         <div className='lorem-text-sec'>design, UI/UX</div>
                     </div>
@@ -62,7 +62,7 @@ function Services_page_webpages(){
 
             <div className='grid-container-web'>
                 <div className='grid-item-web'>
-                    <div className='grid-text'>
+                    <div className='grid-text-custom'>
                         read more:
                     </div>
                 </div>
@@ -91,15 +91,16 @@ function Services_page_webpages(){
 
 
             
-            <div className='images'>
-                <img src={todo} alt="" width="609" height="550"/>  
-                <div className='images-text'>todo list</div>
-                <div className='images-text-sec'>design, UI/UX</div>
-
-                <div className='todo-photo'>
-                    <img src={pujc} alt="" width="384" height="550"/>         
-                    <div className='images-text'>pujc</div>
-                    <div className='images-text-third'>design, UI/UX</div>   
+            <div className='grid-container-app'>
+            <div className='grid-item-app'>
+                <img src={todo} alt=""  className='todo-photo-app'/>  
+                <div className='images-text-app'>todo list</div>
+                <div className='images-text-sec-app'>design, UI/UX</div>
+            </div>
+                <div className='grid-item-app'>
+                    <img src={pujc} alt="" className='pujc-photo-app'/>         
+                    <div className='images-text-app'>pujc</div>
+                    <div className='images-text-third-app'>design, UI/UX</div>   
                 </div>
             </div>
         </section>
