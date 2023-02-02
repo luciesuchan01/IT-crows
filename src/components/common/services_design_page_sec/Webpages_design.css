@@ -431,6 +431,18 @@ a{
         display: none;
         font-style: normal;
     }    
+
+    .pujc-photo-app-des{
+        width: 200%; 
+        height: 300px;
+        margin-left: 40%;
+        margin-top: 70pt; 
+    }
+    .todo-photo-app-des{
+        width: 210%;
+        height: 300px;
+        margin-top: 70pt; 
+    }
 }
 @media only screen and (max-width: 486px) {
     .webpages-design{
@@ -590,4 +602,16 @@ a{
     font-size: 16px;
     font-style: normal;
 }  
+.pujc-photo-app-des{
+    width: 200%; 
+    height: 300px;
+    margin-left: -20%;
+    margin-top: 0px;
+}
+.todo-photo-app-des{
+    width: 210%;
+    height: 300px;
+    margin-top: 70pt; 
+    margin-top: 0px;
+}
 }

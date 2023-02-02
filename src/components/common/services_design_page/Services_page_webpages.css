@@ -266,6 +266,7 @@ a{
         width: 90%;
         height: auto;
         margin-left: 5%;
+        background-color: #F5F5F5;
         font-size: 20px;
         top: 350px;
     }
@@ -275,17 +276,17 @@ a{
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         margin-left: 5%;
-        margin-top: 480px;
+        margin-top: 230px;
         height: auto;
     }
     .grid-item-webpage{
-        width: 100%;
+        width: 65%;
         margin-top:0%; 
         height: 30px;
     }
     
     .grid-container-webpage-sec{
-        display: grid;
+        display: none;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
         margin-left: 5%;
@@ -351,8 +352,8 @@ a{
         color: #FF4747;
     }
     .lorem-webpage{
-        margin-top: 0%;
-        width: 45%;
+        margin-top: 45%;
+        width: 65%;
         height: 150px;
         margin-left: 20%;
     }
@@ -413,10 +414,12 @@ a{
     }
     .pujc-photo-app{
         width: 190%; 
-        margin-left: 10%;
+        margin-left: 40%;
+        margin-top: 50%;
     }
     .todo-photo-app{
-        width: 200%; 
+        width: 210%; 
+        margin-top: 50%;
     }
     
 }
@@ -454,6 +457,7 @@ a{
         grid-template-rows: auto auto auto auto;
         margin-left: 5%;
         margin-top: 10%;
+        width: 90%;
         
     }
     .grid-item-webpage{
@@ -555,7 +559,7 @@ a{
         grid-template-columns: auto;
         grid-template-rows: auto auto;
         margin-left: 5%;
-        margin-top: 60pt;
+        margin-top: 80pt;
         width: 95%;
     }
     .grid-item-app{
@@ -585,5 +589,15 @@ a{
         margin-left: 530px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
+    }
+    .pujc-photo-app{
+        width: 200%; 
+        height: 300px;
+        margin-left: 0%;
+    }
+    .todo-photo-app{
+        width: 200%;
+        height: 300px;
+        margin-top: 40%; 
     }
 }

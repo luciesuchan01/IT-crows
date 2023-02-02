@@ -60,8 +60,8 @@ function Services_page_webpages(){
             </div>
 
 
-            <div className='grid-container-web'>
-                <div className='grid-item-web'>
+            <div className='grid-container-webpage'>
+                <div className='grid-item-webpage'>
                     <div className='grid-text-custom'>
                         read more:
                     </div>

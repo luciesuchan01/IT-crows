@@ -126,11 +126,11 @@
 }
 
 
-.pujc-photo-app-des{
+.pujc-photo-app-des-web{
     width: 143%; 
     margin-left: 0%;
 }
-.todo-photo-app-des{
+.todo-photo-app-des-web{
     width: 175%; 
 }
 
@@ -281,12 +281,12 @@
     }
     
  
-.pujc-photo-app-des{
+.pujc-photo-app-des-web{
     width: 173%; 
     margin-left: 0%;
     height: 300pt;
 }
-.todo-photo-app-des{
+.todo-photo-app-des-web{
     width: 180%; 
     height: 300pt;
 }
@@ -390,22 +390,24 @@
     .video-web-dev{
         position: absolute;
         left: 5%;
-        top: 440px;
+        top: 400px;
+        width: 90%;
     }
     .grid-container-web-dev{
         display: grid;
         margin-top: 0pt;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        margin-left: 5%;
+        margin-left: 0%;
         text-align: center;
         align-items: center;
-        width: 90%;
+        width: 100%;
     }
     .grid-item-web-dev{
         display: inline-grid;
         top: 40px;
         margin-left: 5%;
+        margin-right: 5%;
         margin-top: 364px;
         height: 30pt;
         justify-content: left;
@@ -421,8 +423,8 @@
     }
     .grid-container-web-dev-sec{
         display: grid;
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        margin-left: 0%;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
         text-align: center;
@@ -435,7 +437,8 @@
         background-color: #F5F5F5;
         text-align: center;
         margin-left: 5%;
-        width: 80%;
+        margin-right: 5%;
+        width: 88%;
         height: auto;
         align-items: center;
         justify-content: left;
@@ -489,7 +492,7 @@
         margin-bottom: 40%;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
-    
+        margin-left: 0;
     }
     .grid-item-app-sec{
         display: inline-grid;
@@ -506,12 +509,12 @@
         font-style: normal;
     } 
     
-.pujc-photo-app-des{
+.pujc-photo-app-des-web{
     width: 200%; 
     height: 300px;
-    margin-left: -10%;
+    margin-left: -30%;
 }
-.todo-photo-app-des{
+.todo-photo-app-des-web{
     width: 210%;
     height: 300px;
     margin-top: 70pt; 

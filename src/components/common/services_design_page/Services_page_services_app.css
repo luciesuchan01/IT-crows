@@ -120,12 +120,12 @@
 }
 .pujc-photo-app{
     width: 113%; 
-    height: 400pt;
+    height: 500pt;
     margin-left: 0%;
 }
 .todo-photo-app{
     width: 155%; 
-    height: 400pt;
+    height: 500pt;
 }
 
 .images-text-app{
@@ -394,26 +394,44 @@
     
     .grid-container-sa{
         display: grid;
-        margin-top: 30%;
+        margin-top: 0pt;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        margin-left: 10%;
+        margin-left: 0%;
+        height: 40pt;
+        margin-top: 70pt;
         text-align: center;
         align-items: center;
-        width: 80%;
+        width: 100%;
+    }
+    .grid-item-sa{
+        display: inline-grid;
+        top: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0pt;
+        height: 30pt;
+        justify-content: left;
+        text-align: left;
     }
     .sa-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
         font-size: 24px;
-        text-align: center;
+        text-align: left;
+        text-transform: uppercase;
     }
     
     
     .grid-container-sas{
         display: grid;
+        width: 100%;
+        margin-left: 0%;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
-        margin-left: 10%;
         text-align: center;
+        align-items: center;
         margin-top: 40px;
     }
     .grid-item-sas{
@@ -421,6 +439,9 @@
         justify-content: center;
         background-color: #F5F5F5;
         text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 88%;
         height: auto;
         align-items: center;
         justify-content: left;
@@ -438,7 +459,6 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        margin-left: 30px;
         text-align: left;
     }
 .grid-container-app{

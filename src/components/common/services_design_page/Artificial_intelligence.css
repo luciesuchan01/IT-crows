@@ -218,41 +218,71 @@
         font-size: 16px;
     }
     .grid-container-ai{
+        display: grid;
+        margin-top: 0pt;
         grid-template-columns: auto auto;
         grid-template-rows: auto;
-        margin-left: 5%;
-        margin-top: 200px;
-        height: auto;
-        width: 90%;
+        margin-left: 0%;
+        height: 40pt;
+        margin-top: 160pt;
+        text-align: center;
+        align-items: center;
+        width: 100%;
     }
     .grid-container-ai-sec{
         display: grid;
+        width: 100%;
+        margin-left: 0%;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto auto;
-        margin-left: 5%;
-        margin-top: 20pt;
+        text-align: center;
+        align-items: center;
+        margin-top: 40px;
     }
     .grid-item-ai{
+        display: inline-grid;
+        top: 40px;
         margin-left: 5%;
-        width: 95%;
+        margin-right: 5%;
+        margin-top: 0pt;
+        width: 90%;
+        height: 30pt;
+        justify-content: left;
+        text-align: left;
     }
     .grid-item-ai-sec{
-        margin-bottom: 15px;
-        margin-top: 0;
+        display: inline-grid;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: center;
         margin-left: 5%;
-        text-align: left;
+        margin-right: 4%;
+        width: 91%;
+        height: auto;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: 10px;
     }
     .grid-text-ai{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
         font-size: 24px;
         text-align: left;
-        height: 30px;
+        text-transform: uppercase;
     }
     .grid-ai-text-second{
-        font-size: 16px;
-        height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: left;
     }
     .grid-ai-text{
-        font-size: 16px;
-        height: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: left;
     }
 }

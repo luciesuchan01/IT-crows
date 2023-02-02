@@ -72,14 +72,14 @@ function Web_dev(){
 
         <div className='grid-container-app'>
             <div className='grid-item-app'>
-                <img src={todo} alt=""  className='todo-photo-app-des'/>  
-                <div className='images-text-app'>todo list</div>
-                <div className='images-text-sec-app'>design, UI/UX</div>
+                <img src={todo} alt=""  className='todo-photo-app-des-web'/>  
+                <div className='images-text-des'>todo list</div>
+                <div className='images-text-sec-des'>design, UI/UX</div>
             </div>
                 <div className='grid-item-app'>
-                    <img src={pujc} alt="" className='pujc-photo-app-des'/>         
-                    <div className='images-text-app'>pujc</div>
-                    <div className='images-text-third-app'>design, UI/UX</div>   
+                    <img src={pujc} alt="" className='pujc-photo-app-des-web'/>         
+                    <div className='images-text-des'>pujc</div>
+                    <div className='images-text-third-des'>design, UI/UX</div>   
                 </div>
             </div>
 
