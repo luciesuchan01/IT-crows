@@ -255,16 +255,13 @@ h2{
         width: 90%;
       }
       .grid-item-right{
-        margin-right: 102px;
+        margin-right: 0;
         margin-left: 25%;
         width: 50%;
-        margin-top: 0px;
+        margin-top: 15%;
         overflow-wrap: normal;
       }
-    .pujc-pic{
-        margin-top: 0px;
-        
-    }
+    
     .pujc-border{
         border: 2px solid #EBEBEB;
         border-radius: 20px;
@@ -309,6 +306,7 @@ h2{
         display: flex;
         justify-content: flex-start;
         margin-top: 14px;
+        font-size: 32px;
         }
     h2{
         font-family: 'Montserrat', sans-serif;
@@ -317,6 +315,7 @@ h2{
         overflow-wrap: normal;
         font-weight: 400;
         margin-top: 15pt;
+        font-size: 20px;
         position:absolute;
         justify-items: baseline;
         display:flexbox;
@@ -371,11 +370,20 @@ h2{
         margin-left: 387.02px;
     }
     .load-pic{
-        margin-left: -50pt;
+        margin-left: 0pt;
+        width: 150%;
+        margin-top: 0%;
     }
     .grac-img{
         width: 110%;
     }    
+    .pujc-pic{
+        margin-top: 0px;
+        width: 110%;
+    }
+    .todo-img{
+        margin-top: -20%;
+    }
 }
 @media only screen  and (max-width: 486px){
     .cases{
@@ -399,7 +407,7 @@ h2{
         display: grid;
         grid-template-columns: auto ;
         grid-template-rows: auto auto auto auto;
-        width: 100%;
+        width: 90%;
         margin-left: 5%;
     }
     .grid-item {

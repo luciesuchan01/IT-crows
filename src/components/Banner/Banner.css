@@ -233,8 +233,9 @@ body {
         text-transform: uppercase;
         display: flex;
         text-align: left;
-        margin-left: 15%;
-        width: 70%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
         font-size: 96px;
         font-family: 'Halvar Breitschrift', sans-serif;
         line-height: 36px;
@@ -246,12 +247,15 @@ body {
         text-align: center;
         font-size: 36px;
         margin-top: 0%;
+        margin-left: 0px;
+        text-align: center;
         text-transform: uppercase;
     }
     .changing-text {
         font-size: 48px;
         line-height: 48px;
         margin-top: 8px;
+        text-align: center;
     }
     .Banner {
         margin-left: 0%;
