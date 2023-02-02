@@ -126,7 +126,7 @@ font-family: 'Montserrat', sans-serif;
         position:relative;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
-        margin-left: 15%;
+        margin-left: 5%;
         margin-right: 0px;
         height: 174px;
         font-weight: 400;
@@ -145,8 +145,8 @@ font-family: 'Montserrat', sans-serif;
         background-color: #F5F5F5;
         border: 1px solid #F5F5F5;
         text-align: center;
-        margin-left: 5%;
-        width: 95%;
+        margin-left: 7%;
+        width: 93%;
         margin-right: 163px;
         text-align: center;
     }
@@ -159,7 +159,7 @@ font-family: 'Montserrat', sans-serif;
         align-items: center;
         text-align: center;
         margin-left: 0px;
-        width: 20%;
+        width: 25%;
     }
     .text-grid-good-work{
         height: 117px;
@@ -195,7 +195,7 @@ font-family: 'Montserrat', sans-serif;
         text-align: center;
         font-weight: 400;
         color: #181818;
-        width: 90%;
+        width: 95%;
         line-height: 180%;
     }
     
@@ -205,7 +205,7 @@ font-family: 'Montserrat', sans-serif;
         width: 100%;
         display: flex;
         margin-right: 5%;
-        margin-left: 6%;
+        margin-left: 10%;
         align-items: center;
     
     }
@@ -217,7 +217,7 @@ font-family: 'Montserrat', sans-serif;
 @media only screen and (max-width: 486px){
     .good-work{
         width: 100%;
-        top: 2339px;
+        top: 2239px;
     }
     .good-work-title{
         width: 100%;
@@ -248,8 +248,8 @@ font-family: 'Montserrat', sans-serif;
         background-color: #F5F5F5;
         border: 1px solid #F5F5F5;
         text-align: center;
-        margin-left: 20%;
-        margin-right: 10%;
+        margin-left: 15%;
+        width: 70%;
         text-align: center;
     }
     .grid-item-good-work{
@@ -259,6 +259,7 @@ font-family: 'Montserrat', sans-serif;
         height: 250px;
         display: flex;
         align-items: center;
+        margin-right: 0;
         text-align: center;
         margin-left: 0px;
         width: 100%;
@@ -275,15 +276,17 @@ font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 48px;
         display: flex;
-        margin-left: 80px;
+        margin-left: 40%;
     }
     .grid-container-good-work-second{
         /*grid: auto-flow dense / repeat(3, 180px);*/
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto;
-        margin-left: 15%;
-        margin-right: 5%;
+        margin-left: 8%;
+        margin-right: 10%;
+        width: 80%;
+        text-align: center;
         margin-top: -590px;
         font-weight: 400;
         line-height: 180%;

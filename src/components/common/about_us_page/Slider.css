@@ -1,32 +1,40 @@
 .slider-as{
     position: absolute;
     display: grid;
-    width: 100%;
+    width: 90%;
     height: 100%;
-    top: 2147px;
+    top: 2047px;
+    left: 5%;
     display:flexbox;
     align-items: center;
     background: #F5F5F5;
     border: #F5F5F5;
 }
 .image-second-slider{
-    margin-left: 7%;
-    margin-top: -56%;
+    margin-left: 29%;
+    margin-top: -105%;
+    width: 50%;
+    height: 100%
 }
 .image-first-slider{
-    margin-top: -10%;
-    margin-left: -61%;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 33%;
+    height: 100%;
 }
 .image-third-slider{
-    margin-top: -66%;
-    margin-left: 68%;
+    margin-top: -109%;
+    margin-left: 76%;
+    width: 24%; 
+    height: 80%;
 }
 @media only screen and (max-width: 1000px){
     .slider-as{
         position: absolute;
         display: grid;
-        width: 100%;
+        width: 90%;
         height: 100%;
+        left: 3%;
         top: 2147px;
         display:flexbox;
         align-items: center;
@@ -52,16 +60,19 @@
     .slider-as{
         /*width: 100%;*/
         position: absolute;
-        height: 1500px;
-        top: 1450px;
+        height: 500px;
+        top: 1400px;
+        left: 0;
+        width: 100%;
+        align-items: center;
     }
     .image-second-slider{
         display: none;
     }
     .image-first-slider{
         margin-left: 0%;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         display: flex;
         margin-top: 0px;
     }

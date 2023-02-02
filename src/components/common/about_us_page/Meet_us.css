@@ -159,6 +159,7 @@ font-family: 'Montserrat', sans-serif;
         margin-right: 0%;
         width: 95%;
         font-size: 28px;
+        font-weight: 400;
         text-align: left;
         line-height: 28px;
         overflow-wrap: break-word;
@@ -173,7 +174,7 @@ font-family: 'Montserrat', sans-serif;
     }
     
     .grid-container-meet-us {
-        margin-top: 510px;
+        margin-top: 460px;
         margin-left: 15%;
         margin-right: 0%;
         width: 80%;
@@ -217,7 +218,7 @@ font-family: 'Montserrat', sans-serif;
         margin-left: 0px;
     }
     .story-of-creation{
-        width: 100%;
+        width: 90%;
         height: 43px;
         line-height: 43px;
         margin-left: 5%;
@@ -271,7 +272,7 @@ font-family: 'Montserrat', sans-serif;
     .grid-container-meet-us {
         margin-top: 310px;
         margin-left: 10%;
-        margin-right: 15%;
+        margin-right: 10%;
         width: 100%;
       }
     .grid-item-meet-us{
