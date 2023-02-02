@@ -120,10 +120,12 @@
 }
 .pujc-photo-app{
     width: 113%; 
-    margin-left: 10%;
+    height: 400pt;
+    margin-left: 0%;
 }
 .todo-photo-app{
-    width: 135%; 
+    width: 155%; 
+    height: 400pt;
 }
 
 .images-text-app{

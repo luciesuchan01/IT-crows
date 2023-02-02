@@ -1,0 +1,199 @@
+.banner-services{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    top: 216px;
+    background: #F5F5F5;
+}
+.banner-services-main-title{
+    position: absolute;
+    width: 877px;
+    height: 140px;
+    left: 240px;
+    text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
+    1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
+    font-family: 'Montserrat', sans-serif;
+    color: #F5F5F5;    
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 100%;
+}
+.banner-services-title{
+    position: relative;
+    width: 85%;
+    height: 96px;
+    left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FF4747;
+    margin-top: 140px;
+}
+
+.text-serv{
+    position: absolute;
+    height: 76px;
+    left: 25%;
+    margin-top: 136px;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 160%;
+    display: flex;
+    color: #181818;
+}
+.Gint-button {
+    margin-left: 63%;
+    margin-top: 66px;
+    width: 10%;
+}
+
+.Gint-text{
+    color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    line-height: 57px;
+    position: absolute;
+    line-height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.Gint-text a {
+    text-decoration: none;
+}
+
+.sipka-services{
+    margin-left: 42px;
+
+}
+.arrowServices{
+    width: 133px; 
+    height: 26px;
+}
+.arrowServices:hover{
+    width: 73px; 
+}
+@media only screen and (max-width: 1000px) {
+
+    .banner-services-main-title{
+        width: 90%;
+        left: 5%;
+        font-size: 100px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .banner-services-title{
+        position: relative;
+        width: 90%;
+        height: 78px;
+        margin-right: 0px;
+        right: 0px;
+        left: 5%;
+        text-align: left;
+        font-size: 48px;
+        margin-top: 120px;
+    }
+    .text-serv{
+        position: absolute;
+        height: 76px;
+        left: 5%;
+        margin-top: 136px;
+        width: 80%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 160%;
+        display: flex;
+        color: #181818;
+    }
+    .Gint-button {
+        margin-left: 40%;
+        width: 40%;
+        margin-top: 66px;
+    }
+    
+    .Gint-text{
+        color: #181818;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 57px;
+        position: absolute;
+        line-height: 100%;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+    }
+    
+    .Gint-text a {
+        text-decoration: none;
+    }
+    
+    .sipka-services{
+        margin-left: 42px;
+    
+    }
+    .arrowServices{
+        width: 133px; 
+        height: 26px;
+    }
+    .arrowServices:hover{
+        width: 73px; 
+    }
+}
+@media only screen and (max-width: 486px) {
+    .banner-services{
+        top: 270px;
+    }
+    .banner-services-main-title{
+        width: 90%;
+        left: 5%;
+        height: 100%;
+        text-align: center;
+        font-size: 46px;
+    }
+    .banner-services-title{
+        width: 90%;
+        height: 96px;
+        left: 5%;
+        text-align: center;
+        font-size: 48px;
+        margin-top: 40pt;
+    }
+    .text-serv{
+        left: 5%;
+        margin-top: 80pt;
+        width: 90%;
+        font-size: 18px;
+    }
+    .Gint-button {
+        margin-left: 5%;
+        width: 90;
+        margin-top: 20pt;
+    }
+    .Gint-text{
+        font-size: 20px;
+        line-height: 100%;
+    } 
+    .sipka-services{
+        margin-left: 5px;
+    
+    }
+    .arrowServices{
+        width: 133px; 
+        height: 26px;
+    }
+    .arrowServices:hover{
+        width: 73px; 
+    }   
+}

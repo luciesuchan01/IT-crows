@@ -26,7 +26,7 @@ function Web_dev(){
              <div className='grid-container-web-dev'>
                 <div className='grid-item-web-dev'>
                     <div className='web-dev-text'>
-                        what we do:
+                        what we&nbsp;do:
                     </div>
                 </div>
                 <div className='grid-item-web-dev'>
@@ -44,7 +44,7 @@ function Web_dev(){
                 </div>
                 <div className='grid-item-web-dev-sec'>
                     <div className='web-dev-sec-text-second'>
-                        <a href='/'>- Vivamus sed</a>
+                    - <a href='/'>Vivamus sed</a>
                     </div>
                 </div>
                 <div className='grid-item-web-dev-sec'>
@@ -54,7 +54,7 @@ function Web_dev(){
                 </div>
                 <div className='grid-item-web-dev-sec'>
                     <div className='web-dev-sec-text-second'>
-                    <a href='/'>- Carsus sapien</a>
+                    - <a href='/'>Carsus sapien</a>
                     </div>
                 </div>
                 <div className='grid-item-web-dev-sec'>
@@ -64,19 +64,24 @@ function Web_dev(){
                 </div>
                 <div className='grid-item-web-dev-sec'>
                     <div className='web-dev-sec-text-second'>
-                    <a href='/'>- Fusce sodales ornare</a>
+                    - <a href='/'>Fusce sodales ornare</a>
                     </div>
                 </div>
         </div>
 
 
-        <div className='web-dev-image'>
-            <img src={todo} alt="" width="70%" height="457"/>  
-        
-            <div className='pujc-photo'>
-                <img src={pujc} alt="" width="100%" height="457"/>            
+        <div className='grid-container-app'>
+            <div className='grid-item-app'>
+                <img src={todo} alt=""  className='todo-photo-app-des'/>  
+                <div className='images-text-app'>todo list</div>
+                <div className='images-text-sec-app'>design, UI/UX</div>
             </div>
-        </div>
+                <div className='grid-item-app'>
+                    <img src={pujc} alt="" className='pujc-photo-app-des'/>         
+                    <div className='images-text-app'>pujc</div>
+                    <div className='images-text-third-app'>design, UI/UX</div>   
+                </div>
+            </div>
 
         </section>
     )

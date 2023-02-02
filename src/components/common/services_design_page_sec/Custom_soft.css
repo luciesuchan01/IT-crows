@@ -97,7 +97,7 @@
     justify-content: left;
     margin-bottom: -15px;
 }
-.grid-text{
+.grid-text-design{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -142,13 +142,98 @@
     font-size: 20px;
     font-style: normal;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width:1000px) {
     .custom-soft{
-        top: 3200px;
+        top: 2950px;
     }
     .custom-soft-title{
         width: 90%;
-        font-size: 46px;
+        font-size: 56px;
+        margin-left: 5%;
+    }
+    .plus-border-custom-soft{
+        display: none;
+    }
+    .plus-text-custom-soft{
+        display: none;
+    }
+    .custom-soft-text{
+        width: 70%;
+        margin-top: 60pt;
+        margin-left: 20%;
+        font-size: 20px;
+    }
+    
+    .grid-container-custom-soft{
+        margin-left: 5%;
+        margin-top: 50pt;
+        width: 90%;
+        margin-right: 5%;
+    }
+    .grid-container-custom-soft-sec{
+        margin-left: 5%;
+        margin-top: 20px;
+        width: 90%;
+    }
+    .grid-item-custom-soft-sec{
+        margin-bottom: 0px;
+        height: 30px;
+    }
+    .grid-text-design{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    .grid-custom-soft-text{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        
+    }
+    .grid-custom-soft-text-second{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 30px;
+    }
+    .custom-soft-photo{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: 80px;
+    
+    }
+    .custom-soft-text-image-des{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        position: absolute;
+        text-transform: uppercase;
+        margin-left: 10%;
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 14px;
+    }
+    .custom-soft-text-image-sec-des{
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        position: absolute;
+        margin-left: 180px;
+        margin-top: 25px;
+        font-size: 20px;
+        font-style: normal;
+    }  
+}
+@media only screen and (max-width: 486px) {
+    .custom-soft{
+        top: 3000px;
+        height: auto;
+    }
+    .custom-soft-title{
+        width: 90%;
+        font-size: 32px;
         margin-left: 5%;
     }
     .plus-border-custom-soft{
@@ -159,49 +244,54 @@
     }
     .custom-soft-text{
         width: 90%;
-        margin-top: 137px;
+        margin-top: 60pt;
         margin-left: 5%;
+        font-size: 16px;
     }
     
     .grid-container-custom-soft{
         margin-left: 5%;
-        margin-top: 300px;
+        margin-top: 100pt;
+        width: 90%;
         margin-right: 5%;
     }
     .grid-container-custom-soft-sec{
         margin-left: 5%;
-        margin-top: 140px;
+        margin-top: 20px;
+        width: 90%;
     }
     .grid-item-custom-soft-sec{
-        margin-bottom: 15px;
+        margin-bottom: 0px;
+        height: 40px;
     }
-    .grid-text{
+    .grid-text-design{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 48px;
+        font-size: 24px;
         text-transform: uppercase;
     }
     .grid-custom-soft-text{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 16px;
         
     }
     .grid-custom-soft-text-second{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 16px;
         margin-left: 30px;
     }
     .custom-soft-photo{
-        margin-left: 5%;
+        margin-left: 0%;
+        width: 100%;
         margin-top: 80px;
     
     }
-    .custom-soft-text-image{
+    .custom-soft-text-image-des{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         position: absolute;
@@ -211,11 +301,11 @@
         font-weight: 700;
         margin-top: 14px;
     }
-    .custom-soft-text-image-sec{
+    .custom-soft-text-image-sec-des{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         position: absolute;
-        margin-left: 110px;
+        margin-left: 130px;
         margin-top: 25px;
         font-size: 20px;
         font-style: normal;

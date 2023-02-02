@@ -49,6 +49,13 @@
     margin-top: 200px;
     display: none;
   }
+  .switcher-services-sec{
+    margin-top: 200px;
+    display: none;
+  }
+  .footer-services-sec{
+    margin-top: 0px;
+  }
   .footer-main{
     margin-top: 3000px;
   }

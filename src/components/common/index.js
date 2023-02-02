@@ -24,6 +24,7 @@ import Design_page_nav from "./services_design_page_sec/Design_page_nav";
 import Web_dev from "./services_design_page_sec/Web_dev";
 import Custom_soft from "./services_design_page_sec/Custom_soft";
 import Webpages_design from "./services_design_page_sec/Webpages_design";
+import Banner_services_design from "./services_design_page_sec/Banner_services_design";
 export{
     Header,
     Navbar,
@@ -50,5 +51,6 @@ export{
     Design_page_nav,
     Web_dev,
     Custom_soft,
-    Webpages_design
+    Webpages_design,
+    Banner_services_design
 }

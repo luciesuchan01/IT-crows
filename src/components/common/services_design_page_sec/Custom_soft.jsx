@@ -19,12 +19,12 @@ function Custom_soft(){
 
              <div className='grid-container-custom-soft'>
                 <div className='grid-item-custom-soft'>
-                    <div className='grid-text'>
+                    <div className='grid-text-design'>
                         what we do:
                     </div>
                 </div>
                 <div className='grid-item-custom-soft'>
-                    <div className='grid-text'>
+                    <div className='grid-text-design'>
                     read more:
                     </div>
                 </div>
@@ -64,8 +64,8 @@ function Custom_soft(){
         </div>
         <div className='custom-soft-photo'>
         <img src={custom} alt="" width="80%" height="100%"/> 
-            <div className='custom-soft-text-image'>pujc</div>      
-            <div className='custom-text-image-sec'> UI/UIX, develop</div>  
+            <div className='custom-soft-text-image-des'>pujc</div>      
+            <div className='custom-soft-text-image-sec-des'> UI/UIX, develop</div>  
         </div>
         
         </section>

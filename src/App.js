@@ -27,6 +27,7 @@ import { Project_task } from "./components/common"
 import { Solution } from "./components/common"
 import { Responsive } from "./components/common"
 import { Header_sec } from "./components/common"
+import { Banner_services_design } from "./components/common"
 function App() {
   return (
     <div className="App">
@@ -94,7 +95,7 @@ function App() {
         </Route>
         <Route exact path="/services_design">
           <Header />
-          <Banner_services />
+          <Banner_services_design />
           <Design_page_nav/>
           <Web_dev/>
           <Custom_soft/>

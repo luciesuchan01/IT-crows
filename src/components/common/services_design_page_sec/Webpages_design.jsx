@@ -21,14 +21,14 @@ function Webpages_design(){
 
              <div className='grid-container-webpage-design'>
                 <div className='grid-item-webpage-design'>
-                    <div className='grid-text'>
+                    <div className='grid-text-des-web'>
                         what we do:
                     </div>
                 </div>
 
                 <div className='grid-item-webpage-design'>
                     <div className='grid-text'>
-                    <div className='lorem-webpage'>     
+                    <div className='lorem-webpage-des'>     
                         <img src={loremImage} alt="" width="730" height="550"/>  
                         <div className='lorem-text'>lorem</div>
                         <div className='lorem-text-sec'>design, UI/UX</div>
@@ -39,19 +39,19 @@ function Webpages_design(){
             </div>
 
             <div className='grid-container-webpage-design-sec'>
-                <div className='grid-item-webpage-design-sec'>
+            <div className='grid-item-web-page-sec'>
                     <div className='grid-webpage-design-text'>
                         - Vivamus sed
                     </div>
                 </div>
                 
-                <div className='grid-item-webpage-design-sec'>
-                    <div className='grid-webpage-design-text'>
+                <div className='grid-item-web-page-sec'>
+                <div className='grid-webpage-design-text'>
                     - Carsus sapien
                     </div>
                 </div>
                 
-                <div className='grid-item-webpage-design-sec'>
+                <div className='grid-item-web-page-sec'>
                     <div className='grid-webpage-design-text'>
                     - Fusce sodales ornare
                     </div>
@@ -62,7 +62,7 @@ function Webpages_design(){
 
             <div className='grid-container-web-page'>
                 <div className='grid-item-web-page'>
-                    <div className='grid-text'>
+                    <div className='grid-text-des-web'>
                         read more:
                     </div>
                 </div>
@@ -71,19 +71,19 @@ function Webpages_design(){
 
             <div className='grid-container-web-page-sec'>
                 <div className='grid-item-web-page-sec'>
-                    <div className='grid-webpage-text'>
+                <div className='grid-webpage-design-text'>
                     - <a href='/'>Vivamus sed</a>
                     </div>
                 </div>
                 
                 <div className='grid-item-web-page-sec'>
-                    <div className='grid-webpage-text'>
+                <div className='grid-webpage-design-text'>
                     - <a href='/'>Carsus sapien</a>
                     </div>
                 </div>
                 
                 <div className='grid-item-web-page-sec'>
-                    <div className='grid-webpage-text'>
+                <div className='grid-webpage-design-text'>
                     - <a href='/'>Fusce sodales ornare</a>
                     </div>
                 </div>
@@ -91,15 +91,16 @@ function Webpages_design(){
 
 
             
-            <div className='images'>
-                <img src={todo} alt="" width="50%" height="550"/>  
-                <div className='images-text'>todo list</div>
-                <div className='images-text-sec'>design, UI/UX</div>
-
-                <div className='todo-photo'>
-                    <img src={pujc} alt="" width="100%" height="550"/>         
-                    <div className='images-text'>pujc</div>
-                    <div className='images-text-third'>design, UI/UX</div>   
+            <div className='grid-container-app'>
+            <div className='grid-item-app'>
+                <img src={todo} alt=""  className='todo-photo-app-des'/>  
+                <div className='images-text-des'>todo list</div>
+                <div className='images-text-sec-des'>design, UI/UX</div>
+            </div>
+                <div className='grid-item-app'>
+                    <img src={pujc} alt="" className='pujc-photo-app-des'/>         
+                    <div className='images-text-des'>pujc</div>
+                    <div className='images-text-third-des'>design, UI/UX</div>   
                 </div>
             </div>
         </section>
