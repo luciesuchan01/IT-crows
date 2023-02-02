@@ -4,6 +4,7 @@
     height: 675px;
     right: 0px;
     left: 0px;
+    top: 13%;
     text-align: center;
     position: absolute;
 }
@@ -49,7 +50,7 @@
     left: 10%;
     right: 10%;
 }
-@media only screen  and (max-width: 1500px){
+@media only screen  and (max-width: 1000px){
     .banner-graciano{
         background-color: #181818;  
         width: 100%;
@@ -72,18 +73,20 @@
     .graciano-title-sec{
         width: 50%;
         left: 25%;
-        top: 60%;
+        top: 40%;
     }
     .img-grac{
-        margin-top: 35%;
+        margin-top: 45%;
         width: 80%;
         left: 10%;
         right: 10%;
     }    
 }
-@media only screen  and (max-width: 786px){
+@media only screen  and (max-width: 486px){
     .banner-graciano{
         top: 30%;
+        height: 60%;
+        position: absolute;
         width: 100%;
     }
     .graciano-title{
@@ -92,18 +95,20 @@
         left: 5%;
         right: 5%;
         margin-top: 20%;
-        font-size: 54px;
+        font-size: 40px;
         
     }
     .graciano-title-sec{
         width: 80%;
         left: 10%;
         top: 50%;
+        font-size: 20px;
         justify-content: center;
     }
     .img-grac{
         margin-top: 100%;
         width: 80%;
+        height: auto;
         left: 10%;
         right: 10%;
     }    

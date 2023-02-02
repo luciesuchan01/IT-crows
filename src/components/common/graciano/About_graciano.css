@@ -128,85 +128,109 @@
 .bigger-text{
     font-weight: 800;
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
     .about-graciano{
         top: 1100px;
     }
     .title-about{
         width: 80%;
-        height: 171px;
-        left: 10%;
-        font-size: 96px;
+        height: 60px;
+        left: 5%;
+        top: 0;
+        font-size: 56px;
+        line-height: 60px;
     }
     .graciano-text-about{
-        width: 40%;
-        left: 10%;
-        top: 30%;
+        width: 90%;
+        left: 5%;
+        top: 7%;
+        font-size: 20px;
 
     }
     .graciano-text-about-sec{
         position: absolute;
-        width: 40%;
-        left: 10%;
-        top: 65%;
-    }
-    .grid-container-graciano{
-        margin-left: 10%;
-        margin-top: 25%;
-        width: 350px;
-    
-    }
-
-}
-@media only screen and (max-width: 786px) {
-    .about-graciano{
-        top: 110%;
-        width: 100%;
-    }
-    .title-about{
-        width: 80%;
-        left: 10%;
-        top:0%;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 100%;
-    }
-    .graciano-text-about{
-        width: 80%;
-        top: 20%;
-        left: 10%;
-    }
-    .graciano-text-about-sec{
-        width: 80%;
-        top: 65%;
-        left: 10%;
+        width: 90%;
+        font-size: 20px;
+        left: 5%;
+        top: 25%;
     }
     .mobile-img-sec{
         margin-left: 0%;
         margin-right: 0;
-        width: 70%;
-        margin-top: 340%;
-        height: 1078px;
+        width: 50%;
+        margin-top: 90%;
+        height: 60%;
+    }
+    .grid-container-graciano{
+        margin-left: 10%;
+        margin-top: 20%;
+        width: 350px;
+    
+    }
+    .grid-graciano-text{
+        font-size: 20px;
+    }
+    .grid-text-grac{
+        font-size: 32px;
+    }
+
+}
+@media only screen and (max-width: 486px) {
+    .about-graciano{
+        top: 120%;
+        width: 100%;
+    }
+    .title-about{
+        width: 80%;
+        left: 5%;
+        top:0%;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 100%;
+    }
+    .graciano-text-about{
+        width: 90%;
+        top: 5%;
+        left: 5%;
+        font-size: 16px;
+    }
+    .graciano-text-about-sec{
+        width: 90%;
+        top: 23%;
+        left: 5%;
+        font-size: 16px;
+    }
+    .mobile-img-sec{
+        margin-left: 0%;
+        margin-right: 0;
+        width: 90%;
+        margin-top: 180%;
+        height: 578px;
     }
     .grid-container-graciano{
         margin-left: 5%;
         text-align: center;
-        margin-top: -30%;
-        font-size: 20px;
-        width: 50%;
+        margin-top: 10%;
+        width: 90%;
+    }
+    .grid-item-graciano{
+        width: 80%;
     }
     .grid-container-graciano-sec{
         margin-left: 5%;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 10px;
         width: 90%;
+    }
+    .grid-item-graciano-sec{
+        width: 80%;
     }
 
     .grid-graciano-text{
-        font-size: 18px;
+        font-size: 16px;
         
     }
     .grid-text-grac{
-        font-size: 32px;
+        font-size: 24px;
     }
 }

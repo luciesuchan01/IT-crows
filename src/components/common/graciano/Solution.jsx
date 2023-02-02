@@ -12,16 +12,24 @@ function Solution(){
            <div className='solution-text-second'>Vivamus sed cursus sapien. Fusce sodales ornare risus sit amet pretium. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ullamcorper finibus rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
            <div className='grid-container-solution'>
                 <div className='grid-item-solution'>
-                    <img src={iphone2} alt="" width="608" height="883"/>  
+                    <div className='iphone'>
+                        <img src={iphone2} alt="" />
+                    </div>  
                 </div>
                 <div className='grid-item-solution'>
-                    <img src={iphone2} alt="" width="608" height="883"/>  
+                    <div className='iphone'>
+                        <img src={iphone2} alt=""/>  
+                    </div>
                 </div>
                 <div className='grid-item-solution'>
-                    <img src={iphone2} alt="" width="608" height="883"/>  
+                    <div className='iphone'>
+                        <img src={iphone2} alt="" />  
+                    </div>
                 </div>
                 <div className='grid-item-solution'>
-                    <img src={iphone2} alt="" width="608" height="883"/>  
+                <div className='iphone'>
+                    <img src={iphone2} alt=""/>  
+                </div>
                 </div>
             </div>
             <img src={mac} alt="" width="1236" height="772" className='mac'/>  

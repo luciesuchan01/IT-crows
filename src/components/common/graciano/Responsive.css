@@ -51,9 +51,9 @@
     width: 23%;
 
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
     .responsive{
-        top: 10300px;
+        margin-top: 1200px;
     }
     .responsive-title{
         position: absolute;
@@ -65,57 +65,63 @@
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
         color: #FFB800;
-        line-height: 117px;
+        line-height: 56px;
         font-style: normal;
         font-weight: 700;
-        font-size: 96px;
+        font-size: 56px;
         margin-bottom: 40pt;
     }
     .responsive-text{
         left: 20%;
         width: 70%;
         top: 20%;
+        font-size: 24px;
     }
     .first-phone{
         position: absolute;
         left: 25%;
-        width: 23%;
+        width: 25%;
+        height: 50%;
         top: 468px;
     }
     .second-phone{
         position: absolute;
         left: 50%;
         top: 602px;
-        width: 23%;
+        height: 50%;
+        width: 25%;
     
     }   
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 486px) {
     .responsive{
-        top: 7200px;
-        height: 1512px;
+        top: 3900px;
+        height: 700px;
     }
     .responsive-title{
         width: 90%;
         left: 5%;
-        font-size: 48px;
+        top: 0%;
+        line-height: 36px;
+        font-size: 36px;
     }
     .responsive-text{
         left: 5%;
-        top: 30%;
+        top: 20%;
+        font-size: 16px;
         width: 90%;
     }
     .first-phone{
         position: absolute;
         left: 25%;
         width: 23%;
-        top: 568px;
+        top: 298px;
     }
     .second-phone{
         position: absolute;
         left: 50%;
-        top: 702px;
+        top: 362px;
         width: 23%;
     
     }   
