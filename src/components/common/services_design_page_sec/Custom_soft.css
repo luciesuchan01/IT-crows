@@ -263,6 +263,7 @@
     .grid-item-custom-soft-sec{
         margin-bottom: 0px;
         height: 40px;
+        text-align: left;
     }
     .grid-text-design{
         font-family: 'Montserrat', sans-serif;
