@@ -177,8 +177,11 @@
         font-size: 18px;
     }
     .Gint-button {
-        margin-left: 5%;
-        width: 90;
+        margin-left: 15%;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
         margin-top: 20pt;
     }
     .Gint-text{
