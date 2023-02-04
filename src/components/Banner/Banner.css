@@ -19,6 +19,7 @@ body {
     margin-left: 10%;
     margin-right: 117px;
     margin-top: 80px;
+    width: 90%;
 }
 
 .Main-title {
@@ -228,25 +229,31 @@ body {
 }
 }
 @media only screen  and (max-width: 486px){
-
+.Banner{
+    margin-left: 5%;
+    width: 95%;
+    margin-right: 0;
+}
     .Main-title {
         text-transform: uppercase;
         display: flex;
         text-align: left;
-        margin-left: 10%;
+        margin-left: 0%;
         margin-right: 10%;
-        width: 80%;
+        width: 100%;
         font-size: 96px;
         font-family: 'Halvar Breitschrift', sans-serif;
         line-height: 36px;
         letter-spacing: 3%;
         font-weight: 500;
+        margin-right: 0;
         font-style: normal;        
     }
     .Main-title h2{
         text-align: center;
         font-size: 36px;
         margin-top: 0%;
+        width: 100%;
         margin-left: 0px;
         text-align: center;
         text-transform: uppercase;
@@ -263,9 +270,9 @@ body {
         margin-bottom: 5%;
     }
     .title {
-        width: 282px;
+        width: 70%;
         text-align: left;   
-        margin-left: 70px;
+        margin-left: 30%;
         font-size: 16px;
         font-weight: 400;
         line-height: 28px;
@@ -274,7 +281,7 @@ body {
     
     .Get-in-touch.button {
         margin-top: 24px;
-        margin-left: 40px;
+        margin-left: 0%;
         width: 100%;
         text-decoration: none;
     }
@@ -294,8 +301,8 @@ body {
         width: 100%;
     }
     .arrow-git{
-        margin-left: 210px;
-        width: 40%;
+        margin-left: 80%;
+        width: 20%;
         display: inline-block;
         top: -30px;
         position: relative;

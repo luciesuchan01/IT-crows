@@ -166,10 +166,10 @@
         display:flex;
         position: relative;
         margin-top: 10%;
-        margin-right: 0%;
-        margin-left: 0%;
-        width: 55%;
-        height: 55%;
+        width: 250px;
+        height: 250px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .grid-container-about-us {
@@ -180,12 +180,13 @@
         grid-template-rows: auto auto;
         text-align: center;
         margin-top: 0pt;
+        width: 100%;
       }
     .grid-item-about-us{
         display: inline-grid;
         background-color: #F5F5F5;
         text-align: center;
-        width: 55%;
+        width: 100%;
         margin-left: 5%;
         margin-right: 20px;
     }
@@ -199,7 +200,7 @@
         width: 181px;
         height: 30px;
         line-height: 50%;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-left: 80px;
         font-size: 32px;
         text-decoration: none;

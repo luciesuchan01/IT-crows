@@ -41,8 +41,10 @@
         
     }
     .header-top_navbar{
-        width: 30%;
-        left: 35%;
+        width: 15%;
+        margin-left: 75%;
+        margin-top: -5%;
+
     }
     .header-logo{
         padding: auto;
@@ -71,6 +73,11 @@
         font-display:inherit;
         background: #F5F5F5;
         
+    }
+    .header-top_navbar{
+        width: 15%;
+        margin-left: 5%;
+
     }
     .header-logo{
         display:flex;

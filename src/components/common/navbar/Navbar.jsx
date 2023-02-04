@@ -2,10 +2,17 @@ import React from 'react';
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 function Navbar(){
+    function toggleNav() {
+        const nav = document.getElementById("nav");
+        const burger = document.getElementById("burger");
+    
+        nav.classList.toggle("nav-active");
+        burger.classList.toggle("burger-active");
+    }
     return(
     
         <section>
-            <nav>
+            <nav id='nav'>
                 <ul>
 
                     <li>
@@ -38,7 +45,11 @@ function Navbar(){
 
                 </ul>
             </nav>
-            
+            <div id="burger" onClick={toggleNav}>
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </section>
     )
 
