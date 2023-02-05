@@ -16,17 +16,17 @@ body {
 .Banner {
     height: 70%;
     margin: 0 auto;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-right: 117px;
     margin-top: 80px;
-    width: 90%;
+    width: 100%;
 }
 
 .Main-title {
     text-transform: uppercase;
     display: flex;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 15%;
     width: 90%;
     font-size: 96px;
     font-family: 'Halvar Breitschrift', sans-serif;
@@ -95,15 +95,14 @@ body {
 }
 
 .title {
-    width: 50%;
+    width: 45%;
     text-align: left;   
-    margin-left: 60%;
+    margin-left: 55%;
     top: auto;
-    font-size: 24px;
-    font-family: Montserrat;
+    font-size: 32px;
     font-weight: 400;
     line-height: 43px;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .Get-in-touch.button {
@@ -130,7 +129,7 @@ body {
 .Arrows-down {
     text-align: left;
     padding-top: 118px;
-    margin-left: 102px;
+    margin-left: 15%;
 }
 .got-solution.title {
     position: absolute;
@@ -153,12 +152,73 @@ body {
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
              1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
 }
+@media only screen  and (max-width: 1560px){
+    .Banner{
+        margin-left: 7%;
+        width: 100%;
+        }
+    .Main-title {
+        margin-left: 7%;
+        width: 95%;
+        font-size: 76px;
+    }
+    .Main-title h2{
+        font-size: 76px;
+        width: 90%;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .changing-text {
+        font-size: 76px;
+    }
+    .title {
+        width: 55%;
+        text-align: left;   
+        margin-left: 45%;
+        top: auto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        margin-top: 20%;
+    }
+}
+@media only screen  and (max-width: 1300px){
+    .Banner{
+        margin-left: 7%;
+        width: 100%;
+        }
+    .Main-title {
+        margin-left: 7%;
+        width: 95%;
+        font-size: 76px;
+    }
+    .Main-title h2{
+        font-size: 76px;
+        width: 90%;
+        line-height: 140%;
+        text-transform: uppercase;
+    }
+    .changing-text {
+        font-size: 76px;
+    }
+    .title {
+        width: 50%;
+        text-align: left;   
+        margin-left: 50%;
+        top: auto;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        margin-top: 25%;
+    }
+}
 @media only screen  and (max-width: 1000px){
     .Banner{
     margin-left: 40px;
+    width: 100%;
     }
     .title {
-    width: 100%;
+    width: 90%;
     text-align: left;   
     margin-left: 10%;
     top: auto;

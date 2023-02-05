@@ -51,9 +51,27 @@
     width: 23%;
 
 }
+@media only screen and (max-width: 1560px) {
+    .responsive-title{
+        position: absolute;
+        width: 70%;
+        height: 101px;
+        left: 10%;
+        text-align: left;
+        top: 120px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        color: #FFB800;
+        line-height: 117px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        margin-bottom: 40pt;
+    }
+}
 @media only screen and (max-width: 1000px) {
     .responsive{
-        margin-top: 1200px;
+        margin-top: 1400px;
     }
     .responsive-title{
         position: absolute;

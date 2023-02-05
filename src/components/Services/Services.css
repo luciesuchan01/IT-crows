@@ -1,6 +1,6 @@
 .Services {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
@@ -8,14 +8,17 @@
     height: 56px;
     padding-top: 60px;
     font-weight: 800;
-    margin-left: 102px;
+    margin-left: 0%;
     font-size: 96px;
+    width: 100%;
 }
 
 
 .main {
-    width: 50%;
+    width: 93%;
     height: 116px;
+    text-align: left;
+    margin-left: 15%;
     font-family: Montserrat;
     font-family: sans-serif;
     color: #F5F5F5;
@@ -26,7 +29,7 @@
     }
 
 .text-services {
-    width: 50%;
+    width: 40%;
     height: 136px;
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +37,7 @@
     text-transform: none;
     line-height: 43px;
     margin-top: -90px;
-    margin-left: 690px;
+    margin-left: 60%;
     text-align: left;
     font-weight: 400;
     min-width: 40%;
@@ -50,6 +53,7 @@
     display: flex;
     justify-content: center;
     margin-top: 210px;
+    margin-left: 7%;
 }
 
 .Services-boxes h3 {
@@ -100,30 +104,78 @@
 .box img {
     margin-top: 69px;
 }
+@media only screen and (max-width:1560px) {
+    .main-title.Services {
+        font-size: 76px;
+    }  
+    .text-services {
+        line-height: 43px;
+        margin-top: -100px;
+        min-width: 40%;
+    }
+}
+@media only screen and (max-width:1300px) {
+    .main-title.Services {
+        font-size: 66px;
+    }  
+    .text-services {
+        line-height: 43px;
+        margin-top: -100px;
+        width: 40%;
+        font-size: 20px;
+        margin-left: 65%;
+        min-width: 35%;
+    }
 
+    .Services-boxes h3 {
+        font-size: 32px; 
+        text-align: left;  
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin: 10% 40px 10% 10%;
+    }
+    
+    .Services-boxes ul {
+        list-style: none;
+        font-size: 24px;
+        padding-right: 5%;
+        text-transform: uppercase;
+        text-align: left;
+        font-family: Montserrat;
+    }
+    
+    .Services-boxes ul li {
+        padding: 0 0 20px 10%;
+    }
+    
+    .Development-box {
+        width: 100%;
+    }
+    
+    .Design-box {
+        width: 100%;
+    
+    }
+}
 @media only screen and (max-width:1000px) {
 .Services{
     width: 100%;
 }
-
 .main-title.Services {
-    height: 56px;
-    padding-top: 60px;
-    font-weight: 800;
-    margin-left: 7%;
     font-size: 56px;
+    margin-left: 0%;
+}  
+.main{
+    margin-left: 7%;
 }
-.main {
-    width: 45%;
-}
-
 .text-services {
+    line-height: 20px;
+    margin-top: -90px;
     width: 45%;
-    font-size: 20px;
-    line-height: 24px;
-    margin-top: -100px;
+    font-size: 16px;
     margin-left: 55%;
 }
+
 
 .Services-boxes {
     display: flex;
@@ -184,8 +236,87 @@
 
 }
 
+@media only screen and (max-width:880px) {
+    .Services{
+        width: 100%;
+    }
+    .main-title.Services {
+        font-size: 46px;
+        margin-left: 0%;
+    }  
+    .main{
+        margin-left: 7%;
+    }
+    .text-services {
+        line-height: 20px;
+        margin-top: -100px;
+        width: 40%;
+        font-size: 16px;
+        margin-left: 60%;
+    }
+    
+    
+    .Services-boxes {
+        display: flex;
+        justify-content: center;
+        margin-top: 124px;
+        width: 100%;
+        margin-left: 2%;
+    }
+    
+    .Services-boxes h3 {
+        font-size: 26px; 
+        text-align: left;  
+        font-family: Montserrat;
+        text-transform: uppercase;
+        margin: 40px 40px 40px 40px;
+    }
+    
+    .Services-boxes ul {
+        list-style: none;
+        font-size: 22px;
+        padding-right: 5%;
+        text-transform: uppercase;
+        text-align: left;
+        font-family: Montserrat;
+    }
+    
+    .Services-boxes ul li {
+        padding: 0 0 20px 68px;
+    }
+    
+    .Development-box {
+        width: 30%;
+    }
+    
+    .Design-box {
+        width: 30%;
+    
+    }
+    
+    .box {
+        margin-left: 5%;
+        margin-right: 10px;
+        border-radius: 40px;
+        border: 1px solid black;
+        width: 50%;
+        overflow-wrap: break-word;
+        height: fit-content;
+    }
+    .button-services{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+    .box img {
+        margin-top: 69px;
+    }
+    
+    }
+    
 
-@media only screen  and (max-width: 486px){
+@media only screen  and (max-width: 650px){
     .Services {
         margin-top: 0%;
         width: 100%;

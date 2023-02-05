@@ -13,7 +13,7 @@
     width: 917px;
     height: 117px;
     display: flex;
-    margin-left: 240px;
+    margin-left: 7%;
     margin-top: 20px;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
     1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
@@ -29,7 +29,7 @@ font-family: 'Montserrat', sans-serif;
     position:relative;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    margin-left: 603px;
+    margin-left: 40%;
     margin-right: 122px;
     height: 129px;
     font-weight: 400;
@@ -37,7 +37,7 @@ font-family: 'Montserrat', sans-serif;
     text-align: left;
     line-height: 180%;
     color: #181818;
-    width: 953px;
+    width: 60%;
 }
 .grid-container-good-work {
     /*grid: auto-flow dense / repeat(3, 180px);*/
@@ -110,6 +110,27 @@ font-family: 'Montserrat', sans-serif;
 }
 .mezera-good-work{
     margin-top: 40px;
+}
+@media only screen and (max-width: 1560px) {
+    .good-work-title{
+        height: 117px;
+        display: flex;
+        margin-left: 7%;
+        font-size: 86px;
+    }
+    
+}
+@media only screen and (max-width: 1300px) {
+    .good-work-title{
+        height: 117px;
+        display: flex;
+        margin-left: 7%;
+        font-size: 76px;
+    }
+    .mezera-good-work{
+        margin-top: 80px;
+    }
+    
 }
 @media only screen and (max-width: 1000px) {
     .good-work{

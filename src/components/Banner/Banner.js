@@ -11,8 +11,7 @@ export default function Banner() {
                 <h2> 
                      <span className="red-text">Websites</span> and <br />
                      <span className="red-text"> apps </span> 
-                     for 
-                     <span className="changing-text">  </span>
+                     for <span className="changing-text">  </span>
                 </h2>
            </div>
 

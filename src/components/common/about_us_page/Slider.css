@@ -28,6 +28,39 @@
     width: 24%; 
     height: 80%;
 }
+@media only screen and (max-width: 1560px) {
+    .slider-as{
+        position: absolute;
+        display: grid;
+        width: 90%;
+        height: 100%;
+        top: 2047px;
+        left: 5%;
+        display:flexbox;
+        align-items: center;
+        background: #F5F5F5;
+        border: #F5F5F5;
+    }
+    .image-second-slider{
+        margin-left: 10%;
+        margin-top: 0%;
+        width: 40%;
+        height: 100%
+    }
+    .image-first-slider{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 33%;
+        height: 100%;
+        display: none;
+    }
+    .image-third-slider{
+        margin-top: -135%;
+        margin-left: 70%;
+        width: 24%; 
+        height: 80%;
+    }
+}
 @media only screen and (max-width: 1000px){
     .slider-as{
         position: absolute;

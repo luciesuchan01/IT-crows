@@ -82,6 +82,37 @@
         right: 10%;
     }    
 }
+@media only screen  and (max-width: 750px){
+    .banner-graciano{
+        top: 30%;
+        height: 60%;
+        position: absolute;
+        width: 100%;
+    }
+    .graciano-title{
+        position: absolute;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin-top: 20%;
+        font-size: 40px;
+        
+    }
+    .graciano-title-sec{
+        width: 80%;
+        left: 10%;
+        top: 43%;
+        font-size: 20px;
+        justify-content: center;
+    }
+    .img-grac{
+        margin-top: 60%;
+        width: 80%;
+        height: auto;
+        left: 10%;
+        right: 10%;
+    }    
+}
 @media only screen  and (max-width: 486px){
     .banner-graciano{
         top: 30%;

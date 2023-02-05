@@ -128,6 +128,70 @@
 .bigger-text{
     font-weight: 800;
 }
+@media only screen and (max-width: 1560px) {
+    .about-graciano{
+        top: 1700px;
+    }
+    .title-about{
+        width: 80%;
+        height: 60px;
+        left: 10%;
+        top: 0;
+        font-size: 56px;
+        line-height: 60px;
+    }
+    .graciano-text-about{
+        width: 80%;
+        left: 10%;
+        top: 7%;
+        font-size: 20px;
+
+    }
+    .graciano-text-about-sec{
+        position: absolute;
+        width: 80%;
+        font-size: 20px;
+        left: 10%;
+        top: 20%;
+    }
+    .mobile-img-sec{
+        margin-left: 0%;
+        margin-right: 0;
+        width: 40%;
+        margin-top: 35%;
+        height: 50%;
+    }
+    .grid-container-graciano{
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 350px;
+    
+    }
+    .grid-graciano-text{
+        font-size: 20px;
+    }
+    .grid-text-grac{
+        font-size: 32px;
+    }
+
+}
+@media only screen and (max-width: 1300px) {
+    .about-graciano{
+        top: 1600px;
+    }
+    .mobile-img-sec{
+        margin-top: 45%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .about-graciano{
+        top: 1500px;
+    }
+    .mobile-img-sec{
+        margin-top: 50%;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .about-graciano{
         top: 1100px;
