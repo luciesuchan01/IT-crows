@@ -118,12 +118,13 @@ nav ul{
     color: #181818;
  }
  nav ul li ul {
-    margin-left: 250px;
-    margin-top: -10%;
+    margin-left: 30%;
+    margin-top: -5%;
 }
  nav ul li ul li{
     display: block;
     border: none;
+    font-weight: 800;
 }    
 nav ul li ul li a{
     color: #FF4747;
@@ -178,6 +179,7 @@ nav ul li ul li a:active{
     justify-content: center;
     height: 30px;
     margin-left: 0;
+    font-weight: 700;
 }    
 nav ul li ul li a{
     font-weight: 400;

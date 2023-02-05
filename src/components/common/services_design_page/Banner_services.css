@@ -6,26 +6,28 @@
     top: 216px;
     background: #F5F5F5;
 }
-.banner-services-main-title{
+.banner-services-main-title-dev{
     position: absolute;
     width: 761px;
     height: 140px;
-    left: 240px;
+    left: 13%;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
     1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
     font-family: 'Montserrat', sans-serif;
     color: #F5F5F5;    
     font-style: normal;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
     font-size: 140px;
+    text-align: left;
     line-height: 100%;
 }
-.banner-services-title{
+.banner-services-title-dev{
     position: relative;
     width: 85%;
+    text-align: left;
     height: 96px;
-    left: 5%;
+    left: 13%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -50,8 +52,8 @@
     display: flex;
     color: #181818;
 }
-.Gint-button {
-    margin-left: 1064px;
+.Gint-button-dev {
+    margin-left: 55%;
     margin-top: 66px;
 }
 
@@ -72,7 +74,7 @@
 }
 
 .sipka-services{
-    margin-left: 42px;
+    margin-left: 45px;
 
 }
 .arrowServices{
@@ -82,16 +84,52 @@
 .arrowServices:hover{
     width: 73px; 
 }
+@media only screen and (max-width: 1560px) {
+    .banner-services-title-dev{
+        position: relative;
+        width: 85%;
+        text-align: left;
+        height: 96px;
+        left: 13%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 76px;
+        line-height: 100%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FF4747;
+        margin-top: 140px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .banner-services-title-dev{
+        position: relative;
+        width: 85%;
+        text-align: left;
+        height: 96px;
+        left: 13%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 66px;
+        line-height: 100%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FF4747;
+        margin-top: 140px;
+    }
+}
 @media only screen and (max-width: 1000px) {
 
-    .banner-services-main-title{
+    .banner-services-main-title-dev{
         width: 90%;
         left: 5%;
         font-size: 100px;
         line-height: 100%;
         text-align: left;
     }
-    .banner-services-title{
+    .banner-services-title-dev{
         position: relative;
         width: 90%;
         height: 78px;
@@ -115,7 +153,7 @@
         display: flex;
         color: #181818;
     }
-    .Gint-button {
+    .Gint-button-dev {
         margin-left: 40%;
         width: 40%;
         margin-top: 66px;
@@ -150,16 +188,31 @@
         width: 73px; 
     }
 }
+@media only screen and (max-width: 600px) {
+
+    .banner-services-main-title-dev{
+        width: 90%;
+        left: 5%;
+        font-size: 100px;
+        line-height: 52px;
+        font-size: 52px;
+        text-align: left;
+    }
+    .banner-services-title-dev{
+        margin-top: 60px;
+    }
+    
+}
 @media only screen and (max-width: 486px) {
     .banner-services{
         top: 270px;
     }
-    .banner-services-main-title{
+    .banner-services-main-title-dev{
         width: 90%;
         left: 5%;
         font-size: 48px;
     }
-    .banner-services-title{
+    .banner-services-title-dev{
         width: 90%;
         height: 96px;
         left: 5%;
@@ -172,7 +225,7 @@
         width: 90%;
         font-size: 18px;
     }
-    .Gint-button {
+    .Gint-button-dev {
         margin-left: 5%;
         width: 90;
         margin-top: 20pt;

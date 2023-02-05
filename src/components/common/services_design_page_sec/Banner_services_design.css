@@ -10,7 +10,7 @@
     position: absolute;
     width: 877px;
     height: 140px;
-    left: 240px;
+    left: 13%;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
     1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +25,7 @@
     position: relative;
     width: 85%;
     height: 96px;
-    left: 10%;
+    left: 15%;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -83,11 +83,52 @@
 .arrowServices:hover{
     width: 73px; 
 }
+
+@media only screen and (max-width: 1300px) {
+
+    .banner-services-main-title{
+        width: 90%;
+        left: 13%;
+        font-size: 100px;
+        line-height: 100%;
+        text-align: left;
+    }
+    .banner-services-title{
+        position: relative;
+        width: 65%;
+        height: 78px;
+        margin-right: 0px;
+        right: 0px;
+        left: 35%;
+        text-align: left;
+        font-size: 48px;
+        margin-top: 120px;
+    }
+    .text-serv{
+        position: absolute;
+        height: 76px;
+        left: 15%;
+        margin-top: 136px;
+        width: 70%;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 160%;
+        display: flex;
+        color: #181818;
+    }
+    .Gint-button {
+        margin-left: 60%;
+        width: 40%;
+        margin-top: 0px;
+    }
+}
 @media only screen and (max-width: 1000px) {
 
     .banner-services-main-title{
         width: 90%;
         left: 5%;
+        font-size: 76px;
         font-size: 100px;
         line-height: 100%;
         text-align: left;
@@ -107,7 +148,7 @@
         position: absolute;
         height: 76px;
         left: 5%;
-        margin-top: 136px;
+        margin-top: 86px;
         width: 80%;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -119,7 +160,7 @@
     .Gint-button {
         margin-left: 40%;
         width: 40%;
-        margin-top: 66px;
+        margin-top: 36px;
     }
     
     .Gint-text{
@@ -150,6 +191,21 @@
     .arrowServices:hover{
         width: 73px; 
     }
+}
+@media only screen and (max-width: 786px) {
+    .banner-services-title{
+        font-size: 32px;
+    }
+    .banner-services-main-title{
+        font-size: 66px;
+    }
+
+    .Gint-button {
+        margin-left: 5%;
+        width: 60%;
+        margin-top: 5%;
+    }
+    
 }
 @media only screen and (max-width: 486px) {
     .banner-services{

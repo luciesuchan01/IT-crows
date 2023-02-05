@@ -2,13 +2,13 @@
     height: 1992px;
     width: 100%;
     background-color: #f5f5f5;
-    margin-top: 4676px;
+    margin-top: 5176px;
 }
 .webpages-main-title{
     position: absolute;
     width: 911px;
     height: 192px;
-    left: 240px;
+    left: 13%;
     text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
     1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;
     font-family: 'Montserrat', sans-serif;
@@ -54,10 +54,10 @@
     text-align: left;
     line-height: 180%;
     color: #181818;
-    width: 735px;
+    width: 60%;
     height: 215px;
     top: 398px;
-    margin-left: 843px;
+    margin-left: 40%;
 }
 
 .grid-container-webpage-design{
@@ -121,15 +121,11 @@
     font-size: 24px;
     margin-left: 30px;
 }
-
-
-
-
 .grid-container-web-page{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
-    margin-left: 240px;
+    margin-left: 13%;
     text-align: center;
     margin-top: 124px;
 
@@ -206,7 +202,7 @@ a{
     margin-left: 0px;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 975px;
+    margin-top: 1175px;
 }
 .images-text-sec-des{
     font-family: 'Montserrat', sans-serif;
@@ -214,7 +210,7 @@ a{
     position: absolute;
     margin-left: 200px;
     text-transform: none;
-    margin-top: 975px;
+    margin-top: 1175px;
     font-size: 20px;
     font-style: normal;
 }
@@ -224,9 +220,83 @@ a{
     position: absolute;
     margin-left: 110px;
     text-transform: none;
-    margin-top: 975px;
+    margin-top: 1175px;
     font-size: 20px;
     font-style: normal;
+}
+@media only screen and (max-width: 1560px) {
+    .webpages-design{
+        margin-top: 4676px;
+    }
+    .webpages-main-title{
+        width: auto;
+        left: 13%;
+        font-size: 76px;
+    }
+    .plus-border-webpages-design{
+        display: none;
+    }
+    .plus-text-webpages-design{
+        display: none;
+    }
+    
+    .webpages-design-text{
+        top: 300px;
+        margin-left: 40%;
+        width: 60%;
+    }
+    
+    .grid-container-webpage-design{
+        margin-left: 13%;
+    }
+    .grid-container-webpage-design-sec{
+        margin-left: 13%;
+    }
+    .grid-container-web-page-sec{
+        margin-left: 13%;
+    }
+    .grid-item-web-page-sec{
+        display: inline-grid;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: center;
+        height: 59px;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: -15px;
+    }
+    .images-text-des{
+        display: none;
+    }
+    .images-text-sec-des{
+        display: none;
+    }
+    .images-text-third-des{
+        display: none;
+    }  
+    .lorem-text{
+        display: none;
+    }
+    .lorem-text-sec{
+        display: none;
+    }
+    .pujc-photo-app-des{
+        width: 190%; 
+        height: 400px;
+        margin-left: 40%;
+        margin-top: 70pt; 
+    }
+    .todo-photo-app-des{
+        width: 210%;
+        height: 400px;
+        margin-top: 70pt; 
+    } 
+    .lorem-webpage-des{
+        margin-left: -10%;
+        width: 40%;
+        height: 40%;
+        z-index: 1;
+    } 
 }
 @media only screen and (max-width: 1000px) {
     .webpages-design{
@@ -442,6 +512,56 @@ a{
         width: 210%;
         height: 300px;
         margin-top: 70pt; 
+    }
+}
+@media only screen and (max-width: 786px) {
+    .webpages-design-text{
+        top: 350px;
+    }
+    
+    .grid-container-webpage-design{
+        margin-left: 5%;
+        margin-top: 80%;
+    }
+    
+    .grid-container-web-page{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        margin-left: 5%;
+        text-align: center;
+        margin-top: 124px;
+    
+    }
+    .grid-item-web-page{
+        display: inline-grid;
+        top: 40px;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: left;
+        height: 59px;
+        align-items: center;
+        justify-content: left;
+        width: 50%;
+    }
+    .grid-container-web-page-sec{
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        text-align: left;
+        margin-top: 40px;
+        width: 50%;
+    }
+    .grid-item-web-page-sec{
+        display: inline-grid;
+        justify-content: center;
+        background-color: #F5F5F5;
+        text-align: left;
+        height: 59px;
+        align-items: center;
+        justify-content: left;
+        margin-bottom: -15px;
     }
 }
 @media only screen and (max-width: 486px) {

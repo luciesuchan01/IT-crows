@@ -60,8 +60,8 @@ function Services_page_webpages(){
             </div>
 
 
-            <div className='grid-container-webpage'>
-                <div className='grid-item-webpage'>
+            <div className='grid-container-webpage-read'>
+                <div className='grid-item-webpage-read'>
                     <div className='grid-text-custom'>
                         read more:
                     </div>
@@ -91,16 +91,16 @@ function Services_page_webpages(){
 
 
             
-            <div className='grid-container-app'>
-            <div className='grid-item-app'>
+            <div className='grid-container-web'>
+            <div className='grid-item-web'>
                 <img src={todo} alt=""  className='todo-photo-app'/>  
-                <div className='images-text-app'>todo list</div>
-                <div className='images-text-sec-app'>design, UI/UX</div>
+                <div className='images-text-webp'>todo list</div>
+                <div className='images-text-sec-webp'>design, UI/UX</div>
             </div>
-                <div className='grid-item-app'>
+                <div className='grid-item-web'>
                     <img src={pujc} alt="" className='pujc-photo-app'/>         
-                    <div className='images-text-app'>pujc</div>
-                    <div className='images-text-third-app'>design, UI/UX</div>   
+                    <div className='images-text-webp'>pujc</div>
+                    <div className='images-text-third-webp'>design, UI/UX</div>   
                 </div>
             </div>
         </section>

@@ -4,9 +4,9 @@ import arrowServices from './images/arrowServices.png';
 function Banner_services(){
     return(
         <section className='banner-services'> 
-            <div className='banner-services-main-title'>we build</div>
-            <div className='banner-services-title'>software solutions</div>
-            <div className='Gint-button'>
+            <div className='banner-services-main-title-dev'>we build</div>
+            <div className='banner-services-title-dev'>software solutions</div>
+            <div className='Gint-button-dev'>
                 <a href="/contact">
                     <span className="Gint-text">
                         Get in touch

@@ -64,16 +64,16 @@ function Services_page_services_app(){
                     </div>
                 </div>
             </div>
-            <div className='grid-container-app'>
-            <div className='grid-item-app'>
+            <div className='grid-container-app-serv'>
+            <div className='grid-item-app-serv'>
                 <img src={todo} alt=""  className='todo-photo-app'/>  
-                <div className='images-text-app'>todo list</div>
-                <div className='images-text-sec-app'>design, UI/UX</div>
+                <div className='images-text-app-dev'>todo list</div>
+                <div className='images-text-sec-app-dev'>design, UI/UX</div>
             </div>
-                <div className='grid-item-app'>
+                <div className='grid-item-app-serv'>
                     <img src={pujc} alt="" className='pujc-photo-app'/>         
-                    <div className='images-text-app'>pujc</div>
-                    <div className='images-text-third-app'>design, UI/UX</div>   
+                    <div className='images-text-app-dev'>pujc</div>
+                    <div className='images-text-third-app-dev'>design, UI/UX</div>   
                 </div>
             </div>
         </section>
