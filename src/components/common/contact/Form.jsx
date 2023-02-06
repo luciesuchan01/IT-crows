@@ -15,6 +15,7 @@ function Form(){
             <div className='help-title'>
                 how can we help you with?
             </div>
+            {/*
             <div className='buttons-first-row'>
                 <a href='/services_development'>
                     <button type="submit" className='grey-button-first'>Web apps</button>
@@ -44,7 +45,7 @@ function Form(){
                 </a> 
             </div>
              
-
+*/}
 
             <div class="form-container">
                 <div className='form-title'>A BIT ABOUT YOU AND PROJECT</div>

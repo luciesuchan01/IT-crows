@@ -136,7 +136,7 @@
     margin-left: 0px;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 60%;
+    margin-top: 800px;
 }
 .images-text-sec-app-dev{
     font-family: 'Montserrat', sans-serif;
@@ -144,7 +144,7 @@
     position: absolute;
     margin-left: 200px;
     text-transform: none;
-    margin-top: 60%;
+    margin-top: 800px;
     font-size: 20px;
     font-style: normal;
 }
@@ -154,7 +154,7 @@
     position: absolute;
     margin-left: 110px;
     text-transform: none;
-    margin-top: 60%;
+    margin-top: 800px;
     font-size: 20px;
     font-style: normal;
 }
@@ -269,7 +269,7 @@
         margin-left: 0px;
         font-size: 32px;
         font-weight: 700;
-        margin-top: 75%;
+        margin-top: 800px;
     }
     .images-text-sec-app-dev{
         font-family: 'Montserrat', sans-serif;
@@ -277,7 +277,7 @@
         position: absolute;
         margin-left: 200px;
         text-transform: none;
-        margin-top: 75%;
+        margin-top: 800px;
         font-size: 20px;
         font-style: normal;
     }
@@ -287,7 +287,7 @@
         position: absolute;
         margin-left: 110px;
         text-transform: none;
-        margin-top: 75%;
+        margin-top: 800px;
         font-size: 20px;
         font-style: normal;
     } 

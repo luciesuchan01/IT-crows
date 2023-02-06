@@ -11,7 +11,7 @@
     
 }
 .cases-title{
-    width: 50%;
+    width: 647px;
     height: 117px;
     display: flex;
     align-items: center;
@@ -189,7 +189,7 @@ h2{
     Width: 139px;
     Height: 139px;
     text-align:justify;
-    margin-left: 797.02px;
+    margin-left: 850px;
     font-weight: 700;
     position: absolute;
     display:flex;
@@ -592,7 +592,7 @@ h2{
         height: 2943px;
         left: 0%;
         right: 5%;
-        top: 1850px;
+        top: 1950px;
         margin-bottom: 15%;
     }
     .cases-title{
@@ -653,7 +653,7 @@ h2{
         width: 120%;
     }
     .todo-img{
-        margin-top: -210%;
+        margin-top: -200%;
         width: 100%;
     }
     .grid-container-second{

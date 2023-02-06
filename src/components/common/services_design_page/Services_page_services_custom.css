@@ -121,7 +121,7 @@
 .custom-photo{
     margin-left: 240px;
     margin-top: 80px;
-
+    height: 30%;
 }
 .custom-text-image{
     font-family: 'Montserrat', sans-serif;
@@ -208,7 +208,8 @@
     .custom-photo{
         margin-left: 20%;
         margin-top: 80px;
-    
+        height: 20%;
+
     }
     .custom-text-image{
         font-family: 'Montserrat', sans-serif;

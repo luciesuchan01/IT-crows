@@ -10,23 +10,26 @@
     background: #F5F5F5;
     border: #F5F5F5;
 }
-.image-second-slider{
-    margin-left: 29%;
-    margin-top: -105%;
-    width: 50%;
-    height: 100%
+.image-first{
+    position: absolute;
+    top: 0px;
+    width: 20%;
+    left: 39%;
 }
-.image-first-slider{
-    margin-top: 0%;
-    margin-left: 0%;
-    width: 33%;
+.image-second{
+    position: absolute;
+    left: 5%;
     height: 100%;
+    width: 20%;
+    top: 0px;
 }
-.image-third-slider{
-    margin-top: -109%;
-    margin-left: 76%;
-    width: 24%; 
-    height: 80%;
+
+.image-third{
+    position: absolute;
+    top: 0px;
+    width: 20%;
+    height: 100%;
+    margin-left: 73%;
 }
 @media only screen and (max-width: 1560px) {
     .slider-as{
@@ -41,25 +44,24 @@
         background: #F5F5F5;
         border: #F5F5F5;
     }
-    .image-second-slider{
-        margin-left: 10%;
-        margin-top: 0%;
-        width: 40%;
-        height: 100%
-    }
-    .image-first-slider{
-        margin-top: 0%;
-        margin-left: 0%;
-        width: 33%;
-        height: 100%;
-        display: none;
-    }
-    .image-third-slider{
-        margin-top: -135%;
-        margin-left: 70%;
-        width: 24%; 
-        height: 80%;
-    }
+        .image-first{
+            position: absolute;
+            top: 0px;
+            width: 20%;
+            left: 39%;
+        }
+        .image-second{
+            position: absolute;
+            left: 5%;
+            width: 20%;
+            top: 0px;
+        }
+        
+        .image-third{
+            position: absolute;
+            top: 0px;
+            width: 20%;
+        }
 }
 @media only screen and (max-width: 1000px){
     .slider-as{
@@ -68,25 +70,27 @@
         width: 90%;
         height: 100%;
         left: 3%;
-        top: 2147px;
+        top: 1547px;
         display:flexbox;
         align-items: center;
         background: #F5F5F5;
         border: #F5F5F5;
     }
-    .image-second-slider{
-        margin-left: 0px;
-        margin-top: -1060px;
+    .image-first{
+        position: absolute;
+        top: 0px;
+        width: 36%;
+        left: 50%;
     }
-    .image-first-slider{
-        display: none;
-        margin-top: -200px;
-        margin-left: -1140px;
+    .image-second{
+        position: absolute;
+        left: 3%;
+        width: 35%;
+        top: 0px;
     }
-    .image-third-slider{
+    
+    .image-third{
         display: none;
-        margin-top: -1250px;
-        margin-left: 1290px;
     }
 }
 @media only screen and (max-width: 486px){
@@ -99,17 +103,18 @@
         width: 100%;
         align-items: center;
     }
-    .image-second-slider{
+    .image-first{
         display: none;
     }
-    .image-first-slider{
-        margin-left: 10%;
+    .image-second{
+        position: absolute;
+        left: -25%;
         width: 90%;
-        height: 80%;
-        display: flex;
-        margin-top: 0px;
+        top: 0px;
+        margin-left: 9%;
     }
-    .image-third-slider{
+    
+    .image-third{
         display: none;
     }
 }

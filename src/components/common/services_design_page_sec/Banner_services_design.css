@@ -173,7 +173,7 @@
         line-height: 100%;
         text-transform: uppercase;
         display: flex;
-        align-items: center;
+        align-items: left;
     }
     
     .Gint-text a {

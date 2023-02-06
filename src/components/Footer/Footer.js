@@ -84,13 +84,15 @@ export default function Footer(){
                         </div>
 
                         <div className="Lower-Footer-right">
-                            <h2><span> <img src={Crows} alt="" /></span> IT crows </h2>
+                            <h2><span> <img src={Crows} alt="" /></span> ITcrows </h2>
                             <div className="Post-Footer-up">
                                 <a href="https://www.instagram.com/_itcrows/"><img src={Instagram} alt="" /></a>
                                 <a href="https://www.facebook.com/itcrows"><img src={Facebook} alt="" /></a>
                                 <a href=""><img src={Be} alt="" /></a>
                                 <a href=""><img src={Linkedin} alt="" /></a>
+                                {/*
                                 <a href=""><img src={Youtube} alt="" /></a>
+                                */}
                             </div>
                             {/*
                                 <div className='Lower-Footer-right-text'>

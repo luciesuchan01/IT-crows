@@ -53,7 +53,7 @@ body {
     content: " bussines";
     /* animation: animate 3s infinite ease-in-out;  */
     animation-name: animate;
-    animation-duration: 2000ms;
+    animation-duration: 8000ms;
     animation-timing-function: linear;
     animation-delay: 800ms;
     animation-iteration-count: infinite;
@@ -251,19 +251,19 @@ body {
 }
 
 .title {
-    width: 498px;
+    width: 80%;
     text-align: left;   
-    margin-left: 157px;
+    margin-left: 10%;
     top: auto;
     font-size: 20px;
     font-weight: 400;
     line-height: 36px;
-    margin-top: 203px;
+    margin-top: 223px;
 }
 
 .Get-in-touch.button {
     margin-top: 24px;
-    margin-left: 257px;
+    margin-left: 25%;
     width: 75%;
 }
 
@@ -336,7 +336,7 @@ body {
         font-size: 16px;
         font-weight: 400;
         line-height: 28px;
-        margin-top: 208px;
+        margin-top: 50%;
     }
     
     .Get-in-touch.button {

@@ -2,7 +2,7 @@
     height: 1992px;
     width: 100%;
     background-color: #f5f5f5;
-    margin-top: 6106px;
+    margin-top: 6206px;
 }
 .webpages-main-title-services{
     position: absolute;
@@ -271,7 +271,6 @@ a{
     }
     .webpages-main-title-services{
         position: absolute;
-        width: 75%;
         left: 15%;
         font-size: 76px;
         margin-top: 174px;
@@ -280,7 +279,7 @@ a{
         text-align: left;
     }
     .plus-border-webpages{
-        margin-left: 65%;
+        margin-left: 980px;
     }
     
     .webpages-text{
@@ -469,7 +468,7 @@ a{
 }
 @media only screen and (max-width:1000px) {
     .Services-webpages{
-        margin-top: 4806px;
+        margin-top: 4856px;
         margin-bottom: 10%;
         height: 1600px
     }
