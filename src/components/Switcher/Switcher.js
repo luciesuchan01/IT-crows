@@ -1,6 +1,9 @@
 import React from 'react';
 import './Switcher.css';
+import "../common/contact/Form.css"
 import Arrow from './images/right_arrow.svg';
+import upld from './images/Upload_button.svg'
+
 export default function Switcher() {
     
     return(
@@ -30,7 +33,7 @@ export default function Switcher() {
         <div className="Switcher">
         <div class="form-container">
         <div className='form-title'>A BIT ABOUT YOU AND PROJECT</div>
-            <form class="register-form">
+            <form class="register-form" action='mailto:hello@itcrows.com' method='post' encType='text/plain'>
                 <input
                 id="first-name"
                 class="form-field"
@@ -52,7 +55,14 @@ export default function Switcher() {
                 placeholder="Project details (optional)"
                 name="details"
                 />
-                
+                <div class="image-upload">
+                    <label for="file-input">
+                        <img src={upld} alt="" />
+                    </label>
+
+                    <input id="file-input" type="file"/>
+                </div>
+
 
 
                 <button class="form-btn" type="submit">

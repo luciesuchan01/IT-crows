@@ -49,7 +49,7 @@ function Form(){
 
             <div class="form-container">
                 <div className='form-title'>A BIT ABOUT YOU AND PROJECT</div>
-                    <form class="register-form">
+                    <form class="register-form" action='mailto:hello@itcrows.com' method='post' encType='text/plain'>
                         <input
                         id="first-name"
                         class="form-field"
