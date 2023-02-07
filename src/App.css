@@ -37,7 +37,7 @@
     margin-top: 11589px;
   }
   .switcher-main{
-    display: none;
+      display: none;
   }
   .footer-about-us{
     margin-top: 2700px;
@@ -67,7 +67,7 @@
 @media only screen and (max-width: 486px) {
   
   .switcher-main{
-    margin-top: 2000px;
+    display: none;
   }
   .footer-main{
     margin-top: 1978px;
@@ -93,4 +93,9 @@
   .footer-graciano{
     margin-top: 6039px;
   }
+}
+@media only screen  and (max-width: 380px){
+.footer-main{
+  margin-top: 2100px;
+}
 }

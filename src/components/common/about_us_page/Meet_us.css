@@ -424,3 +424,54 @@ font-family: 'Montserrat', sans-serif;
     }
 
 }
+@media only screen  and (max-width: 364px){
+
+    .grid-container-meet-us {
+        margin-top: 310px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 100%;
+      }
+    .grid-item-meet-us{
+        width: 20%;
+        margin-left: 5%;
+        margin-bottom: 0%;
+    }
+    .grid-item-meet-us-sec{
+        margin-left: 0%;
+    }
+    .text-grid{
+        height: 44px;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .grid-container-meet-us-second {
+        margin-left: 5%;
+        font-size: 12px;
+        width: 95%;
+        margin-top: 0px;
+      }
+      .grid-item-meet-us-second{
+        width: 100%;
+        font-size: 12px;
+        overflow-wrap: normal;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .websites-text{
+        margin-left: 15px ;
+        font-size: 16px;
+    }
+    .clients-text{
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .years-text{
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .text-meet-us{
+        margin-top: 15%;
+    }
+}
