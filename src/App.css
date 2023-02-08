@@ -31,13 +31,26 @@
 .footer-services-sec{
   margin-top: 1450px;
 }
+@media only screen and (max-width: 1560px) {
+  .footer-main{
+    margin-top: 4700px;
+    margin-left: 5%;
+  }
 
+  }
+@media only screen and (max-width: 1300px) {
+.footer-main{
+  margin-top: 4900px;
+  margin-left: 5%;
+}
+}
 @media only screen and (max-width: 1000px) {
   .footer-graciano{
     margin-top: 11589px;
   }
   .switcher-main{
       display: none;
+
   }
   .footer-about-us{
     margin-top: 2700px;
@@ -57,13 +70,19 @@
     margin-top: 0px;
   }
   .footer-main{
-    margin-top: 3000px;
+    margin-top: 3100px;
+    margin-left: 0%;
+    width: 100%;
   }
   .footer-our-work{
     margin-top: 7200px;
   }
 }
-
+@media only screen and (max-width: 650px) {
+  .footer-main{
+    margin-top: 2500px;
+  }  
+}
 @media only screen and (max-width: 486px) {
   
   .switcher-main{

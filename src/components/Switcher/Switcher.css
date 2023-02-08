@@ -325,8 +325,20 @@ input {
     margin-left: 90%;
 }
 
-
+@media only screen and (max-width: 1560px) {
+  .Switcher{
+    margin-top: -30%;
+    margin-left: 3%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .Switcher{
+    margin-top: -20%;
+    margin-left: 5%;
+  }
+}
 @media only screen and (max-width: 1000px) {
+  
   .form-container-sw {
       width: 90%;
       height: auto;

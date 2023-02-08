@@ -185,12 +185,14 @@ input[type='checkbox'] {
 }
 .Post-Footer-down {
     display: flex;
-    justify-content: center;
-    text-align: left;
+    justify-content: left;
+    text-align: center;
 }
 
 .Post-Footer-down p {
     margin: 0 40px;
+    
+    width: 33%;
     font-size: 14px;
 }
 .footer-image{
@@ -348,6 +350,16 @@ input[type='checkbox'] {
         display: none;
     }
 
+}
+
+@media only screen and (max-width:676px) {
+.Footer{
+    width: 100%;
+    margin-left: 5%;
+}
+.Footer h2 {
+    font-size: 32px;
+}
 }
 @media only screen and (max-width:486px) {
     .Footer{

@@ -117,7 +117,7 @@
         margin-top: 149px;
         margin-right: 5%;
         width:50%;
-        height:auto;
+        height: 70%;
         margin-left: 0%;
     }
     
@@ -141,7 +141,7 @@
     }
     .text-about-us{
         position:relative;
-        width: 80%;
+        width: 110%;
         height: 344px;
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
@@ -179,7 +179,7 @@
         justify-content: center;
         width: 90%;
         height: 1014px;    
-        top: 4550px;
+        top: 4350px;
         left: 0%;
         justify-content: left;
     }
@@ -240,7 +240,7 @@
         justify-content: center;
         width: 90%;
         height: 1014px;    
-        top: 3350px;
+        top: 3450px;
         left: -10%;
         justify-content: left;
     }
@@ -256,8 +256,8 @@
         position: relative;
         margin-top: 5%;
         margin-right: 0%;
-        width: 100%;
-        height: 100%;
+        width: 95%;
+        height: 95%;
     }
     
     .grid-container-about-us {
@@ -293,6 +293,24 @@
         font-size: 32px;
         text-decoration: none;
     }
+}
+@media only screen  and (max-width: 650px){
+    .about_us{
+        top: 3850px;
+    }
+    .text-about-us{
+        width: 90%;
+    }
+    .our_team_image{
+        width: 70%;
+        height: 70%;
+        margin-left: 0;
+    }
+    .read-more{
+        margin-left: 25%;
+        width: 50%;
+    }
+
 }
 @media only screen and (max-width: 486px){
     .about_us{

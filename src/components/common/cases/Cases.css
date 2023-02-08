@@ -411,7 +411,7 @@ h2{
     .cases{
         width: 100%;
         left: 0%;
-        top: 1519px;
+        top: 1540px;
         display:flexbox;
         align-items: center;
         font-display:inherit;
@@ -583,6 +583,11 @@ h2{
     }
     .todo-img{
         margin-top: -20%;
+    }
+}
+@media only screen  and (max-width: 650px){
+    .cases{
+        top: 2450px;
     }
 }
 @media only screen  and (max-width: 486px){
