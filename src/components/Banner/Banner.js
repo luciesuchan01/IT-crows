@@ -28,14 +28,14 @@ export default function Banner() {
                     <span className="Get-in-touch text">
                         Get in touch
                     </span>
-                    <img src={Arrow} className="arrow-git"/>
+                    <img src={Arrow} className="arrow-git" alt='get in touch button'/>
                 </a>
            </div>
 
            <div className="Arrows-down">
-                <img src={ArrowsDown} />
-                <img src={ArrowsDown} />
-                <img src={ArrowsDown} />
+                <img src={ArrowsDown} alt="arrow down"/>
+                <img src={ArrowsDown} alt="arrow down"/>
+                <img src={ArrowsDown} alt="arrow down"/>
            </div>
 
 

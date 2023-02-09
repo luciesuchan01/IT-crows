@@ -86,10 +86,10 @@ export default function Footer(){
                         <div className="Lower-Footer-right">
                             <h2><span> <img src={Crows} alt="" /></span> ITcrows </h2>
                             <div className="Post-Footer-up">
-                                <a href="https://www.instagram.com/_itcrows/"><img src={Instagram} alt="" /></a>
-                                <a href="https://www.facebook.com/itcrows"><img src={Facebook} alt="" /></a>
-                                <a href=""><img src={Be} alt="" /></a>
-                                <a href=""><img src={Linkedin} alt="" /></a>
+                                <a href="https://www.instagram.com/_itcrows/"><img src={Instagram} alt="instagram logo" /></a>
+                                <a href="https://www.facebook.com/itcrows"><img src={Facebook} alt="facebook logo" /></a>
+                                <a href="https://www.behance.net/itcrowsfoundat"><img src={Be} alt="behance logo" /></a>
+                                <a href="https://www.linkedin.com/company/itcrows"><img src={Linkedin} alt="linked in logo" /></a>
                                 {/*
                                 <a href=""><img src={Youtube} alt="" /></a>
                                 */}
