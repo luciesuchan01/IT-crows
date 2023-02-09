@@ -32,10 +32,10 @@ function Solution(){
                 </div>
                 </div>
             </div>
-            <img src={mac} alt="" width="1236" height="772" className='mac'/>  
-            <img src={commas} alt="" width="35" height="31" className='commas'/> 
+            <img src={mac} alt="mac view of graciano" width="1236" height="772" className='mac'/>  
+            <img src={commas} alt="commas" width="35" height="31" className='commas'/> 
             <div className='solution-text-third'>“Vivamus sed cursus sapien. Fusce sodales ornare risus sit amet pretium. Natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.”</div> 
-            <img src={coolGrac} alt="" width="113" height="112" className='coolGrac'/> 
+            <img src={coolGrac} alt="graciano" width="113" height="112" className='coolGrac'/> 
             <div className='coolGrac-text'>Cool Graciano Owner</div>
             <div className='coolGrac-text-sec'>cio, c-level, ceo</div>
 

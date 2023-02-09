@@ -29,7 +29,7 @@ function Services_page_webpages(){
                 <div className='grid-item-webpage'>
                     <div className='grid-text'>
                     <div className='lorem-webpage'>     
-                        <img src={loremImage} alt="" width="200%" height="200%"/>  
+                        <img src={loremImage} alt="loading page image" width="200%" height="200%"/>  
                         <div className='lorem-text'>lorem</div>
                         <div className='lorem-text-sec'>design, UI/UX</div>
                     </div>
@@ -93,12 +93,12 @@ function Services_page_webpages(){
             
             <div className='grid-container-web'>
             <div className='grid-item-web'>
-                <img src={todo} alt=""  className='todo-photo-app'/>  
+                <img src={todo} alt="todo list image"  className='todo-photo-app'/>  
                 <div className='images-text-webp'>todo list</div>
                 <div className='images-text-sec-webp'>design, UI/UX</div>
             </div>
                 <div className='grid-item-web'>
-                    <img src={pujc} alt="" className='pujc-photo-app'/>         
+                    <img src={pujc} alt="custom image" className='pujc-photo-app'/>         
                     <div className='images-text-webp'>pujc</div>
                     <div className='images-text-third-webp'>design, UI/UX</div>   
                 </div>

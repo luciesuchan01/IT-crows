@@ -20,7 +20,7 @@ function Web_dev(){
              </div>
 
              <div className='video-web-dev'>
-             <img src={video_services} alt="" width="100%" height="80%"/>            
+             <img src={video_services} alt="video of ITcrows work" width="100%" height="80%"/>            
              </div>
 
              <div className='grid-container-web-dev'>
@@ -72,12 +72,12 @@ function Web_dev(){
 
         <div className='grid-container-app'>
             <div className='grid-item-app'>
-                <img src={todo} alt=""  className='todo-photo-app-des-web'/>  
+                <img src={todo} alt="todo list"  className='todo-photo-app-des-web'/>  
                 <div className='images-text-des-sec'>todo list</div>
                 <div className='images-text-sec-des-sec'>design, UI/UX</div>
             </div>
                 <div className='grid-item-app'>
-                    <img src={pujc} alt="" className='pujc-photo-app-des-web'/>         
+                    <img src={pujc} alt="view of lending of cars page" className='pujc-photo-app-des-web'/>         
                     <div className='images-text-des-sec'>pujc</div>
                     <div className='images-text-third-des-sec'>design, UI/UX</div>   
                 </div>

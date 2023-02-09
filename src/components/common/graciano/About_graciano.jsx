@@ -17,7 +17,7 @@ function About_graciano(){
             Sed ullamcorper finibus rhoncus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
             </div>
 
-            <img src={iphone} alt="" className='mobile-img-sec'></img>
+            <img src={iphone} alt="mobile view of graciano page" className='mobile-img-sec'></img>
 
             <div className='grid-container-graciano'>
                 <div className='grid-item-graciano'>

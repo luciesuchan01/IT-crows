@@ -17,7 +17,7 @@ function Services_page_services(){
              </div>
 
              <div className='video-services'>
-                <img src={video_services} alt="" width="100%" height="80%"/>            
+                <img src={video_services} alt="video image" width="100%" height="80%"/>            
              </div>
 
              <div className='grid-container-ss'>

@@ -11,7 +11,7 @@ function Banner_services_design(){
                     <span className="Gint-text">
                         Get in touch
                         <div className='sipka-services'>
-                            <img src={arrowServices} alt=""/>
+                            <img src={arrowServices} alt="arrows"/>
 
                         </div>
                     </span>

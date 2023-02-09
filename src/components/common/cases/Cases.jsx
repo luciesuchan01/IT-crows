@@ -25,7 +25,7 @@ function Cases(){
                     <div className='grid-item-left'>
                         <div className='grac-img'>
                         <a href='/graciano'>
-                        <img src={cases_graciano_sec} alt="" width="100%"/>
+                        <img src={cases_graciano_sec} alt="graciano image" width="100%"/>
                         </a>
                         </div>
                         <h1>graciano
@@ -38,7 +38,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                             <div className='pujc-pic'>
-                                <img src={pujc_picture_sec} width="130%"/>
+                                <img src={pujc_picture_sec} alt="image of lending cars" width="130%"/>
                             </div>
                         
                         <h1>pujc
@@ -53,7 +53,7 @@ function Cases(){
                 <div class="grid-item">
                     <div className='grid-item-left'>
                         <div className='todo-img'>
-                        <img src={todolist_picture} alt="" width="100%"/>
+                        <img src={todolist_picture} alt="todo list pic" width="100%"/>
                         </div>
                         <h1>todo list
                             <h2>
@@ -67,7 +67,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                     <div className='load-pic'>
-                        <img src={lorem_picture} alt="" width="100%"/>
+                        <img src={lorem_picture} alt="loading image" width="100%"/>
                     
                     <h1>lorem
                         <h2>
@@ -81,7 +81,7 @@ function Cases(){
             <div className='grid-container-second'>
                 <div className='grid-item-second'>
                     <div class="grid-item-left">
-                        <img src={ecommerce_picture} alt="" width="100%"/>
+                        <img src={ecommerce_picture} alt= "e-commerce" width="100%"/>
                     
                         <h1>lorem
                             <h2>
@@ -94,7 +94,7 @@ function Cases(){
             <a href='/our_work' className='more-view-a'>
 
                 <div className='more-view'>View more</div>
-                    <img src={sipka_picture} alt="" width="133" height="24"/>
+                    <img src={sipka_picture} alt="button image" width="133" height="24"/>
             </a>
 
                 
