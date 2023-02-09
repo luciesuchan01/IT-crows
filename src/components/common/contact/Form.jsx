@@ -1,14 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Form.css'
 
 import Instagram from './images/Instagram.svg';
 import Facebook from './images/Facebook.svg';
 import Be from './images/Be.svg';
-import Linkedin from './images/Linkedin.svg';
-import Youtube from './images/Youtube.svg';
-import Sth from "./images/sth.svg"
 import upld from './images/Upload_button.svg'
+
+
 function Form(){
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+      });
+      const handleChange = (event) => {
+        setFormData({ ...formData, [event.target.name]: event.target.value });
+      };
+    
+      const handleSubmit = (event) => {
+        event.preventDefault();
+    
+        const formBody = `
+          Name: ${formData.name}
+          Email: ${formData.email}
+          Message: ${formData.message}
+        `;
+    
+        window.open(`mailto:hello@itcrows.com?subject=Message from ${formData.name}&body=${formBody}`);
+      };
+
     return(
         <section className='form'> 
             <div className='form-main-title'>Let's  <font color = '#FF4747' className = 'red-part'> talk</font></div>
@@ -49,13 +69,15 @@ function Form(){
 
             <div class="form-container">
                 <div className='form-title'>A BIT ABOUT YOU AND PROJECT</div>
-                    <form class="register-form" action='mailto:hello@itcrows.com' method='post' encType='text/plain'>
+                    <form class="register-form" onSubmit={handleSubmit}>
                         <input
                         id="first-name"
                         class="form-field"
                         type="text"
                         placeholder="First Name"
-                        name="firstName"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
                         />
                         <input
                         id="email"
@@ -63,6 +85,8 @@ function Form(){
                         type="text"
                         placeholder="E-mail"
                         name="email"
+                        value={formData.email}
+                        onChange={handleChange}
                         />
                         <input
                         id="details"
@@ -70,6 +94,8 @@ function Form(){
                         type="text"
                         placeholder="Project details (optional)"
                         name="details"
+                        value={formData.message}
+                        onChange={handleChange}
                         />
                         
                         <div class="image-upload">
