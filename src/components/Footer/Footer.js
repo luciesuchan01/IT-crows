@@ -29,7 +29,7 @@ export default function Footer(){
                             </div>
                             <div className="Footer-checkbox">
                                 <input type="checkbox" name="checkbox" id="" />
-                                <label for="checkbox">I have read and understand ITCROWS Privacy Notice.</label>
+                                <label for="checkbox" label="">I have read and understand ITCROWS Privacy Notice.</label>
                             </div>
 
                             <a href="#" className="Upper-Footer-left anchor">

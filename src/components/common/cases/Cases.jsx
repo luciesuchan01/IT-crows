@@ -1,9 +1,9 @@
 import React from 'react'
 import graciano_picture from './images/case_graciano.png';
 import pujc_picture from './images/pujc.png'
-import todolist_picture from './images/todolist.png'
-import lorem_picture from './images/lorem.png'
-import ecommerce_picture from './images/ecommerce.png'
+import todolist_picture from './images/todolist.svg'
+import lorem_picture from './images/lorem.svg'
+import ecommerce_picture from './images/ecommerce.svg'
 import sipka_picture from './images/sipka.png'
 import pujc_picture_sec from './images/pujc_sec.svg'
 import cases_graciano_sec from './images/cases_graciano_sec.svg'
@@ -94,7 +94,7 @@ function Cases(){
             <a href='/our_work' className='more-view-a'>
 
                 <div className='more-view'>View more</div>
-                    <img src={sipka_picture} alt="button image" width="133" height="24"/>
+                    <img src={sipka_picture} alt="button" width="133" height="24"/>
             </a>
 
                 

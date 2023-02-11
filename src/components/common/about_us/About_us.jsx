@@ -1,5 +1,5 @@
 import React from 'react'
-import our_team_picture from './images/our_team.png'
+import our_team_picture from './images/ourTeam.svg'
 
 import './About_us.css'
 
