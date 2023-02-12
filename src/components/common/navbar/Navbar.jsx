@@ -45,9 +45,9 @@ function Navbar(){
                 </ul>
             </nav>
             <div id="burger" onClick={toggleNav}>
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+                <div className="line1"></div>
+                <div className="line2"></div>
+                <div className="line3"></div>
             </div>
         </section>
     )

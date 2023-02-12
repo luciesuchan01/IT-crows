@@ -67,12 +67,12 @@ function Form(){
              
 */}
 
-            <div class="form-container">
+            <div className="form-container">
                 <div className='form-title'>A BIT ABOUT YOU AND PROJECT</div>
-                    <form class="register-form" onSubmit={handleSubmit}>
+                    <form className="register-form" onSubmit={handleSubmit}>
                         <input
                         id="first-name"
-                        class="form-field"
+                        className="form-field"
                         type="text"
                         placeholder="First Name"
                         name="name"
@@ -81,7 +81,7 @@ function Form(){
                         />
                         <input
                         id="email"
-                        class="form-field"
+                        className="form-field"
                         type="text"
                         placeholder="E-mail"
                         name="email"
@@ -90,7 +90,7 @@ function Form(){
                         />
                         <input
                         id="details"
-                        class="form-field"
+                        className="form-field"
                         type="text"
                         placeholder="Project details (optional)"
                         name="details"
@@ -98,16 +98,16 @@ function Form(){
                         onChange={handleChange}
                         />
                         
-                        <div class="image-upload">
+                        <div className="image-upload">
                             <label for="file-input">
                                 <img src={upld} alt="" />
                             </label>
 
-                            <input id="file-input" type="file"/>
+                            <input id="file-input" type="file" label htmlFor="input"/>
                         </div>
 
 
-                        <button class="form-btn" type="submit">
+                        <button className="form-btn" type="submit">
                         Start a project
                         </button>
                     </form>

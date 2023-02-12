@@ -27,8 +27,8 @@ export default function Footer(){
                                 <input type="text" placeholder="Explain, how we can help you?" />
                             </div>
                             <div className="Footer-checkbox">
-                                <input type="checkbox" name="checkbox" id="" label="ITcrows Privacy Notice"/>
-                                <label for="checkbox" label="">I have read and understand ITCROWS Privacy Notice.</label>
+                                <input type="checkbox" name="checkbox" id="" label="ITcrows Privacy Notice" placeholder=' '/>
+                                <label htmlFor="checkbox" label="">I have read and understand ITCROWS Privacy Notice.</label>
                             </div>
 
                             <a href="#" className="Upper-Footer-left anchor">
@@ -68,9 +68,7 @@ export default function Footer(){
                     
                     
      {/* DĚLÍCÍ ČÁRA */}
-     <p>
-        <hr className="Footer-Line" />
-     </p>
+        <div className="Footer-Line" />
 
                     <div className="Lower-Footer">
                         <div className="Lower-Footer-left">
@@ -123,9 +121,7 @@ export default function Footer(){
             </div>
         */}
      {/* DĚLÍCÍ ČÁRA */}
-     <p>
-        <hr className="Footer-Line-Post-Footer" />
-     </p>
+        <div className="Footer-Line-Post-Footer" />
 
             <div className="Post-Footer-down">
                 <p>

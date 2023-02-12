@@ -4,7 +4,6 @@ import './About_us.css'
 
 function About_us(){
     return(
-        <block>
         <section className='about_us'>
             <div className='grid-container-about-us'>
                 <div className='grid-item-about-us'>
@@ -17,7 +16,7 @@ function About_us(){
                         <font color= '#FF4747' className = 'red-text'> Sed ullamcorper finibus rhoncus. </font>
                         Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                     </div>
-                    <a href = '/about_us' className='read-more' title='more informations about ITcrows team'>Read more</a>
+                    <p><a href = '/about_us' className='read-more' title='more informations about ITcrows team'>Read more</a></p>
                 </div>
                 
                 <div className='grid-item-about-us'>
@@ -28,7 +27,6 @@ function About_us(){
 
             </div>
         </section>
-        </block>
     )
 }
 

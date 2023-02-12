@@ -15,9 +15,9 @@ function Our_work_cases(){
           <div className='cases-main-title'>our works</div> 
 
 
-          <div class="grid-container-our-work">
-                <div class="grid-item-our-work">
-                    <div class="grid-item-left-our-work">
+          <div className="grid-container-our-work">
+                <div className="grid-item-our-work">
+                    <div className="grid-item-left-our-work">
 
                     <img src={graciano} alt="graciano" width="100%" height="100%"/>
                         <h1>graciano
@@ -27,8 +27,8 @@ function Our_work_cases(){
                         </h1>
                     </div>
                 </div>                
-                <div class="grid-item-our-work">
-                    <div class="grid-item-right-our-work">
+                <div className="grid-item-our-work">
+                    <div className="grid-item-right-our-work">
                                 <img src={ pujc } alt="lending pages" width="95%" height="93%"/>
 
                         <h1>pujc
@@ -40,7 +40,7 @@ function Our_work_cases(){
                 </div>
                
 
-                <div class="grid-item-our-work">
+                <div className="grid-item-our-work">
                     <div className='grid-item-left-our-work'>
                         <img src={todolist} alt="todo list" width="100%" height="90%"/>
                     
@@ -53,8 +53,8 @@ function Our_work_cases(){
 
                 </div>
 
-                <div class="grid-item-our-work">
-                    <div class="grid-item-right-our-work">
+                <div className="grid-item-our-work">
+                    <div className="grid-item-right-our-work">
                         <img src={lorem} alt="loading page" width="100%" height="85%"/>
                     
                     <h1>lorem
@@ -67,7 +67,7 @@ function Our_work_cases(){
             </div>
             <div className='grid-container-second-our-work'>
                 <div className='grid-item-second-our-work'>
-                    <div class="grid-item-left-our-work">
+                    <div className="grid-item-left-our-work">
                         <img src={lorem2} alt="e-commerce" width="100%" height="100%"/>
                     
                         <h1>lorem
@@ -81,9 +81,9 @@ function Our_work_cases(){
 
             <div className='mezera'></div>
 
-            <div class="grid-container-our-work">
-                <div class="grid-item-our-work">
-                    <div class="grid-item-left-our-work">
+            <div className="grid-container-our-work">
+                <div className="grid-item-our-work">
+                    <div className="grid-item-left-our-work">
 
                         <img src={graciano} alt="graciano" width="100%" height="100%"/>
                         <h1>graciano
@@ -93,8 +93,8 @@ function Our_work_cases(){
                         </h1>
                     </div>
                 </div>                
-                <div class="grid-item-our-work">
-                    <div class="grid-item-right-our-work">
+                <div className="grid-item-our-work">
+                    <div className="grid-item-right-our-work">
                     <img src={ pujc } alt="lending cars page" width="95%" height="93%"/>
 
                         <h1>pujc
@@ -106,7 +106,7 @@ function Our_work_cases(){
                 </div>
                
 
-                <div class="grid-item-our-work">
+                <div className="grid-item-our-work">
                     <div className='grid-item-left-our-work'>
                     <img src={todolist} alt="todo list" width="100%" height="90%"/>
                     
@@ -119,8 +119,8 @@ function Our_work_cases(){
 
                 </div>
 
-                <div class="grid-item-our-work">
-                    <div class="grid-item-right-our-work">
+                <div className="grid-item-our-work">
+                    <div className="grid-item-right-our-work">
                     <img src={lorem} alt="e-commerce" width="100%" height="85%"/>
                     
                     <h1>lorem
@@ -133,7 +133,7 @@ function Our_work_cases(){
             </div>
             <div className='grid-container-second-our-work'>
                 <div className='grid-item-second-our-work'>
-                    <div class="grid-item-left-our-work">
+                    <div className="grid-item-left-our-work">
                     <img src={lorem2} alt="loading page" width="100%" height="100%"/>
                     
                         <h1>lorem

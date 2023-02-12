@@ -10,7 +10,6 @@ import './Cases.css'
 
 function Cases(){
     return(
-        <block>
         <section className='cases'>
             <div className='plus-border'>
                 <div className='plus-text'>20+</div>
@@ -18,8 +17,8 @@ function Cases(){
             <div className='cases-title'>
                 our&nbsp;works
             </div>
-            <div class="grid-container">
-                <div class="grid-item">
+            <div className="grid-container">
+                <div className="grid-item">
                     <div className='grid-item-left'>
                         <div className='grac-img'>
                         <a href='/graciano'>
@@ -27,28 +26,28 @@ function Cases(){
                         </a>
                         </div>
                         <h1>graciano
-                        <h2>
-                            <div className='first-pic'>UI/UIX, develop, e-commerce</div>
-                        </h2>
+                            <h2>
+                                <div className='first-pic'>UI/UIX, develop, e-commerce</div>
+                            </h2>
                         </h1>
                     </div>
                 </div>                
-                <div class="grid-item">
-                    <div class="grid-item-right">
+                <div className="grid-item">
+                    <div className="grid-item-right">
                             <div className='pujc-pic'>
                                 <img src={pujc_picture_sec} alt="lending cars" width="130%"/>
                             </div>
                         
                         <h1>pujc
-                        <h2>
-                            <div className='second-pic'>UI/UX, develop</div>
-                        </h2>
+                            <h2>
+                                <div className='second-pic'>UI/UX, develop</div>
+                            </h2>
                         </h1>
                     </div>
                 </div>
                
 
-                <div class="grid-item">
+                <div className="grid-item">
                     <div className='grid-item-left'>
                         <div className='todo-img'>
                         <img src={todolist_picture} alt="todo list pic" width="100%"/>
@@ -62,8 +61,8 @@ function Cases(){
 
                 </div>
 
-                <div class="grid-item">
-                    <div class="grid-item-right">
+                <div className="grid-item">
+                    <div className="grid-item-right">
                     <div className='load-pic'>
                         <img src={lorem_picture} alt="loading" width="100%"/>
                     
@@ -78,7 +77,7 @@ function Cases(){
             </div>
             <div className='grid-container-second'>
                 <div className='grid-item-second'>
-                    <div class="grid-item-left">
+                    <div className="grid-item-left">
                         <img src={ecommerce_picture} alt= "e-commerce" width="100%"/>
                     
                         <h1>lorem
@@ -98,7 +97,6 @@ function Cases(){
                 
             
         </section>
-        </block>
     )
 }
 
