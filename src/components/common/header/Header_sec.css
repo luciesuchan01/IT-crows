@@ -1,6 +1,6 @@
 .header-sec{
     position: absolute;
-    height: 140px;
+    height: 15%;
     width: 100%;
     left: 0px;
     top: 0px;
@@ -8,7 +8,6 @@
     align-items: center;
     font-display:inherit;
     background: #181818;
-    
 }
 
 .header-logo-sec{

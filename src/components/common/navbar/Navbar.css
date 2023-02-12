@@ -9,7 +9,7 @@ nav{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 17px;
     width: 516px;
 }
@@ -62,7 +62,7 @@ nav ul li ul li{
     margin-left: 200px;
     justify-items:center;
     float: left;
-    border: 1px solid #181818;
+    border: 1px solid #FF4747;
     border-radius: 30px;
     height: 20px;
     position: relative;
