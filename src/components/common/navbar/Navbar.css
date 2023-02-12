@@ -28,16 +28,16 @@ nav ul {
     text-transform: uppercase;
     /*color: #A3A1A1;*/ 
     /*opacity: 0.4;*/
-    color: #181818;
+    color: #FF4747;
 
 }
 nav li a:active{
-    color: #181818;
+    color: #FF4747;
     text-decoration: underline;
 }
 
 nav li a:hover{
-    color: black;
+    color: #FF4747;
     text-decoration: underline;
 }
 
