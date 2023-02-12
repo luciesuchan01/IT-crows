@@ -7,8 +7,7 @@ import Instagram from './images/Instagram.svg';
 import Facebook from './images/Facebook.svg';
 import Be from './images/Be.svg';
 import Linkedin from './images/Linkedin.svg';
-import Youtube from './images/Youtube.svg';
-import FooterImage from './images/footer_image.jpg'
+
 
 
 
@@ -28,7 +27,7 @@ export default function Footer(){
                                 <input type="text" placeholder="Explain, how we can help you?" />
                             </div>
                             <div className="Footer-checkbox">
-                                <input type="checkbox" name="checkbox" id="" label=""/>
+                                <input type="checkbox" name="checkbox" id="" label="ITcrows Privacy Notice"/>
                                 <label for="checkbox" label="">I have read and understand ITCROWS Privacy Notice.</label>
                             </div>
 

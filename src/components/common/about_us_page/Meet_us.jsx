@@ -1,6 +1,5 @@
 import React from 'react'
 import './Meet_us.css'
-import meet_us_pic from './images/meet-us.png'
 import meet_us_pic_sec from './images/meet_us_sec.svg'
 
 

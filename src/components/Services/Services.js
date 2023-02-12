@@ -23,7 +23,7 @@ export default function Services (){
                         <li>websites</li>
                         <li>e-comerce</li>
                     </ul>
-                    <a href="/services">
+                    <a href="/services_development" title='click for more informations about development services'>
                         <img src={ReadMoreBtn} alt="read more button" className="button-services"/>
                     </a>
                 </div>
@@ -35,7 +35,7 @@ export default function Services (){
                         <li>webflow</li>
                         <li>branding</li>
                     </ul>
-                        <a href="/services_design">
+                        <a href="/services_design" title='click for more informations about design services'>
                             <img src={ReadMoreBtn} alt="read more button"  className="button-services"/>
                         </a>
                 </div>

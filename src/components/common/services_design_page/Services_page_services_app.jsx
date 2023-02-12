@@ -1,6 +1,5 @@
 import React from 'react'
 import './Services_page_services_app.css'
-import graciano from './images/case graciano.png'
 import todo from './images/todo.png'
 import pujc from './images/pujc.png'
 
@@ -66,12 +65,12 @@ function Services_page_services_app(){
             </div>
             <div className='grid-container-app-serv'>
             <div className='grid-item-app-serv'>
-                <img src={todo} alt="todo list image"  className='todo-photo-app'/>  
+                <img src={todo} alt="todo list"  className='todo-photo-app'/>  
                 <div className='images-text-app-dev'>todo list</div>
                 <div className='images-text-sec-app-dev'>design, UI/UX</div>
             </div>
                 <div className='grid-item-app-serv'>
-                    <img src={pujc} alt="lending cars page image" className='pujc-photo-app'/>         
+                    <img src={pujc} alt="lending cars page" className='pujc-photo-app'/>         
                     <div className='images-text-app-dev'>pujc</div>
                     <div className='images-text-third-app-dev'>design, UI/UX</div>   
                 </div>

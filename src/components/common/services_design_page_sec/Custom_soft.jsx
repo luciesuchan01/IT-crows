@@ -63,7 +63,7 @@ function Custom_soft(){
                 </div>
         </div>
         <div className='custom-soft-photo'>
-        <img src={custom} alt="custom image" width="80%" height="100%"/> 
+        <img src={custom} alt="custom" width="80%" height="100%"/> 
             <div className='custom-soft-text-image-des'>pujc</div>      
             <div className='custom-soft-text-image-sec-des'> UI/UIX, develop</div>  
         </div>

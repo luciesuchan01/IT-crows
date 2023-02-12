@@ -8,13 +8,13 @@ function Slider(){
     return(
         <section className='slider-as'> 
             <div className='image-first'>
-                <img src={slider_1} alt="image of slider 1" width="130%" height="598"/>
+                <img src={slider_1} alt="slider 1" width="130%" height="598"/>
             </div>
             <div className='image-second'>
-                <img src={slider_2} alt="image of slider 2" width="130%" height="598"/>
+                <img src={slider_2} alt="slider 2" width="130%" height="598"/>
             </div>
             <div className='image-third'>
-                <img src={slider_3} alt="image of slider 3" width="108%" height="598"/>
+                <img src={slider_3} alt="slider 3" width="108%" height="598"/>
             </div>
         </section>
     )

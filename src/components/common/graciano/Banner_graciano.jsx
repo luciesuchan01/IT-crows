@@ -6,7 +6,7 @@ function Banner_graciano(){
         <section className='banner-graciano'> 
             <div className='graciano-title'>graciano</div>
             <div className='graciano-title-sec'>CR, E-COMMERCE, ART, EXHEBITIONS, 2022</div>
-            <img src={banimg} alt="graciano title image" className='img-grac'></img>
+            <img src={banimg} alt="graciano title" className='img-grac'></img>
 
         </section>
     )

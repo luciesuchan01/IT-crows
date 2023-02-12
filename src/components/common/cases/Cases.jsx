@@ -1,6 +1,4 @@
 import React from 'react'
-import graciano_picture from './images/case_graciano.png';
-import pujc_picture from './images/pujc.png'
 import todolist_picture from './images/todolist.svg'
 import lorem_picture from './images/lorem.svg'
 import ecommerce_picture from './images/ecommerce.svg'
@@ -25,7 +23,7 @@ function Cases(){
                     <div className='grid-item-left'>
                         <div className='grac-img'>
                         <a href='/graciano'>
-                        <img src={cases_graciano_sec} alt="graciano image" width="100%"/>
+                        <img src={cases_graciano_sec} alt="graciano" width="100%"/>
                         </a>
                         </div>
                         <h1>graciano
@@ -38,7 +36,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                             <div className='pujc-pic'>
-                                <img src={pujc_picture_sec} alt="image of lending cars" width="130%"/>
+                                <img src={pujc_picture_sec} alt="lending cars" width="130%"/>
                             </div>
                         
                         <h1>pujc
@@ -67,7 +65,7 @@ function Cases(){
                 <div class="grid-item">
                     <div class="grid-item-right">
                     <div className='load-pic'>
-                        <img src={lorem_picture} alt="loading image" width="100%"/>
+                        <img src={lorem_picture} alt="loading" width="100%"/>
                     
                     <h1>lorem
                         <h2>
@@ -91,7 +89,7 @@ function Cases(){
                     </div>
                 </div>
             </div>
-            <a href='/our_work' className='more-view-a'>
+            <a href='/our_work' className='more-view-a' title='click for more examples'>
 
                 <div className='more-view'>View more</div>
                     <img src={sipka_picture} alt="button" width="10%" height="10%"/>

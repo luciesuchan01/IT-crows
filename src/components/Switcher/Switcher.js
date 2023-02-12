@@ -1,7 +1,6 @@
 import React from 'react';
 import './Switcher.css';
 import "../common/contact/Form.css"
-import Arrow from './images/right_arrow.svg';
 import upld from './images/Upload_button.svg'
 
 export default function Switcher() {

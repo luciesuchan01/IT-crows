@@ -1,6 +1,5 @@
 import React from 'react';
 import './Banner.css';
-import Logo from './images/image 6.svg';
 import Arrow from './images/arrow.png';
 import ArrowsDown from './images/arrowsdown.png';
 
@@ -24,7 +23,7 @@ export default function Banner() {
            </div>
 
            <div className="Get-in-touch button">
-                <a href="/contact">
+                <a href="/contact" title='click for contact form'>
                     <span className="Get-in-touch text">
                         Get in touch
                     </span>
