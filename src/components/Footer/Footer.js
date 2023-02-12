@@ -28,7 +28,7 @@ export default function Footer(){
                                 <input type="text" placeholder="Explain, how we can help you?" />
                             </div>
                             <div className="Footer-checkbox">
-                                <input type="checkbox" name="checkbox" id="" />
+                                <input type="checkbox" name="checkbox" id="" label=""/>
                                 <label for="checkbox" label="">I have read and understand ITCROWS Privacy Notice.</label>
                             </div>
 

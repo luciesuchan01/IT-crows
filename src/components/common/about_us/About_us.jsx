@@ -1,5 +1,6 @@
 import React from 'react'
 import our_team_picture from './images/ourTeam.svg'
+import sipka_picture from './images/sipka.png'
 
 import './About_us.css'
 
@@ -13,13 +14,14 @@ function About_us(){
                             our team
                     </div>
                     <div className='text-about-us'>
-                    <font color = '#FF4747' className = 'red-text'> Vivamus sed cursus sapien.</font> Fusce sodales ornare risus sit amet pretium. 
-                    <font color = '#FF4747' className = 'red-text'> Orci varius </font>natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-                    <font color= '#FF4747' className = 'red-text'> Sed ullamcorper finibus rhoncus. </font>
-                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                        <font color = '#FF4747' className = 'red-text'> Vivamus sed cursus sapien.</font> Fusce sodales ornare risus sit amet pretium. 
+                        <font color = '#FF4747' className = 'red-text'> Orci varius </font>natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                        <font color= '#FF4747' className = 'red-text'> Sed ullamcorper finibus rhoncus. </font>
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                     </div>
                     <a href = '/about_us' className='read-more'>Read more</a>
                 </div>
+                
                 <div className='grid-item-about-us'>
                     <div className='our_team_image'>
                         <img src={our_team_picture} alt="image of company members"/>
