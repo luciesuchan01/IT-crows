@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Footer.css';
 import Crows from './images/crows.svg';
 import Pointer from './images/Pointer.svg';
@@ -12,6 +12,27 @@ import Linkedin from './images/Linkedin.svg';
 
 
 export default function Footer(){
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+      });
+      const handleChange = (event) => {
+        setFormData({ ...formData, [event.target.name]: event.target.value });
+      };
+    
+      const handleSubmit = (event) => {
+        event.preventDefault();
+    
+        const formBody = `
+          Name: ${formData.name}
+          Email: ${formData.email}
+          Message: ${formData.message}
+        `;
+    
+        window.open(`mailto:hello@itcrows.com?subject=Message from ${formData.name}&body=${formBody}`);
+      };
+
     return(
         <div className="Footer">
             <div className="Footer-Main">
@@ -20,11 +41,11 @@ export default function Footer(){
                         <div className="Upper-Footer-left">
                             
                             <h2>Get in touch</h2>
-                            <form action='mailto:hello@itcrows.com' method='post' encType='text/plain'>
+                            <form onSubmit={handleSubmit} encType='text/plain'>
                             <div className='Upper-Footer-left-text'>
-                                <input type="text" placeholder="Your name" />
-                                <input type="text" placeholder="youremail@mail.com" />
-                                <input type="text" placeholder="Explain, how we can help you?" />
+                                <input type="text" placeholder="Your name" value={formData.name} onChange={handleChange}/>
+                                <input type="text" placeholder="youremail@mail.com" value={formData.email} onChange={handleChange}/>
+                                <input type="text" placeholder="Explain, how we can help you?" value={formData.message} onChange={handleChange}/>
                             </div>
                             <div className="Footer-checkbox">
                                 <input type="checkbox" name="checkbox" id="" label="ITcrows Privacy Notice" title="I have read and understand ITCROWS Privacy Notice." placeholder='I have read and understand ITCROWS Privacy Notice.'/>

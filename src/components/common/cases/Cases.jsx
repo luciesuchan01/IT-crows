@@ -90,7 +90,7 @@ function Cases(){
             <a href='/our_work' className='more-view-a' title='click for more examples'>
 
                 <div className='more-view'>View more</div>
-                    <img src={sipka_picture} alt="button" width="10%" height="10%"/>
+                    <img src={sipka_picture} alt="button" width="133" height="26"/>
             </a>
 
                 

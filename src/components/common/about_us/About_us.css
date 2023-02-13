@@ -113,14 +113,6 @@
     .about_us_title{
         width: 100%;
         height: 117px;
-        display: flex;
-        text-transform: uppercase;
-        text-shadow: 1px 0 #181818, -1px 0 #181818, 0 1px #181818, 0 -1px #181818,
-        1px 1px #181818, -1px -1px #181818, 1px -1px #181818, -1px 1px #181818;    
-        font-family: montserrat ;
-        color: #F5F5F5;
-        font-style: normal;
-        font-weight: 700;
         font-size: 76px;
         margin-left: 0%;
         margin-top: 128px;
@@ -138,17 +130,11 @@
     .grid-container-about-us {
         display: grid;
         padding: 0pt;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto;
-        background-color: #F5F5F5;
-        border: 1px solid #F5F5F5;
-        text-align: center;
         margin-top: 0pt;
         margin-left: 13%;
       }
     .grid-item-about-us{
         display: inline-grid;
-        background-color: #F5F5F5;
         text-align: center;
         width: 0pt;
         margin-right: 20px;
@@ -157,30 +143,21 @@
         position:relative;
         width: 110%;
         height: 344px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
         font-weight: 400;
         font-size: 24px;
         display: block;
         text-align: left;
         line-height: 180%;
-        color: #181818;
     }
     .read-more{
         width: 133px;
         height: 40px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 400;
         font-size: 24px;
         line-height: 180%;
         display: flex;
-        align-items: center;
-        color: #181818; 
         flex: none;
         margin-top: 100pt;
         margin-left: 240pt;
-        text-decoration: none;
     }
     .red-text{
         font-weight: 800;
