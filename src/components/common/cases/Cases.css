@@ -270,7 +270,7 @@ h2{
         flex-wrap: wrap;
         align-content: start;
         width: 100%;
-        margin-left: 10%;
+        margin-left: 0%;
         margin-top: 0pt;
     }
     .grid-item-second {
@@ -280,7 +280,7 @@ h2{
         font-size: 30px;
         text-align: center;
         height: 450px;
-        margin-left: 102px;
+        margin-left: 15%;
         margin-top: 130pt;
         margin-bottom: 100px;
       }
@@ -682,7 +682,7 @@ h2{
     }
     .more-view-a{
         display: none;
-    }
+        }
     .more-view{
         display: none;
     }
