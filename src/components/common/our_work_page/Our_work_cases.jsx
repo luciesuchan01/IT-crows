@@ -22,7 +22,7 @@ function Our_work_cases(){
                     <img src={graciano} alt="graciano" width="100%" height="100%"/>
                         <h1>graciano
                         <h2>
-                            <div className='first-pic'>UI/UIX, develop, e-commerce</div>
+                            <div className='first-pic-our-work'>UI/UIX, develop, e-commerce</div>
                         </h2>
                         </h1>
                     </div>
@@ -33,7 +33,7 @@ function Our_work_cases(){
 
                         <h1>pujc
                         <h2>
-                            <div className='second-pic'>UI/UX, develop</div>
+                            <div className='second-pic-our-work'>UI/UX, develop</div>
                         </h2>
                         </h1>
                     </div>
@@ -46,7 +46,7 @@ function Our_work_cases(){
                     
                         <h1>todo list
                             <h2>
-                                <div className='third-pic'>UI/UX, develop, app</div>
+                                <div className='third-pic-our-work'>UI/UX, develop, app</div>
                             </h2>
                         </h1>
                     </div>
@@ -59,7 +59,7 @@ function Our_work_cases(){
                     
                     <h1>lorem
                         <h2>
-                            <div className='fourth-pic'>design, UI/UX</div>
+                            <div className='fourth-pic-our-work'>design, UI/UX</div>
                         </h2>
                     </h1>
                     </div>
@@ -72,7 +72,7 @@ function Our_work_cases(){
                     
                         <h1>lorem
                             <h2>
-                                <div className='fifth-pic'>design, UI/UX, develop, e-commerce</div>
+                                <div className='fifth-pic-our-work'>design, UI/UX, develop, e-commerce</div>
                             </h2>
                         </h1>
                     </div>
@@ -88,7 +88,7 @@ function Our_work_cases(){
                         <img src={graciano} alt="graciano" width="100%" height="100%"/>
                         <h1>graciano
                         <h2>
-                            <div className='first-pic'>UI/UIX, develop, e-commerce</div>
+                            <div className='first-pic-our-work'>UI/UIX, develop, e-commerce</div>
                         </h2>
                         </h1>
                     </div>
@@ -99,7 +99,7 @@ function Our_work_cases(){
 
                         <h1>pujc
                         <h2>
-                            <div className='second-pic'>UI/UX, develop</div>
+                            <div className='second-pic-our-work'>UI/UX, develop</div>
                         </h2>
                         </h1>
                     </div>
@@ -112,7 +112,7 @@ function Our_work_cases(){
                     
                         <h1>todo list
                             <h2>
-                                <div className='third-pic'>UI/UX, develop, app</div>
+                                <div className='third-pic-our-work'>UI/UX, develop, app</div>
                             </h2>
                         </h1>
                     </div>
@@ -125,7 +125,7 @@ function Our_work_cases(){
                     
                     <h1>lorem
                         <h2>
-                            <div className='fourth-pic'>design, UI/UX</div>
+                            <div className='fourth-pic-our-work'>design, UI/UX</div>
                         </h2>
                     </h1>
                     </div>
@@ -138,7 +138,7 @@ function Our_work_cases(){
                     
                         <h1>lorem
                             <h2>
-                                <div className='fifth-pic'>design, UI/UX, develop, e-commerce</div>
+                                <div className='fifth-pic-our-work'>design, UI/UX, develop, e-commerce</div>
                             </h2>
                         </h1>
                     </div>

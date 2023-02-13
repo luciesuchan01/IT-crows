@@ -50,6 +50,11 @@
     left: 10%;
     right: 10%;
 }
+@media only screen and (max-width: 1200px) {
+    .graciano-title{
+        font-size: 90px;
+    }
+}
 @media only screen  and (max-width: 1000px){
     .banner-graciano{
         background-color: #181818;  

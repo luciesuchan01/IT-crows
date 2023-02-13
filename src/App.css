@@ -43,6 +43,9 @@
   margin-top: 4900px;
   margin-left: 5%;
 }
+.footer-our-work{
+  margin-top: 8000px;
+}
 }
 @media only screen and (max-width: 1000px) {
   .footer-graciano{
@@ -75,13 +78,16 @@
     width: 100%;
   }
   .footer-our-work{
-    margin-top: 7200px;
+    margin-top: 7500px;
   }
 }
 @media only screen and (max-width: 650px) {
   .footer-main{
     margin-top: 2500px;
   }  
+  .footer-our-work{
+    margin-top: 6200px;
+  }
 }
 @media only screen and (max-width: 486px) {
   
@@ -95,7 +101,7 @@
     margin-top: 3396px;
   }
   .footer-our-work{
-    margin-top: 4852px;
+    margin-top: 5300px
   }
   .switcher-services{
     display: none;
@@ -116,5 +122,8 @@
 @media only screen  and (max-width: 380px){
 .footer-main{
   margin-top: 2100px;
+}
+.footer-our-work{
+  margin-top: 4500px
 }
 }

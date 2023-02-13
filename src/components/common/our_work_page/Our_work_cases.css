@@ -108,24 +108,49 @@
     margin-bottom: 100px;
   }
   
-  /*
-.first-pic{
-    margin-left: 200pt;
 
+.first-pic-our-work{
+  margin-top: 45pt;
+  margin-left: 210pt;
 }
-.second-pic{
-    margin-left: 150px;
+.second-pic-our-work{
+  margin-top: 17%;
+  margin-left: 120pt;
 }
-.third-pic{
-    margin-left: 200pt;
+.third-pic-our-work{
+  margin-top: 12%;
+  margin-left: 210pt;
 }
-.fourth-pic{
-    margin-left: 150pt;
+.fourth-pic-our-work{
+  margin-top: 15%;
+  margin-left: 160pt;
 }
-.fifth-pic{
-    margin-left: 140pt;
+.fifth-pic-our-work{
+  margin-top: 10%;
+  margin-left: 150pt;
 }
-*/
+@media only screen and (max-width: 1560px) {
+  .first-pic-our-work{
+    margin-top: 70pt;
+    margin-left: 0pt;
+  }
+  .second-pic-our-work{
+    margin-top: 55%;
+    margin-left: 0pt;
+  }
+  .third-pic-our-work{
+    margin-top: 40%;
+    margin-left: 0pt;
+  }
+  .fourth-pic-our-work{
+    margin-top: 55%;
+    margin-left: 0pt;
+  }
+  .fifth-pic-our-work{
+    margin-top: 20%;
+    margin-left: 0pt;
+  }
+}
 @media only screen  and (max-width: 1200px){
   .cases_our_work{
       padding: 0;
@@ -194,14 +219,26 @@
       .grid-item-second-our-work {
       display: none;
     }
-    .first-pic{
-      margin-left: 0%;
-      text-align: left;
+    .first-pic-our-work{
+      margin-top: 70pt;
+      margin-left: 0pt;
     }
-    .fourth-pic{
-      margin-left: 0%;
-      margin-top: 25%;
-  }
+    .second-pic-our-work{
+      margin-top: 55%;
+      margin-left: 0pt;
+    }
+    .third-pic-our-work{
+      margin-top: 40%;
+      margin-left: 0pt;
+    }
+    .fourth-pic-our-work{
+      margin-top: 55%;
+      margin-left: 0pt;
+    }
+    .fifth-pic-our-work{
+      margin-top: 20%;
+      margin-left: 0pt;
+    }
 }
 @media only screen  and (max-width: 486px){
     .cases_our_work{
@@ -271,12 +308,24 @@
         .grid-item-second-our-work {
         display: none;
       }
-      .first-pic{
-        margin-left: 0%;
-        text-align: left;
+      .first-pic-our-work{
+        margin-top: 70pt;
+        margin-left: 0pt;
       }
-      .fourth-pic{
-        margin-left: 0%;
-        margin-top: 25%;
-    }
+      .second-pic-our-work{
+        margin-top: 65%;
+        margin-left: 0pt;
+      }
+      .third-pic-our-work{
+        margin-top: 50%;
+        margin-left: 0pt;
+      }
+      .fourth-pic-our-work{
+        margin-top: 65%;
+        margin-left: 0pt;
+      }
+      .fifth-pic-our-work{
+        margin-top: 20%;
+        margin-left: 0pt;
+      }
 }
