@@ -93,7 +93,7 @@
     border: 1px solid black;
     width: 50%;
     overflow-wrap: break-word;
-    height: fit-content;
+    height: max-content;
 }
 .button-services{
     width: 80%;
@@ -222,7 +222,7 @@
     border: 1px solid black;
     width: 50%;
     overflow-wrap: break-word;
-    height: fit-content;
+    height: max-content;
 }
 .button-services{
     width: 80%;
@@ -301,7 +301,7 @@
         border: 1px solid black;
         width: 50%;
         overflow-wrap: break-word;
-        height: fit-content;
+        height: max-content;
     }
     .button-services{
         width: 80%;

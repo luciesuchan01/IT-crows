@@ -103,7 +103,7 @@ function Form(){
                                 <img src={upld} alt="" />
                             </label>
 
-                            <input id="file-input" type="file" label htmlFor="input"/>
+                            <input id="file-input" type="file" label="input file" placeholder='input file'/>
                         </div>
 
 

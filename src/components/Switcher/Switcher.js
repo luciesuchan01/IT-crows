@@ -59,7 +59,7 @@ export default function Switcher() {
                         <img src={upld} alt="" />
                     </label>
 
-                    <input id="file-input" type="file"/>
+                    <input id="file-input" type="file" label="input file" placeholder='input file'/>
                 </div>
 
 

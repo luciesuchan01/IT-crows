@@ -25,11 +25,10 @@ function Cases(){
                         <img src={cases_graciano_sec} alt="graciano" width="100%"/>
                         </a>
                         </div>
-                        <h1>graciano
+                        <h1>graciano</h1>
                             <h2>
                                 <div className='first-pic'>UI/UIX, develop, e-commerce</div>
-                            </h2>
-                        </h1>
+                            </h2>      
                     </div>
                 </div>                
                 <div className="grid-item">
@@ -38,11 +37,11 @@ function Cases(){
                                 <img src={pujc_picture_sec} alt="lending cars" width="130%"/>
                             </div>
                         
-                        <h1>pujc
+                        <h1>pujc</h1>
                             <h2>
                                 <div className='second-pic'>UI/UX, develop</div>
                             </h2>
-                        </h1>
+                        
                     </div>
                 </div>
                
@@ -52,11 +51,11 @@ function Cases(){
                         <div className='todo-img'>
                         <img src={todolist_picture} alt="todo list pic" width="100%"/>
                         </div>
-                        <h1>todo list
+                        <h1>todo list</h1>
                             <h2>
                                 <div className='third-pic'>UI/UX, develop, app</div>
                             </h2>
-                        </h1>
+                        
                     </div>
 
                 </div>
@@ -66,11 +65,11 @@ function Cases(){
                     <div className='load-pic'>
                         <img src={lorem_picture} alt="loading" width="100%"/>
                     
-                    <h1>lorem
+                    <h1>lorem</h1>
                         <h2>
                             <div className='fourth-pic'>design, UI/UX</div>
                         </h2>
-                    </h1>
+                    
                     </div>
                     </div>
                 </div>
@@ -80,11 +79,11 @@ function Cases(){
                     <div className="grid-item-left">
                         <img src={ecommerce_picture} alt= "e-commerce" width="100%"/>
                     
-                        <h1>lorem
+                        <h1>lorem</h1>
                             <h2>
                                 <div className='fifth-pic'>design, UI/UX, develop, e-commerce</div>
                             </h2>
-                        </h1>
+                        
                     </div>
                 </div>
             </div>

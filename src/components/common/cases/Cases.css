@@ -117,7 +117,7 @@ h2{
     font-size: 24px;
     overflow-wrap: normal;
     font-weight: 400;
-    margin-top: 15pt;
+    margin-top: -30pt;
     position:absolute;
     justify-items: baseline;
     display:flexbox;
@@ -302,7 +302,7 @@ h2{
         font-size: 24px;
         overflow-wrap: normal;
         font-weight: 400;
-        margin-top: 15pt;
+        margin-top: -15pt;
         position:absolute;
         justify-items: baseline;
         display:flexbox;
@@ -458,7 +458,7 @@ h2{
         margin-right: 0;
         margin-left: 25%;
         width: 50%;
-        margin-top: 15%;
+        margin-top: 10%;
         overflow-wrap: normal;
       }
     
@@ -505,7 +505,7 @@ h2{
         overflow-wrap: normal;
         display: flex;
         justify-content: flex-start;
-        margin-top: 14px;
+        margin-top: 0px;
         font-size: 32px;
         }
     h2{
@@ -514,7 +514,7 @@ h2{
         font-size: 24px;
         overflow-wrap: normal;
         font-weight: 400;
-        margin-top: 15pt;
+        margin-top: -30pt;
         font-size: 20px;
         position:absolute;
         justify-items: baseline;
@@ -529,7 +529,7 @@ h2{
     }
     .second-pic{
         margin-left: 0px;
-        margin-top: 30px;
+        margin-top: 0px;
         overflow-wrap: normal;
     
     }
@@ -541,7 +541,7 @@ h2{
     }
     .fourth-pic{
         margin-left: 0px;
-        margin-top: 30px;
+        margin-top: 0px;
         overflow-wrap: normal;
     
     }
@@ -572,7 +572,7 @@ h2{
     .load-pic{
         margin-left: 0pt;
         width: 150%;
-        margin-top: 0%;
+        margin-top: 5%;
     }
     .grac-img{
         width: 110%;
@@ -674,7 +674,7 @@ h2{
     }
     h2{
         font-size: 20px;
-        margin-top: 0px;
+        margin-top: -50px;
     }
     .second-pic{
         margin-left: 0%;
