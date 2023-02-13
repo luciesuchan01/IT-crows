@@ -41,7 +41,7 @@ export default function Footer(){
                         <div className="Upper-Footer-left">
                             
                             <h2>Get in touch</h2>
-                            <form onSubmit={handleSubmit} encType='text/plain'>
+                            <form onSubmit={handleSubmit}>
                             <div className='Upper-Footer-left-text'>
                                 <input type="text" placeholder="Your name" value={formData.name} onChange={handleChange}/>
                                 <input type="text" placeholder="youremail@mail.com" value={formData.email} onChange={handleChange}/>

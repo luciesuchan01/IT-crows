@@ -92,8 +92,6 @@ function Cases(){
                 <div className='more-view'>View more</div>
                     <img src={sipka_picture} alt="button" width="133" height="26"/>
             </a>
-
-                
             
         </section>
     )

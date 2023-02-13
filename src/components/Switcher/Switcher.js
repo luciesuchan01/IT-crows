@@ -1,10 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Switcher.css';
 import "../common/contact/Form.css"
 import upld from './images/Upload_button.svg'
 
 export default function Switcher() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: "",
+      });
+      const handleChange = (event) => {
+        setFormData({ ...formData, [event.target.name]: event.target.value });
+      };
     
+      const handleSubmit = (event) => {
+        event.preventDefault();
+    
+        const formBody = `
+          Name: ${formData.name}
+          Email: ${formData.email}
+          Message: ${formData.message}
+        `;
+    
+        window.open(`mailto:hello@itcrows.com?subject=Message from ${formData.name}&body=${formBody}`);
+      };
     return(
         /*
         <div className="Switcher">
@@ -32,13 +51,15 @@ export default function Switcher() {
         <div className="Switcher">
         <div className="form-container-sw">
         <div className='form-title-sw'>A BIT ABOUT YOU AND PROJECT</div>
-            <form className="register-form-sw" action='mailto:hello@itcrows.com' method='post' encType='text/plain'>
+            <form className="register-form-sw"  onSubmit={handleSubmit}>
                 <input
                 id="first-name"
                 className="form-field-sw"
                 type="text"
                 placeholder="First Name"
                 name="firstName"
+                value={formData.name}
+                onChange={handleChange}
                 />
                 <input
                 id="email"
@@ -46,6 +67,8 @@ export default function Switcher() {
                 type="text"
                 placeholder="E-mail"
                 name="email"
+                value={formData.email}
+                onChange={handleChange}
                 />
                 <input
                 id="details"
@@ -53,6 +76,8 @@ export default function Switcher() {
                 type="text"
                 placeholder="Project details (optional)"
                 name="details"
+                value={formData.message}
+                onChange={handleChange}
                 />
                 <div className="image-upload-sw">
                     <label htmlFor="file-input">
