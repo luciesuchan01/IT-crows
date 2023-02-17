@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import './Form.css'
+import emailjs from '@emailjs/browser';
+
 
 import Instagram from './images/Instagram.svg';
 import Facebook from './images/Facebook.svg';
@@ -8,27 +10,21 @@ import upld from './images/Upload_button.svg'
 
 
 function Form(){
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: "",
-      });
-      const handleChange = (event) => {
-        setFormData({ ...formData, [event.target.name]: event.target.value });
+    const form = useRef()
+    
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_vvapz8i', 'template_uc2v38m', form.current, 'zPyVoTIpqjCkGWlvq')
+          .then((result) => {
+              console.log('SUCCESS!', result.text);
+              alert('email sent!');
+          }, (error) => {
+              console.log('FAILED...', error.text);
+              alert('Failed to send e-mail!');
+          });
+          e.target.reset()
       };
-    
-      const handleSubmit = (event) => {
-        event.preventDefault();
-    
-        const formBody = `
-          Name: ${formData.name}
-          Email: ${formData.email}
-          Message: ${formData.message}
-        `;
-    
-        window.open(`mailto:hello@itcrows.com?subject=Message from ${formData.name}&body=${formBody}`);
-      };
-
     return(
         <section className='form'> 
             <div className='form-main-title'>Let's  <font color = '#FF4747' className = 'red-part'> talk</font></div>
@@ -69,34 +65,10 @@ function Form(){
 
             <div className="form-container">
                 <div className='form-title'>A BIT ABOUT YOU AND PROJECT</div>
-                    <form className="register-form" onSubmit={handleSubmit}>
-                        <input
-                        id="first-name"
-                        className="form-field"
-                        type="text"
-                        placeholder="First Name"
-                        name="name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        />
-                        <input
-                        id="email"
-                        className="form-field"
-                        type="text"
-                        placeholder="E-mail"
-                        name="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        />
-                        <input
-                        id="details"
-                        className="form-field"
-                        type="text"
-                        placeholder="Project details (optional)"
-                        name="details"
-                        value={formData.message}
-                        onChange={handleChange}
-                        />
+                    <form ref = {form} className="register-form" onSubmit={sendEmail}>
+                        <input id="first-name" className="form-field" type="text" placeholder="First Name" name="user_name" required/>
+                        <input id="email" className="form-field" type="text" placeholder="E-mail" name="user_email" required/>
+                        <input id="details" className="form-field" type="text" placeholder="Project details (optional)" name="message" required/>
                         
                         <div className="image-upload">
                             <label for="file-input">
@@ -105,7 +77,6 @@ function Form(){
 
                             <input id="file-input" type="file" label="input file" placeholder='input file'/>
                         </div>
-
 
                         <button className="form-btn" type="submit">
                         Start a project
